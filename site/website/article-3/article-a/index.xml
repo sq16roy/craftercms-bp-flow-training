@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c15a</objectGroupId>
+	<objectId>c15ac70f-446b-5b9b-4f56-697832c16c2e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>article-a</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Article 1</internal-name>
+	<createdDate>11/13/2017 22:16:8</createdDate>
+	<createdDate_dt>11/13/2017 22:16:8</createdDate_dt>
+	<lastModifiedDate>11/14/2017 3:45:24</lastModifiedDate>
+	<lastModifiedDate_dt>11/14/2017 3:45:24</lastModifiedDate_dt>
+	<authorName>JIll</authorName>
+	<authorPosition/>
+	<title>Another Article</title>
+	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
+	<bodyContent>&lt;p&gt;Bacon ipsum dolor amet andouille pancetta strip steak tail frankfurter. Pork belly sirloin shoulder sausage chuck jowl kevin bacon pork chop boudin. Andouille pancetta tri-tip short loin, kevin ball tip drumstick beef alcatra spare ribs beef ribs capicola jowl. Short loin venison beef ribs doner pork loin, capicola beef cupim meatball.&lt;/p&gt;
+&lt;p&gt;Short loin spare ribs bresaola frankfurter, tongue boudin shank cow beef ribs pork chop meatloaf. Venison capicola t-bone, doner short ribs tail spare ribs kevin cupim beef pancetta. Pig pork loin flank, rump ribeye shoulder cupim chuck prosciutto sirloin pork chop porchetta kevin swine. Ball tip turkey bresaola, frankfurter beef tri-tip kielbasa cow strip steak fatback beef ribs tail. Tail rump porchetta chicken, frankfurter tenderloin sirloin. Frankfurter ribeye burgdoggen sausage capicola short ribs.&lt;/p&gt;
+&lt;p&gt;Pork loin shankle ground round venison brisket short loin bresaola pork belly chuck spare ribs filet mignon turducken jowl. Tail pastrami prosciutto frankfurter pork loin shank biltong fatback jowl salami kielbasa pig. Spare ribs pastrami meatloaf, tenderloin doner pork loin prosciutto. Bacon porchetta strip steak meatball sausage pork chop. T-bone jowl doner bresaola swine fatback shankle shank short loin corned beef bacon porchetta flank.&lt;/p&gt;</bodyContent>
+	<navLabel>Demo</navLabel>
+	<disabled>false</disabled>
+	<arrayContent>Cars</arrayContent>
+	<expireDate_dt>11/14/2017 03:45:24</expireDate_dt>
+</page>

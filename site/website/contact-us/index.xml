@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/contact</content-type>	<display-template>/templates/web/contact.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>092d</objectGroupId>
+	<objectId>092d3831-a8c7-2764-89d6-8c6b65233399</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>contact-us</folder-name>
+	<internal-name>Contact Us</internal-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>8000</orderDefault_f>
+	<createdDate>11/15/2017 2:46:25</createdDate>
+	<createdDate_dt>11/15/2017 2:46:25</createdDate_dt>
+	<lastModifiedDate>11/15/2017 3:17:10</lastModifiedDate>
+	<lastModifiedDate_dt>11/15/2017 3:17:10</lastModifiedDate_dt>
+	<location>	<item>	<title>HQ</title>
+	<address>New York New York</address>
+	<phoneNumber>610-777-7777</phoneNumber>
+	</item></location>
+	<locations>	<item>	<title>HQ</title>
+	<address>71 Chester St Boston Ma 02134</address>
+	<phoneNumber>1.777.7777</phoneNumber>
+	</item>	<item>	<title>Reading</title>
+	<address>Shillington PA</address>
+	<phoneNumber>1.207.3333</phoneNumber>
+	</item></locations>
+</page>
