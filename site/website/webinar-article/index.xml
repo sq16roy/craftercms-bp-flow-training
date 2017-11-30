@@ -7,14 +7,14 @@
 	<file-name>index.xml</file-name>
 	<folder-name>webinar-article</folder-name>
 	<internal-name>Webinar Article</internal-name>
-	<navLabel/>
+	<navLabel>Webinar</navLabel>
 	<authorName>Russ</authorName>
 	<authorPosition>VP Products</authorPosition>
 	<title>My Article</title>
 	<a/>
 	<b/>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>8000</orderDefault_f>
 	<disabled>false</disabled>
 	<arrayContent>Cars</arrayContent>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
@@ -88,7 +88,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>11/30/2017 18:35:49</createdDate>
 	<createdDate_dt>11/30/2017 18:35:49</createdDate_dt>
-	<lastModifiedDate>11/30/2017 18:35:49</lastModifiedDate>
-	<lastModifiedDate_dt>11/30/2017 18:35:49</lastModifiedDate_dt>
+	<lastModifiedDate>11/30/2017 18:37:23</lastModifiedDate>
+	<lastModifiedDate_dt>11/30/2017 18:37:23</lastModifiedDate_dt>
 	<expireDate_dt>11/30/2017 18:35:49</expireDate_dt>
 </page>
