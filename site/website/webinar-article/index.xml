@@ -11,8 +11,8 @@
 	<authorName>Russ</authorName>
 	<authorPosition>VP Products</authorPosition>
 	<title>My Article</title>
-	<a/>
-	<b/>
+	<a>5</a>
+	<b>6</b>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>8000</orderDefault_f>
 	<disabled>false</disabled>
@@ -88,7 +88,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>11/30/2017 18:35:49</createdDate>
 	<createdDate_dt>11/30/2017 18:35:49</createdDate_dt>
-	<lastModifiedDate>11/30/2017 18:37:23</lastModifiedDate>
-	<lastModifiedDate_dt>11/30/2017 18:37:23</lastModifiedDate_dt>
+	<lastModifiedDate>11/30/2017 18:41:35</lastModifiedDate>
+	<lastModifiedDate_dt>11/30/2017 18:41:35</lastModifiedDate_dt>
 	<expireDate_dt>11/30/2017 18:35:49</expireDate_dt>
 </page>
