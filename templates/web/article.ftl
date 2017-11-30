@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<#import "/templates/web/common/utils.ftl" as sonepar />
+<#import "/templates/web/common/utils.ftl" as utils />
 
 
 <!DOCTYPE html>
@@ -24,20 +24,6 @@
         <div class="row about-intro">
 
             <div class="col-eight">
-            
-            	<@sonepar.makePretty "purple">
-            	   <h1>${contentModel.companyName} ${sonepar.add(46, 2)}</h1>
-                </@sonepar.makePretty>
-                
-                
-            	<h1>
-             
-                  <#list colors as color>
-                      ${color_index}: ${color}, &nbsp;
-                  </#list>
-                   ${stuff.body}
-    			  </h1>
-
                 <h1 class="intro-header">${contentModel.title}</h1>
                 ${body}
             </div>                       
