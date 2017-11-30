@@ -24,7 +24,7 @@
         <div class="row about-intro">
 
             <div class="col-eight">
-                <h1 class="intro-header">${contentModel.title} | ${demoSum}</h1>
+                <h1 class="intro-header">${contentModel.title}</h1>
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">

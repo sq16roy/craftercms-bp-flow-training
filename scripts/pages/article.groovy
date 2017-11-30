@@ -1,8 +1,9 @@
+/*
 def valA =  contentModel.a.text as Integer
 def valB =  contentModel.b.text as Integer
 
 templateModel.demoSum = valA + valB
-
+*/
 
 
 
