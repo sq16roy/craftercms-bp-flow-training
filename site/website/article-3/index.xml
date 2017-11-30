@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<savedAsDraft>true</savedAsDraft>	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>f6b8eb50</objectGroupId>
 	<objectId>f6b8eb50-da6d-48c3-bea9-bc5c56c097d4</objectId>
@@ -11,8 +11,8 @@
 	<internal-name>Article 3</internal-name>
 	<createdDate>11/13/2017 22:16:8</createdDate>
 	<createdDate_dt>11/13/2017 22:16:8</createdDate_dt>
-	<lastModifiedDate>11/15/2017 5:56:33</lastModifiedDate>
-	<lastModifiedDate_dt>11/15/2017 5:56:33</lastModifiedDate_dt>
+	<lastModifiedDate>11/30/2017 15:9:51</lastModifiedDate>
+	<lastModifiedDate_dt>11/30/2017 15:9:51</lastModifiedDate_dt>
 	<authorName>JIll</authorName>
 	<authorPosition/>
 	<title>Another Article 3</title>
@@ -99,4 +99,6 @@
 	<disabled>false</disabled>
 	<expireDate_dt>11/14/2017 00:47:21</expireDate_dt>
 	<arrayContent>Cars</arrayContent>
+	<a/>
+	<b/>
 </page>
