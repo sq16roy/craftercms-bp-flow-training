@@ -1,7 +1,7 @@
-def valueA =  contentModel.a.text as Integer
-def valueb =  contentModel.b.text as Integer
+def valA =  contentModel.a.text as Integer
+def valB =  contentModel.b.text as Integer
 
-templateModel.demoSum = valueA + valueB
+templateModel.demoSum = valA + valB
 
 
 
