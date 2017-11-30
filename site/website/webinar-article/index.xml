@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3ec1</objectGroupId>
+	<objectId>3ec1cd43-5929-3626-8a51-10a7cc46d91e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>webinar-article</folder-name>
+	<internal-name>Webinar Article</internal-name>
+	<navLabel/>
+	<authorName>Russ</authorName>
+	<authorPosition>VP Products</authorPosition>
+	<title>My Article</title>
+	<a/>
+	<b/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<disabled>false</disabled>
+	<arrayContent>Cars</arrayContent>
+	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
+	<bodyContent>&lt;h1&gt;Header 1&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;Header 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Header 3&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Bold&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Italic&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Underline&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: line-through;"&gt;Strike&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Style&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 1&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 2&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 3&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
+	<createdDate>11/30/2017 18:35:49</createdDate>
+	<createdDate_dt>11/30/2017 18:35:49</createdDate_dt>
+	<lastModifiedDate>11/30/2017 18:35:49</lastModifiedDate>
+	<lastModifiedDate_dt>11/30/2017 18:35:49</lastModifiedDate_dt>
+	<expireDate_dt>11/30/2017 18:35:49</expireDate_dt>
+</page>
