@@ -1,3 +1,47 @@
+def valueA =  contentModel.a.text as Integer
+def valueb =  contentModel.b.text as Integer
+
+templateModel.demoSum = valueA + valueB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 //import groovy.json.JsonSlurper 
 
 
@@ -27,7 +71,6 @@ templateModel.stuff = new HashMap()
 
 templateModel.stuff.body = ""
 
-/*
 foo[0] = foo[0] + " " + contentModel.title.text
 foo[1] = foo[1] + "  " + params.count
 
