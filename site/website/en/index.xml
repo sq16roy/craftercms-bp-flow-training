@@ -24,8 +24,5 @@
 	<headline>Modern design</headline>
 	<subHeadline>Razzle Dazzle!!!!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/182b0e62-44b1-814d-f7cf-b5b4997af4c4.xml</value>
-	<key>/site/components/page/182b0e62-44b1-814d-f7cf-b5b4997af4c4.xml</key>
-	<include>/site/components/page/182b0e62-44b1-814d-f7cf-b5b4997af4c4.xml</include>
-	</item></col1>
+	<col1/>
 </page>
