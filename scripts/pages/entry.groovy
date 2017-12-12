@@ -1,2 +1,2 @@
-if(request.uri.equals("/en_US"))
+if(request.requestURI.equals("/en_US"))
 	throw new Exception("DAM!")
