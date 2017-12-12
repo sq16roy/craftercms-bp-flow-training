@@ -84,7 +84,7 @@
         </div>
       </section>
       
-          <section id="about" style="min-height:0px !important; "  >
+          <section id="about" style="min-height:0px !important; background-color:black !important;"  >
 
           <div class="row about-intro clearfix" <@studio.componentContainerAttr target="col1" objectId=contentModel.objectId />>
               <#if contentModel.col1?? && contentModel.col1.item??>
