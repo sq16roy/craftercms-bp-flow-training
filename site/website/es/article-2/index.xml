@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3d43</objectGroupId>
+	<objectId>3d43864e-d570-5422-5e61-f6289028b423</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>article-2</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>3000</orderDefault_f>
+	<internal-name>Article 2</internal-name>
+	<createdDate>11/13/2017 22:15:4</createdDate>
+	<createdDate_dt>11/13/2017 22:15:4</createdDate_dt>
+	<lastModifiedDate>11/30/2017 15:13:18</lastModifiedDate>
+	<lastModifiedDate_dt>11/30/2017 15:13:18</lastModifiedDate_dt>
+	<bodyContent>&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit paria&lt;img src="/static-assets/page/3d43864e-d570-5422-5e61-f6289028b423/google-play.png" width="197" height="61" align="middle" style="display: block; margin: 10px auto;" /&gt;tur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;
+&lt;blockquote&gt;Excepteur [COMPANY_NAME] enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/blockquote&gt;
+&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;
+&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;</bodyContent>
+	<authorName>Joe Bloggs</authorName>
+	<authorPosition>CEO</authorPosition>
+	<authorImage>/static-assets/images/authors/user-04.jpg</authorImage>
+	<title>Article Title</title>
+	<navLabel/>
+	<disabled>false</disabled>
+	<arrayContent>Colors</arrayContent>
+	<expireDate_dt>11/14/2017 03:33:05</expireDate_dt>
+	<a>1</a>
+	<b>2</b>
+</page>
