@@ -24,6 +24,14 @@
                 </mapping>
            
         </filter>
+
+        <filter>
+            <script>/scripts/filters/ReverseProxy.groovy</script>
+            <mapping>
+                <include>/apix/**</include>
+            </mapping>
+        </filter>
+
     </filters>
 
 </site>
