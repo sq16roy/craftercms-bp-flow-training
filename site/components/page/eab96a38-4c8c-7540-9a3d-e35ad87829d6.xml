@@ -7,7 +7,10 @@
 	<file-name>eab96a38-4c8c-7540-9a3d-e35ad87829d6.xml</file-name>
 	<sectionID>content</sectionID>
 	<zone1/>
-	<zone2/>
+	<zone2>	<item>	<value>/site/components/page/461af863-165e-c59d-959a-bf4851b4b3d4.xml</value>
+	<key>/site/components/page/461af863-165e-c59d-959a-bf4851b4b3d4.xml</key>
+	<include>/site/components/page/461af863-165e-c59d-959a-bf4851b4b3d4.xml</include>
+	</item></zone2>
 	<createdDate>2017-12-12T04:29:49.668Z</createdDate>
 	<createdDate_dt>2017-12-12T04:29:49.668Z</createdDate_dt>
 	<lastModifiedDate>2017-12-12T04:29:49.668Z</lastModifiedDate>
