@@ -77,6 +77,17 @@
                                     <name>wcm-root-folder</name>
                                     <showDivider>true</showDivider>
                                     <params>
+                                        <label>Taxonomies</label>
+                                        <path>/site/components/taxonomy</path>
+                                        <!--showRootItem>false</showRootItem-->
+                                        <onClick>preview</onClick>
+                                    </params>
+                                </modulehook>
+                                
+                                <modulehook>
+                                    <name>wcm-root-folder</name>
+                                    <showDivider>true</showDivider>
+                                    <params>
                                         <label>Dazzle CaaS / API</label>
                                         <path>/site/website/en/tools</path>
                                         <!-- showRootItem>false</showRootItem -->
