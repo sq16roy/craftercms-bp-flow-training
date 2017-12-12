@@ -11,9 +11,9 @@
   
   <nav id="header-nav-wrap">
       <ul class="header-main-nav">
-       ${ Request.pageUrl?substring(14,16) }
        
-       <@renderNavigation "/site/website/en", 1 />
+       
+       <@renderNavigation "/site/website/${ Request.pageUrl?substring(14,16) }", 1 />
       </ul>
   </nav>
   
