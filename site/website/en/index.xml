@@ -12,8 +12,8 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>12/12/2017 2:26:24</lastModifiedDate>
-	<lastModifiedDate_dt>12/12/2017 2:26:24</lastModifiedDate_dt>
+	<lastModifiedDate>12/12/2017 2:50:9</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 2:50:9</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
 	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageLarge>
@@ -24,8 +24,5 @@
 	<headline>Modern design</headline>
 	<subHeadline>Razzle Dazzle!!!!
 </subHeadline>
-	<zone1>	<item>	<value>/site/components/page/97ae462c-7870-a624-3e04-8505be771bb2.xml</value>
-	<key>/site/components/page/97ae462c-7870-a624-3e04-8505be771bb2.xml</key>
-	<include>/site/components/page/97ae462c-7870-a624-3e04-8505be771bb2.xml</include>
-	</item></zone1>
+	<zone1/>
 </page>
