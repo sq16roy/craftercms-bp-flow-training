@@ -84,20 +84,16 @@
         </div>
       </section>
       
-          <section id="about"
-		           style="min-height:10px !important; background-color:black !important;" 
-         	 	    >
+          <section id="about" style="min-height:10px !important; background-color:black !important;"  >
 
-        <div class="row about-intro" style="min-height:10px !important;" <@studio.componentContainerAttr target="componentZone1" objectId=model.objectId />>
-
-         <#if contentModel.componentZone1?? && contentModel.componentZone1.item?? >
-              <#list contentModel.componentZone1.item as module>
-                  <@renderComponent component=module />
-              </#list>
-          </#if>                
-            
-        </div>        
-    </section> <!-- end about --> 
+          <div class="row about-intro clearfix" <@studio.componentContainerAttr target="col1" objectId=contentModel.objectId />>
+              <#if contentModel.col1?? && contentModel.col1.item??>
+                  <#list contentModel.col1.item as module>
+                      <@renderComponent component=module />
+                  </#list>
+              </#if>
+          </div>
+		</section>  
     
     <#include "/templates/web/common/footer.ftl" />
     <#include "/templates/web/common/common-scripts.ftl" />
