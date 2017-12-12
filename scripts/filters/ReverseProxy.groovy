@@ -51,7 +51,7 @@ HttpResponse proxyResponse = null
 
 try {
   // Make the Request
-  String method = request.getMethod()
+  String method = request.getMethod()  
 
   String proxyRequestUri = rewriteUrlFromRequest(request)
   proxyRequestUri = proxyRequestUri.replace("//","/")
@@ -59,10 +59,10 @@ try {
   
   if(proxyRequestUri.contains("?")) {
 	  proxyRequestUri = proxyRequestUri.replace("?",".json?")
-      proxyRequestUri = proxyRequestUri += "&crafterSite=kidshealthorg"
+      proxyRequestUri = proxyRequestUri += "&crafterSite=flow"
   }
   else {
-	  proxyRequestUri = proxyRequestUri += ".json?crafterSite=kidshealthorg" 
+	  proxyRequestUri = proxyRequestUri += ".json?crafterSite=flow"
   }
 
 logger.info("REVERSE PROXING TO : ${proxyRequestUri}")
