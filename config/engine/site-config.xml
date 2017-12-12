@@ -1,4 +1,13 @@
 <site>
+
+    <targeting>
+        <enabled>true</enabled>
+        <rootFolders>/site/website</rootFolders>
+        <fallbackTargetId>en</fallbackTargetId>
+        <mergeFolders>true</mergeFolders>
+        <redirectToTargetedUrl>true</redirectToTargetedUrl>
+    </targeting>
+    
     <jobs>
         <jobFolder>
             <path>/scripts/jobs/every-minute</path>
