@@ -84,11 +84,11 @@
         </div>
       </section>
       
-          <section id="about">
+          <section id="about"
+		           style="min-height:10px !important; background-color:black !important;" 
+         	 	   <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId /> >
 
-        <div class="row about-intro" 
-        	 style="min-height:10px !important; background-color:black !important;" 
-        	 <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+        <div class="row about-intro" >
 
          <#if contentModel.zone1?? && contentModel.zone1.item?? >
               <#list contentModel.zone1.item as module>
