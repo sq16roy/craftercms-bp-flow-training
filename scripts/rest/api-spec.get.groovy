@@ -20,6 +20,26 @@ spec.info = [:]
 
   spec.paths = [:]
   	
+       spec.paths["/foo"] = [:]
+
+		def articleApi = spec.paths["/foo"]
+        
+    	articleApi.get = [:]
+        	articleApi.get.tags = []
+            articleApi.get.summary = "A Get Based API"
+  			articleApi.get.operationId = "doTheFoo"
+             articleApi.get.consumes = [ "application/json" ]
+             articleApi.get.produces = [ "application/json" ]
+
+			articleApi.get.parameters = []
+
+			articleApi.get.responses = [:]
+            	articleApi.get.responses["200"] = [:]
+            		articleApi.get.responses["200"].description = "Foo :)"
+                articleApi.get.responses["404"] = [:]
+            		articleApi.get.responses["404"].description = "Not so Foo :("
+
+
     spec.paths["/article"] = [:]
 
 		def articleApi = spec.paths["/article"]
