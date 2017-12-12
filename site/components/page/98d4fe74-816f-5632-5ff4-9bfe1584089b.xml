@@ -5,7 +5,10 @@
 	<objectGroupId>98d4</objectGroupId>
 	<objectId>98d4fe74-816f-5632-5ff4-9bfe1584089b</objectId>
 	<sectionID>content</sectionID>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/b0cdccfe-68be-d6fb-f618-148f071d24ba.xml</value>
+	<key>/site/components/page/b0cdccfe-68be-d6fb-f618-148f071d24ba.xml</key>
+	<include>/site/components/page/b0cdccfe-68be-d6fb-f618-148f071d24ba.xml</include>
+	</item></zone1>
 	<zone2/>
 	<file-name>98d4fe74-816f-5632-5ff4-9bfe1584089b.xml</file-name>
 	<createdDate>12/12/2017 2:50:32</createdDate>
