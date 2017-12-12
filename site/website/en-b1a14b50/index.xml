@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<placeInNav>true</placeInNav>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home (EN_Us) b1a14b50</internal-name>
+	<orderDefault_f>0.0</orderDefault_f>
+	<objectGroupId>c9824c87</objectGroupId>
+	<objectId>c9824c87-1889-4e10-baa0-f12518a04412</objectId>
+	<folder-name>en-b1a14b50</folder-name>
+	<createdDate>1/31/2017 16:18:14</createdDate>
+	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
+	<lastModifiedDate>12/12/2017 1:17:1</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 1:17:1</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
+	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageSmall>
+	<ctas>	<item>	<label>Watch Video</label>
+	<link>http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a</link>
+	</item></ctas>
+	<headline>Modern design</headline>
+	<subHeadline>Razzle Dazzle!!!!
+</subHeadline>
+</page>
