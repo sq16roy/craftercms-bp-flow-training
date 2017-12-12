@@ -6,11 +6,14 @@
 	<objectId>182b0e62-44b1-814d-f7cf-b5b4997af4c4</objectId>
 	<file-name>182b0e62-44b1-814d-f7cf-b5b4997af4c4.xml</file-name>
 	<sectionID>content</sectionID>
-	<zone1>	<item>	<value>/site/components/page/21e678fa-ab0d-aecb-45fd-8806d27f0335.xml</value>
-	<key>/site/components/page/21e678fa-ab0d-aecb-45fd-8806d27f0335.xml</key>
-	<include>/site/components/page/21e678fa-ab0d-aecb-45fd-8806d27f0335.xml</include>
+	<zone1>	<item>	<value>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</value>
+	<key>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</key>
+	<include>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</include>
 	</item></zone1>
-	<zone2/>
+	<zone2>	<item>	<value>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</value>
+	<key>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</key>
+	<include>/site/components/page/d3784b95-ae82-a302-3ab0-b269af33c0af.xml</include>
+	</item></zone2>
 	<createdDate>12/12/2017 3:5:47</createdDate>
 	<createdDate_dt>12/12/2017 3:5:47</createdDate_dt>
 	<lastModifiedDate>12/12/2017 3:5:47</lastModifiedDate>
