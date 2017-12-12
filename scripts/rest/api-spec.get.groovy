@@ -13,7 +13,7 @@ spec.info = [:]
     spec.info.license.name = "SOME LICENSE"
     spec.info.license.url = "http://dazzel.org/api/license"
 
-  spec.host = "ec2-34-235-145-136.compute-1.amazonaws.com:8080" 
+  spec.host = "localhost:8080" 
   spec.basePath = "/apix/content"     
   spec.tags = []
   spec.schemes = ["http"]
