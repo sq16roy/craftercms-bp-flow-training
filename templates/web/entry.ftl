@@ -75,22 +75,27 @@
             </li>
         </ul>
 
-		<!-- end home-social-list -->
-		<div style="clear:both;" class="row contents" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
-          <#if contentModel.zone1?? && contentModel.zone1.item?? >
-              <#list contentModel.zone1.item as module>
-                  <@renderComponent component=module />
-              </#list>
-          </#if>
-        </div>
 
-        <div class="home-scrolldown">
+			<div class="home-scrolldown">
             <a href="#about" class="scroll-icon smoothscroll">
                 <span>Scroll Down</span>
                 <i class="icon-arrow-right" aria-hidden="true"></i>
             </a>
         </div>
-      </section> 
+      </section>
+      
+          <section id="about">
+
+        <div class="row about-intro" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+
+         <#if contentModel.zone1?? && contentModel.zone1.item?? >
+              <#list contentModel.zone1.item as module>
+                  <@renderComponent component=module />
+              </#list>
+          </#if>                
+            
+        </div>        
+    </section> <!-- end about --> 
     
     <#include "/templates/web/common/footer.ftl" />
     <#include "/templates/web/common/common-scripts.ftl" />
