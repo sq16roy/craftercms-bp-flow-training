@@ -24,7 +24,10 @@
 	<headline>Edit Your Site</headline>
 	<subHeadline>Awesome Razzle Dazzle !
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</value>
+	<col1>	<item>	<value>/site/components/page/56098888-a2d6-c338-ab29-cf035c4f17a9.xml</value>
+	<key>/site/components/page/56098888-a2d6-c338-ab29-cf035c4f17a9.xml</key>
+	<include>/site/components/page/56098888-a2d6-c338-ab29-cf035c4f17a9.xml</include>
+	</item>	<item>	<value>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</value>
 	<key>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</key>
 	<include>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</include>
 	</item></col1>
