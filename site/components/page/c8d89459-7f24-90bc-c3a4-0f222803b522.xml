@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/youtube-video/youtube-video</content-type>	<display-template>/templates/plugins/youtube-video/youtube-video.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c8d8</objectGroupId>
+	<objectId>c8d89459-7f24-90bc-c3a4-0f222803b522</objectId>
+	<file-name>c8d89459-7f24-90bc-c3a4-0f222803b522.xml</file-name>
+	<youtubeId>dddd</youtubeId>
+	<width>560</width>
+	<height>315</height>
+	<margin>10</margin>
+	<position>Inline</position>
+	<createdDate>12/12/2017 2:52:27</createdDate>
+	<createdDate_dt>12/12/2017 2:52:27</createdDate_dt>
+	<lastModifiedDate>12/12/2017 2:52:27</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 2:52:27</lastModifiedDate_dt>
+</component>
