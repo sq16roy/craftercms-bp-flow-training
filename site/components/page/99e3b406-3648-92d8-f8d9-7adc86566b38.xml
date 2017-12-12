@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>99e3</objectGroupId>
+	<objectId>99e3b406-3648-92d8-f8d9-7adc86566b38</objectId>
+	<file-name>99e3b406-3648-92d8-f8d9-7adc86566b38.xml</file-name>
+	<content_html>&lt;p&gt;ccccc&lt;/p&gt;</content_html>
+	<createdDate>12/12/2017 2:59:17</createdDate>
+	<createdDate_dt>12/12/2017 2:59:17</createdDate_dt>
+	<lastModifiedDate>12/12/2017 2:59:17</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 2:59:17</lastModifiedDate_dt>
+</component>
