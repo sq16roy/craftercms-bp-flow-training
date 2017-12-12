@@ -59,13 +59,6 @@
 
         </div> <!-- end home-content -->
 
-		<div style="clear:both; "class="row contents" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
-          <#if contentModel.zone1?? && contentModel.zone1.item?? >
-              <#list contentModel.zone1.item as module>
-                  <@renderComponent component=module />
-              </#list>
-          </#if>
-        </div>
         
         <ul class="home-social-list">
             <li>
@@ -81,7 +74,15 @@
                 <a href="#"><i class="fa fa-youtube-play"></i></a>
             </li>
         </ul>
-        <!-- end home-social-list -->
+
+		<!-- end home-social-list -->
+		<div style="clear:both;" class="row contents" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
+          <#if contentModel.zone1?? && contentModel.zone1.item?? >
+              <#list contentModel.zone1.item as module>
+                  <@renderComponent component=module />
+              </#list>
+          </#if>
+        </div>
 
         <div class="home-scrolldown">
             <a href="#about" class="scroll-icon smoothscroll">
