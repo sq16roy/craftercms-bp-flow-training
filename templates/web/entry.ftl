@@ -59,7 +59,7 @@
 
         </div> <!-- end home-content -->
 
-		 <div class="row contents" <@studio.componentContainerAttr target="zone1" objectId=model.objectId />
+		<div style="clear:both; "class="row contents" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
           <#if contentModel.zone1?? && contentModel.zone1.item?? >
               <#list contentModel.zone1.item as module>
                   <@renderComponent component=module />
