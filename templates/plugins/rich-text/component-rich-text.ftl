@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <style>
- body .rte { margin: 10px; background: black !important; color: white !important; } 
+ .rte { margin: 10px; background: black !important; color: white !important; } 
  h1 { color: 39b54a !important; } 
  h2, h3, h4 { color: white !important; }" 
 </style>
