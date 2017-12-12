@@ -99,6 +99,12 @@
     <#include "/templates/web/common/common-scripts.ftl" />
     
 	<@studio.toolSupport />
+    
+    <style>
+    body.studio-dnd-enabled [data-studio-components-target] {
+	    margin: 10px !important;
+    	margin-left: 52px !important;
+	</style>
 </body>
 
 </html>
