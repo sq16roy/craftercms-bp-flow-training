@@ -24,7 +24,7 @@
             data-image-src="${contentModel.bckgroundImage}" 
             data-natural-width=3000 
             data-natural-height=2000 
-            <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
+            <@studio.componentContainerAttr target="zone1" objectId=model.objectId />
             <@studio.iceAttr iceGroup="background"/>>
 
         <div class="overlay"></div>
