@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/youtube-video/youtube-video</content-type>	<display-template>/templates/plugins/youtube-video/youtube-video.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d378</objectGroupId>
+	<objectId>d3784b95-ae82-a302-3ab0-b269af33c0af</objectId>
+	<file-name>d3784b95-ae82-a302-3ab0-b269af33c0af.xml</file-name>
+	<position>Inline</position>
+	<youtubeId>ccc</youtubeId>
+	<width>560</width>
+	<height>315</height>
+	<margin>10</margin>
+	<createdDate>12/12/2017 3:6:11</createdDate>
+	<createdDate_dt>12/12/2017 3:6:11</createdDate_dt>
+	<lastModifiedDate>12/12/2017 3:6:11</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 3:6:11</lastModifiedDate_dt>
+</component>
