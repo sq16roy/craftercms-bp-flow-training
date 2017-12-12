@@ -5,15 +5,15 @@
 	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
 	<placeInNav>false</placeInNav>
 	<file-name>index.xml</file-name>
-	<internal-name>Global Home</internal-name>
+	<internal-name>Home (EN_Us)</internal-name>
 	<orderDefault_f>-1</orderDefault_f>
 	<objectGroupId>8d7f</objectGroupId>
 	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
+	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>12/12/2017 1:13:13</lastModifiedDate>
-	<lastModifiedDate_dt>12/12/2017 1:13:13</lastModifiedDate_dt>
+	<lastModifiedDate>12/12/2017 1:17:1</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 1:17:1</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
 	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageLarge>
