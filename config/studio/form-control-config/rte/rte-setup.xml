@@ -196,7 +196,7 @@
             }
             
             h1 {
-            color: 39b54a !important;
+            color: #39b54a !important;
             }
             
            	h2, h3, h4 {
