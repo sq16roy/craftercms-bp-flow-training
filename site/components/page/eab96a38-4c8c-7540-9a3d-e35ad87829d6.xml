@@ -6,11 +6,11 @@
 	<objectId>eab96a38-4c8c-7540-9a3d-e35ad87829d6</objectId>
 	<file-name>eab96a38-4c8c-7540-9a3d-e35ad87829d6.xml</file-name>
 	<sectionID>content</sectionID>
-	<zone1/>
-	<zone2>	<item>	<value>/site/components/page/d3a1295c-2212-9e24-31f4-ef9d49f86385.xml</value>
+	<zone1>	<item>	<value>/site/components/page/d3a1295c-2212-9e24-31f4-ef9d49f86385.xml</value>
 	<key>/site/components/page/d3a1295c-2212-9e24-31f4-ef9d49f86385.xml</key>
 	<include>/site/components/page/d3a1295c-2212-9e24-31f4-ef9d49f86385.xml</include>
-	</item></zone2>
+	</item></zone1>
+	<zone2/>
 	<createdDate>2017-12-12T04:29:49.668Z</createdDate>
 	<createdDate_dt>2017-12-12T04:29:49.668Z</createdDate_dt>
 	<lastModifiedDate>2017-12-12T04:29:49.668Z</lastModifiedDate>
