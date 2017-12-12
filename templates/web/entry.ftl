@@ -78,7 +78,13 @@
         </div>
 
     </section> <!-- end home -->  
-
+    
+    <#if contentModel.zone1?? && contentModel.zone1.item?? >
+	    <#list contentModel.zone1.item as module>
+			<@renderComponent component=module />
+		</#list>
+	</#if>
+    
     <#include "/templates/web/common/footer.ftl" />
     <#include "/templates/web/common/common-scripts.ftl" />
     
