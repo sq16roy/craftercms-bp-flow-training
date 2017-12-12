@@ -192,6 +192,7 @@
 			body { 
             	margin: 10px; 
                 background: black !important;
+                color: white;
             }
 		</rteStyleOverride>
 
