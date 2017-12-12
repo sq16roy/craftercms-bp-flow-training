@@ -51,12 +51,28 @@
                                     <name>wcm-root-folder</name>
                                     <showDivider>true</showDivider>
                                     <params>
-                                        <label>Pages</label>
+                                        <label>Pages (EN)</label>
                                         <path>/site/website</path>
+                                        <showRootItem>true</showRootItem>
+                                        <onClick>preview</onClick>
+	                                    <excludes>
+                                        	<exclude>/site/website/ja</exclude>
+                                        </excludes>
+                                    </params>
+                                </modulehook>
+
+                                <!-- Site IA Pages -->
+                                <modulehook>
+                                    <name>layered-root-folder</name>
+                                    <showDivider>true</showDivider>
+                                    <params>
+                                        <label>Pages (ES)</label>
+                                        <path>/site/website/es</path>
                                         <showRootItem>true</showRootItem>
                                         <onClick>preview</onClick>
                                     </params>
                                 </modulehook>
+
 
                                 <!-- Components -->
                                 <modulehook>
