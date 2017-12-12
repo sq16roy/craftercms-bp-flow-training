@@ -88,10 +88,10 @@
 		           style="min-height:10px !important; background-color:black !important;" 
          	 	    >
 
-        <div class="row about-intro" style="min-height:10px !important;" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+        <div class="row about-intro" style="min-height:10px !important;" <@studio.componentContainerAttr target="componentZone1" objectId=contentModel.objectId />>
 
-         <#if contentModel.zone1?? && contentModel.zone1.item?? >
-              <#list contentModel.zone1.item as module>
+         <#if contentModel.componentZone1?? && contentModel.componentZone1.item?? >
+              <#list contentModel.componentZone1.item as module>
                   <@renderComponent component=module />
               </#list>
           </#if>                
