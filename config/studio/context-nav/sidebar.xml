@@ -83,7 +83,7 @@
                                         <onClick>preview</onClick>
                                     </params>
                                 </modulehook>
-                                
+
                                 <modulehook>
                                     <name>wcm-root-folder</name>
                                     <showDivider>true</showDivider>
