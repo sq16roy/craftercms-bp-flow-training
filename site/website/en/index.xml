@@ -24,5 +24,8 @@
 	<headline>Edit Your Site</headline>
 	<subHeadline>Awesome Razzle Dazzle !
 </subHeadline>
-	<col1/>
+	<col1>	<item>	<value>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</value>
+	<key>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</key>
+	<include>/site/components/page/ab2251b3-ce44-be75-1b0a-a9b58367f68e.xml</include>
+	</item></col1>
 </page>
