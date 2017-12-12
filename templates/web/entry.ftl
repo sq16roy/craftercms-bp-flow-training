@@ -86,7 +86,9 @@
       
           <section id="about">
 
-        <div class="row about-intro" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+        <div class="row about-intro" 
+        	 style="min-height:10px; background:black:" 
+        	 <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
 
          <#if contentModel.zone1?? && contentModel.zone1.item?? >
               <#list contentModel.zone1.item as module>
