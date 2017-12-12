@@ -5,17 +5,17 @@
 	<objectGroupId>f6b8eb50</objectGroupId>
 	<objectId>f6b8eb50-da6d-48c3-bea9-bc5c56c097d4</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>article-3</folder-name>
+	<folder-name>products</folder-name>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>5000</orderDefault_f>
-	<internal-name>Article 3</internal-name>
+	<internal-name>Products</internal-name>
 	<createdDate>11/13/2017 22:16:8</createdDate>
 	<createdDate_dt>11/13/2017 22:16:8</createdDate_dt>
-	<lastModifiedDate>11/30/2017 15:9:51</lastModifiedDate>
-	<lastModifiedDate_dt>11/30/2017 15:9:51</lastModifiedDate_dt>
-	<authorName>JIll</authorName>
+	<lastModifiedDate>2017-12-12T13:59:06.717Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-12T13:59:06.717Z</lastModifiedDate_dt>
+	<authorName>James</authorName>
 	<authorPosition/>
-	<title>Another Article 3</title>
+	<title>Products</title>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
 	<bodyContent>&lt;p&gt;&lt;strong&gt;Bacon&lt;/strong&gt; [COMPANY_NAME]&amp;nbsp; ipsum dolor amet andouille pancetta strip steak tail frankfurter. Pork belly sirloin shoulder sausage chuck jowl kevin bacon pork chop boudin. Andouille pancetta tri-tip short loin, kevin ball tip drumstick beef alcatra spare ribs beef ribs capicola jowl. Short loin venison beef ribs doner pork loin, capicola beef cupim meatball.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -95,9 +95,9 @@
 &lt;/table&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
-	<navLabel/>
+	<navLabel>Products</navLabel>
 	<disabled>false</disabled>
-	<expireDate_dt>11/14/2017 00:47:21</expireDate_dt>
+	<expireDate_dt>2017-11-14T00:47:21.000Z</expireDate_dt>
 	<arrayContent>Cars</arrayContent>
 	<a/>
 	<b/>
