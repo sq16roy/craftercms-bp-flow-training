@@ -19,7 +19,13 @@
     
    <!-- home
    ================================================== -->
-   <section id="home" data-parallax="scroll" data-image-src="${contentModel.bckgroundImage}" data-natural-width=3000 data-natural-height=2000 <@studio.iceAttr iceGroup="background"/>>
+   <section id="home" 
+            data-parallax="scroll" 
+            data-image-src="${contentModel.bckgroundImage}" 
+            data-natural-width=3000 
+            data-natural-height=2000 
+            <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />
+            <@studio.iceAttr iceGroup="background"/>>
 
         <div class="overlay"></div>
         <div class="home-content">        
@@ -77,9 +83,6 @@
             </a>
         </div>
 
-    </section>  
-    
-    <section id="home" data-parallax="scroll" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
 
       <#if contentModel.zone1?? && contentModel.zone1.item?? >
           <#list contentModel.zone1.item as module>
