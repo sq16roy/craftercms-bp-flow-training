@@ -11,7 +11,7 @@
   
   <nav id="header-nav-wrap">
       <ul class="header-main-nav">
-       ${Request?uri}
+       ${Request.pageUrl}
        <@renderNavigation "/site/website/en", 1 />
       </ul>
   </nav>
