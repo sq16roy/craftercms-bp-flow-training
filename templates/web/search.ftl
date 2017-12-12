@@ -20,7 +20,7 @@
         <div class="row about-intro">
 
             <div class="col-two">
-                &nbsp; HELLO WORLD
+                &nbsp;
             </div>
 
             <div class="col-eight">
@@ -34,7 +34,7 @@
 
                 <ul>
                     <#if err??>
-                        Keyword is require
+                        Keyword is required
                     <#else>
 
                 	<#if matches??>
