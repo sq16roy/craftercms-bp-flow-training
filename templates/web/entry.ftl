@@ -77,13 +77,16 @@
             </a>
         </div>
 
-    </section> <!-- end home -->  
+    </section>  
     
-    <#if contentModel.zone1?? && contentModel.zone1.item?? >
-	    <#list contentModel.zone1.item as module>
-			<@renderComponent component=module />
-		</#list>
-	</#if>
+    <section id="home" data-parallax="scroll" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+
+      <#if contentModel.zone1?? && contentModel.zone1.item?? >
+          <#list contentModel.zone1.item as module>
+              <@renderComponent component=module />
+          </#list>
+      </#if>
+    </section> 
     
     <#include "/templates/web/common/footer.ftl" />
     <#include "/templates/web/common/common-scripts.ftl" />
