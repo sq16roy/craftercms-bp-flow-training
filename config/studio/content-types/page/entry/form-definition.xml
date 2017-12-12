@@ -477,7 +477,7 @@
 			<fields>
 				<field>
 					<type>node-selector</type>
-					<id>zone1</id>
+					<id>componentZone1</id>
 					<iceId></iceId>
 					<title>Zone 1</title>
 					<description></description>
