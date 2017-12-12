@@ -62,7 +62,7 @@
                                 </modulehook>
 
                                 <!-- Site IA Pages -->
-                                <modulehook>
+                                <!--modulehook>
                                     <name>layered-root-folder</name>
                                     <showDivider>true</showDivider>
                                     <params>
@@ -71,7 +71,7 @@
                                         <showRootItem>true</showRootItem>
                                         <onClick>preview</onClick>
                                     </params>
-                                </modulehook>
+                                </modulehook-->
 
                                 <modulehook>
                                     <name>wcm-root-folder</name>
