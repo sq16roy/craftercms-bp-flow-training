@@ -24,7 +24,6 @@
             data-image-src="${contentModel.bckgroundImage}" 
             data-natural-width=3000 
             data-natural-height=2000 
-            <@studio.componentContainerAttr target="zone1" objectId=model.objectId />
             <@studio.iceAttr iceGroup="background"/>>
 
         <div class="overlay"></div>
@@ -60,6 +59,14 @@
 
         </div> <!-- end home-content -->
 
+		 <div class="row contents" <@studio.componentContainerAttr target="zone1" objectId=model.objectId />
+          <#if contentModel.zone1?? && contentModel.zone1.item?? >
+              <#list contentModel.zone1.item as module>
+                  <@renderComponent component=module />
+              </#list>
+          </#if>
+        </div>
+        
         <ul class="home-social-list">
             <li>
                 <a href="#"><i class="fa fa-facebook-square"></i></a>
@@ -82,14 +89,7 @@
                 <i class="icon-arrow-right" aria-hidden="true"></i>
             </a>
         </div>
-
-
-      <#if contentModel.zone1?? && contentModel.zone1.item?? >
-          <#list contentModel.zone1.item as module>
-              <@renderComponent component=module />
-          </#list>
-      </#if>
-    </section> 
+      </section> 
     
     <#include "/templates/web/common/footer.ftl" />
     <#include "/templates/web/common/common-scripts.ftl" />
