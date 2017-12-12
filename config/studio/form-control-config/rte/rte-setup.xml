@@ -191,7 +191,7 @@
           <rteStyleOverride>
 			body { 
             	margin: 10px; 
-                background: black;
+                background: black !important;
             }
 		</rteStyleOverride>
 
