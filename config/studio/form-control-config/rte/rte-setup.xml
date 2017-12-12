@@ -194,6 +194,10 @@
                 background: black !important;
                 color: white !important;
             }
+            
+            h1, h2, h3, h4 {
+            color: white !important;
+            }
 		</rteStyleOverride>
 
         <toolbarItems1>
