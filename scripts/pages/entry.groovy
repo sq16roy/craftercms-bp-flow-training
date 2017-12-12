@@ -1,2 +1,2 @@
 if(request.requestURI.equals("/"))
-	throw new Exception("DAM!")
+	response.sendRedirect("/en")
