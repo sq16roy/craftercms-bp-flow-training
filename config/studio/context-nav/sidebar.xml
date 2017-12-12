@@ -56,7 +56,7 @@
                                         <showRootItem>true</showRootItem>
                                         <onClick>preview</onClick>
 	                                    <excludes>
-                                        	<exclude>/site/website/ja</exclude>
+                                        	<exclude>/site/website/es</exclude>
                                         </excludes>
                                     </params>
                                 </modulehook>
