@@ -6,7 +6,7 @@
 
     <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" parent="crafter.properties"/>
 
-    <bean id="myArticleService" class="acme.ArticleService">
+    <bean id="articleService" class="services.ArticleService">
         <property name="searchService"  ref="crafter.searchService" />
     </bean>
 
