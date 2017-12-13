@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>725a</objectGroupId>
+	<objectId>725a32a3-e176-10ad-6e5f-c36d27710e35</objectId>
+	<file-name>725a32a3-e176-10ad-6e5f-c36d27710e35.xml</file-name>
+	<content_html>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;Bacon ipsum dolor amet ribeye short ribs beef ribs tri-tip pancetta chicken. Tail andouille bresaola meatball chuck pork hamburger pork loin jerky pastrami ball tip frankfurter. Turkey flank cupim short loin pork belly shank capicola, shankle tongue. Kevin pork pork chop, drumstick prosciutto capicola brisket chicken andouille meatloaf ribeye.&lt;/p&gt;</content_html>
+	<createdDate>2017-12-13T21:27:28.650Z</createdDate>
+	<createdDate_dt>2017-12-13T21:27:28.650Z</createdDate_dt>
+	<lastModifiedDate>2017-12-13T21:27:28.650Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-13T21:27:28.650Z</lastModifiedDate_dt>
+</component>
