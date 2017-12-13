@@ -24,8 +24,5 @@
 	<headline>Wedsday Demo</headline>
 	<subHeadline>Tazzle Razzle Dazzle!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/251a44c0-c3bb-93c1-4d22-fda77d568d45.xml</value>
-	<key>/site/components/page/251a44c0-c3bb-93c1-4d22-fda77d568d45.xml</key>
-	<include>/site/components/page/251a44c0-c3bb-93c1-4d22-fda77d568d45.xml</include>
-	</item></col1>
+	<col1/>
 </page>
