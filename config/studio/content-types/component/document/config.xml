@@ -8,7 +8,7 @@
 	<previewable>false</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
-    	<paths>
+	<paths>
 		<includes>
 			<pattern>^HIDDEN</pattern>
 		</includes>
