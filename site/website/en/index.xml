@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/entry</content-type>	<placeInNav>true</placeInNav>
+	<savedAsDraft>true</savedAsDraft>	<content-type>/page/entry</content-type>	<placeInNav>true</placeInNav>
 	<display-template>/templates/web/entry.ftl</display-template>
 	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
 	<placeInNav>false</placeInNav>
@@ -12,8 +12,8 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2017-12-14T18:16:47.168Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-12-14T18:16:47.168Z</lastModifiedDate_dt>
+	<lastModifiedDate>2017-12-14T18:24:46.500Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-14T18:24:46.500Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
 	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da/iphone.png</hoverImageLarge>
@@ -29,5 +29,6 @@
 	<col1>	<item>	<value>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</value>
 	<key>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</key>
 	<include>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
