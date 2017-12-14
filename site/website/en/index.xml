@@ -24,11 +24,5 @@
 	<headline>Modern Design Demo</headline>
 	<subHeadline>Razzle Dazzle Demo!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/725a32a3-e176-10ad-6e5f-c36d27710e35.xml</value>
-	<key>/site/components/page/725a32a3-e176-10ad-6e5f-c36d27710e35.xml</key>
-	<include>/site/components/page/725a32a3-e176-10ad-6e5f-c36d27710e35.xml</include>
-	</item>	<item>	<value>/site/components/page/591e38ce-2756-cdcf-be17-f221c1e4d090.xml</value>
-	<key>/site/components/page/591e38ce-2756-cdcf-be17-f221c1e4d090.xml</key>
-	<include>/site/components/page/591e38ce-2756-cdcf-be17-f221c1e4d090.xml</include>
-	</item></col1>
+	<col1/>
 </page>
