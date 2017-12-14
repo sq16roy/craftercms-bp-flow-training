@@ -9,11 +9,11 @@
 	<zone1>	<item>	<value>/site/components/page/86165ce2-d6c0-94e2-5a61-61f99f162a96.xml</value>
 	<key>/site/components/page/86165ce2-d6c0-94e2-5a61-61f99f162a96.xml</key>
 	<include>/site/components/page/86165ce2-d6c0-94e2-5a61-61f99f162a96.xml</include>
-	</item></zone1>
-	<zone2>	<item>	<value>/site/components/page/3271933e-d935-3db2-74b9-c48e322195fe.xml</value>
+	</item>	<item>	<value>/site/components/page/3271933e-d935-3db2-74b9-c48e322195fe.xml</value>
 	<key>/site/components/page/3271933e-d935-3db2-74b9-c48e322195fe.xml</key>
 	<include>/site/components/page/3271933e-d935-3db2-74b9-c48e322195fe.xml</include>
-	</item>	<item>	<value>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</value>
+	</item></zone1>
+	<zone2>	<item>	<value>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</value>
 	<key>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</key>
 	<include>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</include>
 	</item></zone2>
