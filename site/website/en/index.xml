@@ -24,7 +24,10 @@
 	<headline>Really Modern Design</headline>
 	<subHeadline>Razzle Dazzle Tazzle!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/6bb32dd7-4ae6-adb3-eb24-924ecdc23a87.xml</value>
+	<col1>	<item>	<value>/site/components/page/c8c8bfd6-ba41-e06a-2ae9-67f92c2c4704.xml</value>
+	<key>/site/components/page/c8c8bfd6-ba41-e06a-2ae9-67f92c2c4704.xml</key>
+	<include>/site/components/page/c8c8bfd6-ba41-e06a-2ae9-67f92c2c4704.xml</include>
+	</item>	<item>	<value>/site/components/page/6bb32dd7-4ae6-adb3-eb24-924ecdc23a87.xml</value>
 	<key>/site/components/page/6bb32dd7-4ae6-adb3-eb24-924ecdc23a87.xml</key>
 	<include>/site/components/page/6bb32dd7-4ae6-adb3-eb24-924ecdc23a87.xml</include>
 	</item></col1>
