@@ -10,7 +10,10 @@
 	<key>/site/components/page/86165ce2-d6c0-94e2-5a61-61f99f162a96.xml</key>
 	<include>/site/components/page/86165ce2-d6c0-94e2-5a61-61f99f162a96.xml</include>
 	</item></zone1>
-	<zone2/>
+	<zone2>	<item>	<value>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</value>
+	<key>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</key>
+	<include>/site/components/page/92402663-9fed-2dd2-2e1d-cf2dc8fb5d5d.xml</include>
+	</item></zone2>
 	<createdDate>2017-12-14T12:22:22.135Z</createdDate>
 	<createdDate_dt>2017-12-14T12:22:22.135Z</createdDate_dt>
 	<lastModifiedDate>2017-12-14T12:22:22.135Z</lastModifiedDate>
