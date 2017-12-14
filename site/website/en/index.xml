@@ -24,5 +24,8 @@
 	<headline>Modern Design Demo 123</headline>
 	<subHeadline>Razzle Dazzle Tazzle!
 </subHeadline>
-	<col1/>
+	<col1>	<item>	<value>/site/components/page/9e0ce75f-46be-b982-487c-bcf114a9f304.xml</value>
+	<key>/site/components/page/9e0ce75f-46be-b982-487c-bcf114a9f304.xml</key>
+	<include>/site/components/page/9e0ce75f-46be-b982-487c-bcf114a9f304.xml</include>
+	</item></col1>
 </page>
