@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-2-col.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>473f</objectGroupId>
+	<objectId>473f2a10-403c-c800-ae26-be89ac8cfed7</objectId>
+	<file-name>473f2a10-403c-c800-ae26-be89ac8cfed7.xml</file-name>
+	<sectionID>content</sectionID>
+	<zone1/>
+	<zone2/>
+	<createdDate>2017-12-14T12:22:22.135Z</createdDate>
+	<createdDate_dt>2017-12-14T12:22:22.135Z</createdDate_dt>
+	<lastModifiedDate>2017-12-14T12:22:22.135Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-14T12:22:22.135Z</lastModifiedDate_dt>
+</component>
