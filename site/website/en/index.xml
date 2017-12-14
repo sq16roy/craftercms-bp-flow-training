@@ -12,22 +12,17 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2017-12-14T12:21:00.524Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-12-14T12:21:00.524Z</lastModifiedDate_dt>
+	<lastModifiedDate>2017-12-14T14:59:57.708Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-14T14:59:57.708Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
-	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da/iphone.png</hoverImageLarge>
+	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageLarge>
 	<hoverImageSmall>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageSmall>
 	<ctas>	<item>	<label>View Video</label>
 	<link>http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a</link>
-	</item>	<item>	<label>Learn More</label>
-	<link>/xyz</link>
 	</item></ctas>
-	<headline>Modern Design Demo 123</headline>
-	<subHeadline>Razzle Dazzle Tazzle!
+	<headline>Modern Design</headline>
+	<subHeadline>Razzle Dazzle!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/473f2a10-403c-c800-ae26-be89ac8cfed7.xml</value>
-	<key>/site/components/page/473f2a10-403c-c800-ae26-be89ac8cfed7.xml</key>
-	<include>/site/components/page/473f2a10-403c-c800-ae26-be89ac8cfed7.xml</include>
-	</item></col1>
+	<col1/>
 </page>
