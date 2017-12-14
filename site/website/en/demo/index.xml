@@ -8,7 +8,6 @@
 	<folder-name>demo</folder-name>
 	<internal-name>Demo</internal-name>
 	<navLabel>Demo 123</navLabel>
-	<demo>Example field</demo>
 	<authorName>Russ</authorName>
 	<authorPosition>Web Author</authorPosition>
 	<title>Demo Article</title>
@@ -17,7 +16,6 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>5000</orderDefault_f>
 	<disabled>false</disabled>
-	<arrayContent>Cars</arrayContent>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
 	<bodyContent>&lt;h1&gt;Header 1&lt;/h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&amp;nbsp;&lt;/p&gt;
@@ -90,7 +88,8 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>2017-12-14T12:32:06.164Z</createdDate>
 	<createdDate_dt>2017-12-14T12:32:06.164Z</createdDate_dt>
-	<lastModifiedDate>2017-12-14T12:32:06.164Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-12-14T12:32:06.164Z</lastModifiedDate_dt>
+	<lastModifiedDate>2017-12-14T12:39:19.010Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-14T12:39:19.010Z</lastModifiedDate_dt>
 	<expireDate_dt>2017-12-14T12:32:06.000Z</expireDate_dt>
+	<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.</summary>
 </page>
