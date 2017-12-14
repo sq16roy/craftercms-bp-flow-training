@@ -10,7 +10,7 @@
 	<image-thumbnail>article.png</image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^/site/website/(?!v)/*</pattern>
+			<pattern>^/site/website/en/(?!v)/*</pattern>
 		</includes>
 	</paths>
 </content-type>
