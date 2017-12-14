@@ -25,7 +25,7 @@
 
             <div class="col-eight">
                 <h1 class="intro-header">${contentModel.title}</h1>                
-                <p>${contentModel.summary}</p>
+                <h3>${contentModel.summary}</h3>
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">
