@@ -24,7 +24,10 @@
 	<headline>Modern design</headline>
 	<subHeadline>Razzle Dazzle!!!!
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</value>
+	<col1>	<item>	<value>/site/components/page/3a52b159-7b79-602f-969c-1686fbca7ab0.xml</value>
+	<key>/site/components/page/3a52b159-7b79-602f-969c-1686fbca7ab0.xml</key>
+	<include>/site/components/page/3a52b159-7b79-602f-969c-1686fbca7ab0.xml</include>
+	</item>	<item>	<value>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</value>
 	<key>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</key>
 	<include>/site/components/page/6f07cb9f-94c9-ec95-a4bc-ac57d3ff1420.xml</include>
 	<disableFlattening>false</disableFlattening>
