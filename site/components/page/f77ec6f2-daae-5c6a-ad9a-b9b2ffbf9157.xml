@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>f77e</objectGroupId>
+	<objectId>f77ec6f2-daae-5c6a-ad9a-b9b2ffbf9157</objectId>
+	<file-name>f77ec6f2-daae-5c6a-ad9a-b9b2ffbf9157.xml</file-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;Bacon ipsum dolor amet ham &lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;alcatra porchetta t-bone kevin, shank frankfurter turducken prosciutto shankle burgdoggen. Frankfurter capicola rump ground round cow strip steak turducken bresaola tail kevin beef swine flank biltong ball tip. Cupim andouille venison, frankfurter sausage pancetta pig meatball porchetta chicken picanha. Filet mignon short loin drumstick swine beef ribs. Jerky alcatra chicken brisket frankfurter. Turducken capicola cupim, tri-tip filet mignon sirloin jowl sausage andouille ground round strip steak porchetta beef buffalo tail.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2017-12-19T19:14:27.230Z</createdDate>
+	<createdDate_dt>2017-12-19T19:14:27.230Z</createdDate_dt>
+	<lastModifiedDate>2017-12-19T19:14:27.230Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-19T19:14:27.230Z</lastModifiedDate_dt>
+</component>
