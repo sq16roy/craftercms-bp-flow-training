@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-2-col.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>50c7</objectGroupId>
+	<objectId>50c7b2ed-bd55-e114-ed20-5eb8a24e0374</objectId>
+	<sectionID>content</sectionID>
+	<zone1>	<item>	<value>/site/components/page/4f3a48bd-be2b-8f1a-6f9c-841d9dd38814.xml</value>
+	<key>/site/components/page/4f3a48bd-be2b-8f1a-6f9c-841d9dd38814.xml</key>
+	<include>/site/components/page/4f3a48bd-be2b-8f1a-6f9c-841d9dd38814.xml</include>
+	</item></zone1>
+	<zone2/>
+	<file-name>50c7b2ed-bd55-e114-ed20-5eb8a24e0374.xml</file-name>
+	<createdDate>2017-12-19T15:20:07.919Z</createdDate>
+	<createdDate_dt>2017-12-19T15:20:07.919Z</createdDate_dt>
+	<lastModifiedDate>2017-12-19T15:20:07.919Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-19T15:20:07.919Z</lastModifiedDate_dt>
+</component>
