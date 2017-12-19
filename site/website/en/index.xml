@@ -12,15 +12,31 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
+<<<<<<< HEAD
+	<lastModifiedDate>2017-12-15T20:23:16.341Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-15T20:23:16.341Z</lastModifiedDate_dt>
+=======
 	<lastModifiedDate>2017-12-19T15:26:34.686Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-12-19T15:26:34.686Z</lastModifiedDate_dt>
+>>>>>>> d6eff240d253546b78a15ef39c10ca0930b479a9
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
 	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da/iphone.png</hoverImageLarge>
 	<hoverImageSmall>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageSmall>
-	<ctas>	<item>	<label>View Video</label>
+	<ctas>	<item>	<label>Watch Video</label>
 	<link>http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a</link>
 	</item></ctas>
+<<<<<<< HEAD
+	<headline>VERY Modern Design</headline>
+	<subHeadline>Razzle Dazzle !
+</subHeadline>
+	<col1>	<item>	<value>/site/components/page/181c5158-998b-82e8-1143-4dc33814c637.xml</value>
+	<key>/site/components/page/181c5158-998b-82e8-1143-4dc33814c637.xml</key>
+	<include>/site/components/page/181c5158-998b-82e8-1143-4dc33814c637.xml</include>
+	</item>	<item>	<value>/site/components/page/e76e9c63-9298-df54-69bd-ccdb8dcea4c3.xml</value>
+	<key>/site/components/page/e76e9c63-9298-df54-69bd-ccdb8dcea4c3.xml</key>
+	<include>/site/components/page/e76e9c63-9298-df54-69bd-ccdb8dcea4c3.xml</include>
+=======
 	<headline>Very Modern Design</headline>
 	<subHeadline>DEMO Razzle Dazzle!
 </subHeadline>
@@ -28,5 +44,6 @@
 	<key>/site/components/page/50c7b2ed-bd55-e114-ed20-5eb8a24e0374.xml</key>
 	<include>/site/components/page/50c7b2ed-bd55-e114-ed20-5eb8a24e0374.xml</include>
 	<disableFlattening>false</disableFlattening>
+>>>>>>> d6eff240d253546b78a15ef39c10ca0930b479a9
 	</item></col1>
 </page>

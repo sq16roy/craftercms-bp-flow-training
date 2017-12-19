@@ -24,8 +24,7 @@
         <div class="row about-intro">
 
             <div class="col-eight">
-                <h1 class="intro-header">${contentModel.title}</h1>                
-                <h3>${contentModel.summary}</h3>
+                <h1 style="color:red;" class="intro-header">${contentModel.title}</h1>
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">

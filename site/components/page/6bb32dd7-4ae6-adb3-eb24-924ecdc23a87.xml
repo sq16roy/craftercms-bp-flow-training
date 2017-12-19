@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-2-col.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6bb3</objectGroupId>
+	<objectId>6bb32dd7-4ae6-adb3-eb24-924ecdc23a87</objectId>
+	<file-name>6bb32dd7-4ae6-adb3-eb24-924ecdc23a87.xml</file-name>
+	<sectionID>content</sectionID>
+	<zone1>	<item>	<value>/site/components/page/19abadb8-30fb-c972-587d-1aae7d70fca9.xml</value>
+	<key>/site/components/page/19abadb8-30fb-c972-587d-1aae7d70fca9.xml</key>
+	<include>/site/components/page/19abadb8-30fb-c972-587d-1aae7d70fca9.xml</include>
+	</item></zone1>
+	<zone2/>
+	<createdDate>2017-12-14T17:23:27.542Z</createdDate>
+	<createdDate_dt>2017-12-14T17:23:27.542Z</createdDate_dt>
+	<lastModifiedDate>2017-12-14T17:23:27.542Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-14T17:23:27.542Z</lastModifiedDate_dt>
+</component>

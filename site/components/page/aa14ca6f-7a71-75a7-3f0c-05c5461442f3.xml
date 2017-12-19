@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>aa14</objectGroupId>
+	<objectId>aa14ca6f-7a71-75a7-3f0c-05c5461442f3</objectId>
+	<file-name>aa14ca6f-7a71-75a7-3f0c-05c5461442f3.xml</file-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;HELLO&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;Bacon ipsum dolor amet spare ribs tenderloin landjaeger, tri-tip kevin pancetta shankle meatloaf. Buffalo sirloin tongue brisket fatback turkey filet mignon jerky. Ground round bresaola tri-tip beef ribs burgdoggen pork belly. Meatball spare ribs ball tip corned beef shankle tail landjaeger t-bone short ribs jerky pig boudin burgdoggen pork loin. Doner short loin frankfurter short ribs, pig picanha sirloin turducken bresaola porchetta bacon burgdoggen andouille tail.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2017-12-15T16:23:56.641Z</createdDate>
+	<createdDate_dt>2017-12-15T16:23:56.641Z</createdDate_dt>
+	<lastModifiedDate>2017-12-15T16:23:56.641Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-12-15T16:23:56.641Z</lastModifiedDate_dt>
+</component>
