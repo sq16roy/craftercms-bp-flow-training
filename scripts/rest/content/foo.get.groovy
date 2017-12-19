@@ -10,4 +10,6 @@ cart.message = new Fox().speak()
 
 cart.sum = 50 + 50 + 50
 
+cart.message2 = "Git is rad!"
+
 return cart
