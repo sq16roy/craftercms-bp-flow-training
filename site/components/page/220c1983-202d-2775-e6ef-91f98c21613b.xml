@@ -5,7 +5,10 @@
 	<objectGroupId>220c</objectGroupId>
 	<objectId>220c1983-202d-2775-e6ef-91f98c21613b</objectId>
 	<sectionID>content</sectionID>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/f77ec6f2-daae-5c6a-ad9a-b9b2ffbf9157.xml</value>
+	<key>/site/components/page/f77ec6f2-daae-5c6a-ad9a-b9b2ffbf9157.xml</key>
+	<include>/site/components/page/f77ec6f2-daae-5c6a-ad9a-b9b2ffbf9157.xml</include>
+	</item></zone1>
 	<zone2/>
 	<file-name>220c1983-202d-2775-e6ef-91f98c21613b.xml</file-name>
 	<createdDate>2017-12-19T19:14:17.629Z</createdDate>
