@@ -12,4 +12,7 @@ cart.sum = 50 + 50 + 50
 
 cart.message2 = "Git is rad!"
 
+cart.home = siteItemService.getSiteItem("/site/website/en/index.xml")
+
+
 return cart
