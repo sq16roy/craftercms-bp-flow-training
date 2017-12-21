@@ -35,7 +35,7 @@
                     <h3 data-aos="fade-up" <@studio.iceAttr iceGroup="headlines"/>>${contentModel.headline}</h3>
 
                     <h1 data-aos="fade-up">
-                        ${Request.uri} ${contentModel.subHeadline}
+                        ${Request.requestUri} ${contentModel.subHeadline}
                     </h1>
 
                     <div class="buttons" <@studio.iceAttr iceGroup="ctas"/>>
