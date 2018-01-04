@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>b39c</objectGroupId>
+	<objectId>b39c8264-e29a-2845-3274-9b24c87366ec</objectId>
+	<file-name>b39c8264-e29a-2845-3274-9b24c87366ec.xml</file-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;Bacon ipsum dolor amet fatback beef venison&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt; turducken hamburger. Doner ham cupim ribeye pig tri-tip turkey andouille kielbasa pork loin fatback chuck boudin picanha. Shankle drumstick tenderloin pork loin turkey swine t-bone cow meatloaf picanha burgdoggen jerky chuck. Chuck jerky pork belly pork loin ground round. Shankle strip steak filet mignon capicola chuck flank hamburger ham. Andouille strip steak chuck shoulder, drumstick fatback ground round ball tip pork sirloin venison swine tongue buffalo. Tri-tip pork short loin, ground round strip steak pork chop shank bacon salami.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-01-04T23:27:24.888Z</createdDate>
+	<createdDate_dt>2018-01-04T23:27:24.888Z</createdDate_dt>
+	<lastModifiedDate>2018-01-04T23:27:24.888Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-04T23:27:24.888Z</lastModifiedDate_dt>
+</component>
