@@ -5,7 +5,10 @@
 	<objectGroupId>ae7e</objectGroupId>
 	<objectId>ae7eb907-ff7c-f51f-efe6-7f12f93ee39c</objectId>
 	<sectionID>content</sectionID>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/b39c8264-e29a-2845-3274-9b24c87366ec.xml</value>
+	<key>/site/components/page/b39c8264-e29a-2845-3274-9b24c87366ec.xml</key>
+	<include>/site/components/page/b39c8264-e29a-2845-3274-9b24c87366ec.xml</include>
+	</item></zone1>
 	<zone2/>
 	<file-name>ae7eb907-ff7c-f51f-efe6-7f12f93ee39c.xml</file-name>
 	<createdDate>2018-01-04T23:27:12.534Z</createdDate>
