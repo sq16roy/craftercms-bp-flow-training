@@ -5,10 +5,7 @@
 	<objectGroupId>f8af</objectGroupId>
 	<objectId>f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8</objectId>
 	<sectionID>content</sectionID>
-	<zone1>	<item>	<value>/site/components/page/70361c24-6acc-6d9c-3fa8-1b99a492563e.xml</value>
-	<key>/site/components/page/70361c24-6acc-6d9c-3fa8-1b99a492563e.xml</key>
-	<include>/site/components/page/70361c24-6acc-6d9c-3fa8-1b99a492563e.xml</include>
-	</item></zone1>
+	<zone1/>
 	<zone2/>
 	<file-name>f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</file-name>
 	<createdDate>2018-01-05T19:40:35.143Z</createdDate>
