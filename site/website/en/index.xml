@@ -25,5 +25,8 @@
 	<subHeadline>Creative Landing 
 Page to Showcase 
 Your Amazing App.</subHeadline>
-	<col1/>
+	<col1>	<item>	<value>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</value>
+	<key>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</key>
+	<include>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</include>
+	</item></col1>
 </page>
