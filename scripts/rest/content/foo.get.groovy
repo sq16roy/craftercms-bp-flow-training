@@ -2,7 +2,7 @@ import acme.Fox
 
 def cart = [:]
 cart.name = (params.name) ? params.name : "default"
-cart.itemCount = 4 + 30
+cart.itemCount = 100 + 30
 
 cart.goods =  [ "Apples", "Oranges", "Grapes", "Peaches" ]
 
