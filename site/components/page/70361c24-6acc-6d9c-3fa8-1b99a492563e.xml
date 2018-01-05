@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>7036</objectGroupId>
+	<objectId>70361c24-6acc-6d9c-3fa8-1b99a492563e</objectId>
+	<file-name>70361c24-6acc-6d9c-3fa8-1b99a492563e.xml</file-name>
+	<content_html>&lt;h1&gt;Hello Target&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;Bacon ipsum dolor amet alcatra bresaola pastrami biltong, beef meatloaf chuck spare ribs ribeye ham pork belly. Frankfurter turducken tenderloin pastrami t-bone fatback shoulder shankle meatloaf. Prosciutto ribeye kielbasa jowl&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-01-05T19:40:47.514Z</createdDate>
+	<createdDate_dt>2018-01-05T19:40:47.514Z</createdDate_dt>
+	<lastModifiedDate>2018-01-05T19:40:47.514Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-05T19:40:47.514Z</lastModifiedDate_dt>
+</component>
