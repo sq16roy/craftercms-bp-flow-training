@@ -12,8 +12,8 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-01-16T14:51:42.583Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-01-16T14:51:42.583Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-01-05T19:39:17.645Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-05T19:39:17.645Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
 	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da/iphone.png</hoverImageLarge>
@@ -21,13 +21,9 @@
 	<ctas>	<item>	<label>Watch Video</label>
 	<link>http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a</link>
 	</item></ctas>
-	<headline>Modern design</headline>
+	<headline>VERY Modern design</headline>
 	<subHeadline>Creative Landing 
 Page to Showcase 
 Your Amazing App.</subHeadline>
-	<col1>	<item>	<value>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</value>
-	<key>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</key>
-	<include>/site/components/page/f8af73e6-13ae-1d5a-f957-8e1dd5bc2ae8.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></col1>
+	<col1/>
 </page>
