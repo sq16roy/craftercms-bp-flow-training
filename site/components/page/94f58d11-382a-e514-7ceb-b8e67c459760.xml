@@ -5,11 +5,11 @@
 	<objectGroupId>94f5</objectGroupId>
 	<objectId>94f58d11-382a-e514-7ceb-b8e67c459760</objectId>
 	<sectionID>content</sectionID>
-	<zone1>	<item>	<value>/site/components/page/44d915a5-4aa7-2237-a98c-bc01f9feb735.xml</value>
+	<zone1/>
+	<zone2>	<item>	<value>/site/components/page/44d915a5-4aa7-2237-a98c-bc01f9feb735.xml</value>
 	<key>/site/components/page/44d915a5-4aa7-2237-a98c-bc01f9feb735.xml</key>
 	<include>/site/components/page/44d915a5-4aa7-2237-a98c-bc01f9feb735.xml</include>
-	</item></zone1>
-	<zone2/>
+	</item></zone2>
 	<file-name>94f58d11-382a-e514-7ceb-b8e67c459760.xml</file-name>
 	<createdDate>2018-01-16T15:29:49.700Z</createdDate>
 	<createdDate_dt>2018-01-16T15:29:49.700Z</createdDate_dt>
