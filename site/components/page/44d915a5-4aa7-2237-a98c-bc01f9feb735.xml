@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>44d9</objectGroupId>
+	<objectId>44d915a5-4aa7-2237-a98c-bc01f9feb735</objectId>
+	<file-name>44d915a5-4aa7-2237-a98c-bc01f9feb735.xml</file-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;Bacon ipsum dolor amet ball tip flank porchetta tail pork belly kevin doner&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt; beef ribs shankle biltong filet mignon shank leberkas. Bresaola frankfurter chicken filet mignon drumstick pork chop. Shankle ham sirloin tri-tip buffalo turkey pork belly meatball, frankfurter bacon biltong venison. Turkey corned beef beef ribs, porchetta short ribs chuck kielbasa pork belly. Porchetta shank ball tip ground round sausage meatloaf, drumstick strip steak beef ribs t-bone ribeye pork chop. Chicken kielbasa corned beef frankfurter porchetta tri-tip shank shankle tongue prosciutto bacon. Hamburger salami boudin ribeye, drumstick pork belly beef.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-01-16T15:30:09.175Z</createdDate>
+	<createdDate_dt>2018-01-16T15:30:09.175Z</createdDate_dt>
+	<lastModifiedDate>2018-01-16T15:30:09.175Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-16T15:30:09.175Z</lastModifiedDate_dt>
+</component>
