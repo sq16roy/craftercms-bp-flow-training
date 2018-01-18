@@ -18,66 +18,10 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Article Properties</title>
+			<title>Page Basics</title>
 			<description></description>
-			<defaultOpen>true</defaultOpen>
+			<defaultOpen>false</defaultOpen>
 			<fields>
-				<field>
-					<type>file-name</type>
-					<id>file-name</id>
-					<iceId></iceId>
-					<title>Page URL</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>internal-name</id>
-					<iceId></iceId>
-					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[true]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
 				<field>
 					<type>page-nav-order</type>
 					<id>placeInNav</id>
@@ -145,6 +89,34 @@
 					</constraints>
 				</field>
 				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId></iceId>
+					<title>Internal Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>checkbox</type>
 					<id>disabled</id>
 					<iceId></iceId>
@@ -167,6 +139,41 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>file-name</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>Page URL</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Article Properties</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
 				<field>
 					<type>image-picker</type>
 					<id>authorImage</id>
@@ -309,6 +316,49 @@
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>subheadline</id>
+					<iceId></iceId>
+					<title>Subheadline</title>
+					<description>A secondary title</description>
+					<defaultValue></defaultValue>
+					<help>Blah blah</help>
 					<properties>
 						<property>
 							<name>size</name>
