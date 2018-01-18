@@ -2,18 +2,10 @@ import acme.Fox
 
 def cart = [:]
 cart.name = (params.name) ? params.name : "default"
-cart.itemCount = 100 + 30
+cart.itemCount = 100 + 50
 
-cart.goods =  [ "Apples", "Oranges", "Grapes", "Peaches" ]
+cart.goods =  [ "Apples", "Oranges", "Grapes", "Peaches", "Plums" ]
 
-/*
-cart.message = new Fox().speak()
 
-cart.sum = 50 + 50 + 50
-
-cart.message2 = "Git is rad!"
-
-cart.home = siteItemService.getSiteItem("/site/website/en/index.xml")
-*/
 
 return cart
