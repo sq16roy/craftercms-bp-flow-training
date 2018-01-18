@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>4c7d</objectGroupId>
+	<objectId>4c7d0518-28ad-2090-4508-f91e776dacec</objectId>
+	<file-name>4c7d0518-28ad-2090-4508-f91e776dacec.xml</file-name>
+	<content_html>&lt;h1&gt;Bacon ipsum dolor amet jowl landjaeger&lt;/h1&gt;
+&lt;p&gt;drumstick short loin tail biltong tenderloin. Tri-tip prosciutto jowl venison pork loin. Buffalo pork belly cow, short loin t-bone corned beef pancetta ribeye bacon kielbasa porchetta jerky swine. Jowl filet mignon rump fatback ham andouille ball tip kielbasa pork chop capicola short ribs hamburger.&lt;/p&gt;</content_html>
+	<createdDate>2018-01-18T19:28:18.560Z</createdDate>
+	<createdDate_dt>2018-01-18T19:28:18.560Z</createdDate_dt>
+	<lastModifiedDate>2018-01-18T19:28:18.560Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-18T19:28:18.560Z</lastModifiedDate_dt>
+</component>
