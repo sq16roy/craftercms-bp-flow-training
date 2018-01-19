@@ -25,7 +25,6 @@
 
             <div class="col-eight">
                 <h1 style="color:red;" class="intro-header">${contentModel.title}</h1>
-                <h2>${contentModel.subheadline} | ${mysum}</h2>
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">
