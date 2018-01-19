@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>9ee2</objectGroupId>
+	<objectId>9ee25792-744a-1183-f504-d99385d9308f</objectId>
+	<file-name>9ee25792-744a-1183-f504-d99385d9308f.xml</file-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;Bacon ipsum dolor amet hamburger pastrami bacon&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;kevin cupim chuck capicola short loin. Picanha pork chop bacon spare ribs tongue. Beef buffalo turducken tongue beef ribs short ribs, shank corned beef rump landjaeger swine sirloin. Cupim prosciutto swine pig hamburger short ribs bresaola beef ribs ribeye flank shankle. Spare ribs t-bone pastrami, short loin ham hock burgdoggen pork chop biltong picanha pig bacon meatball filet mignon tail.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-01-19T14:53:33.073Z</createdDate>
+	<createdDate_dt>2018-01-19T14:53:33.073Z</createdDate_dt>
+	<lastModifiedDate>2018-01-19T14:53:33.073Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-19T14:53:33.073Z</lastModifiedDate_dt>
+</component>
