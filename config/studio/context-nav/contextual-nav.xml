@@ -23,7 +23,7 @@
                 <item><modulehook>targeting</modulehook></item>
                 <item><modulehook>search</modulehook></item>
                 <item><modulehook>status</modulehook></item>
-                <item><modulehook>logout</modulehook></item>
+                <!--item><modulehook>logout</modulehook></item-->
             </menuItem>
         </right>
 
