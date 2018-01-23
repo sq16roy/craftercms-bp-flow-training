@@ -5,7 +5,10 @@
 	<objectGroupId>d42b</objectGroupId>
 	<objectId>d42bd741-94b6-6a27-90c4-9a682c49253b</objectId>
 	<sectionID>content</sectionID>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/a3cd316c-3a34-a378-18e6-0ba5494a1df3.xml</value>
+	<key>/site/components/page/a3cd316c-3a34-a378-18e6-0ba5494a1df3.xml</key>
+	<include>/site/components/page/a3cd316c-3a34-a378-18e6-0ba5494a1df3.xml</include>
+	</item></zone1>
 	<zone2/>
 	<file-name>d42bd741-94b6-6a27-90c4-9a682c49253b.xml</file-name>
 	<createdDate>2018-01-23T14:17:12.144Z</createdDate>
