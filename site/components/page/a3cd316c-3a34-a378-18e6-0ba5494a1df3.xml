@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>a3cd</objectGroupId>
+	<objectId>a3cd316c-3a34-a378-18e6-0ba5494a1df3</objectId>
+	<file-name>a3cd316c-3a34-a378-18e6-0ba5494a1df3.xml</file-name>
+	<content_html>&lt;p&gt;Hello World&lt;/p&gt;</content_html>
+	<createdDate>2018-01-23T14:17:24.941Z</createdDate>
+	<createdDate_dt>2018-01-23T14:17:24.941Z</createdDate_dt>
+	<lastModifiedDate>2018-01-23T14:17:24.941Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-23T14:17:24.941Z</lastModifiedDate_dt>
+</component>
