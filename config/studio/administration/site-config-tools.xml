@@ -109,6 +109,12 @@
                     </icon>
                 </control>
                 <control>
+                    <name>youtube</name>
+                    <icon>
+                        <class>fa-youtube</class>
+                    </icon>
+                </control>
+				<control>
                     <name>video-picker</name>
                     <icon>
                         <class>fa-video-camera</class>
