@@ -3,8 +3,8 @@ package services
 public class DocRenditionService {
 
   def logger = null
-  def EXE_PATH = "/Users/rdanner/crafter-installs/302v/craftercms/crafter-authoring"
-  def REPO_PATH = EXE_PATH + "/data/repos/sites/kidshealthorg/sandbox"
+  def EXE_PATH = "/Users/rdanner/crafter-installs/ent/craftercms/crafter-authoring"
+  def REPO_PATH = EXE_PATH + "/data/repos/sites/flow/sandbox"
   def RENDITION_FOLDER = "/renditions/"
 
 
