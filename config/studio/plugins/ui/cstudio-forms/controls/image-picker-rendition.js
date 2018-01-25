@@ -340,33 +340,13 @@ YAHOO.extend(CStudioForms.Controls.ImagePickerRendition, CStudioForms.CStudioFor
 
                                     var transformService = "/api/dam/rendition.json?if="+imageData.relativeUrl
                                     for(var r=0; r<imagePicker.renditions.length; r++) {
-                                        transformService+="&presets="+[imagePicker.renditions[r]];
+                                        var renditionName = imagePicker.renditions[r].replace(" ", "");
+                                        transformService+="&presets="+[renditionName];
                                     }
 
                                     var transformCb = {
                                          success: function(response) {
-                                            var data = YAHOO.lang.JSON.parse(response.responseText);
-
-                                             for(var i=0; i<data.assets.renditions.length; i++) {
-                                                var rendition = data.assets.renditions[i];
-
-                                                var renditionsId = self.id+"-rendition-" + i + "-image";
-                                                self.form.registerDynamicField(renditionsId);
-                                                self.form.updateModel(renditionsId, rendition);
-
-
-                                                var renEl = document.createElement("div");
-                                                renEl.style = 'display: block; margin: auto; text-align:center; padding: 10px;';
-                                                self.containerEl.appendChild(renEl);
-                                                renEl.innerHTML = rendition;
-
-                                                var previewEl = document.createElement("img");
-                                                previewEl.style = 'display: block; margin: auto; padding: 10px;';
-                                                self.containerEl.appendChild(previewEl);
-                                                previewEl.src = rendition;
-
-
-                                             }
+                                            self.setValue(self.value);
                                          },
                                          failure: function() {
 
@@ -615,6 +595,8 @@ YAHOO.extend(CStudioForms.Controls.ImagePickerRendition, CStudioForms.CStudioFor
             YAHOO.util.Dom.addClass(delEl, 'cstudio-button-disabled');
         }
 
+
+
         YAHOO.util.Event.addListener(imageEl, "click", function(evt, context) { context.form.setFocusedField(context);}, this, true);
         YAHOO.util.Event.addListener(addEl, "click", function(evt, context) { context.form.setFocusedField(context); this.addImage(); }, this, true);
         YAHOO.util.Event.addListener(delEl, "click", function(evt, context) { context.form.setFocusedField(context); this.deleteImage(); }, this, true);
@@ -788,6 +770,40 @@ YAHOO.extend(CStudioForms.Controls.ImagePickerRendition, CStudioForms.CStudioFor
         }
         this._onChange(null, this);
         this.edited = false;
+
+        var myId = "x"; //Self.id;
+        var rensContainerEl = document.createElement("div");
+            this.containerEl.appendChild(rensContainerEl);
+            this.containerEl.style = "border:1px solid A0A0A0; background-color: #DFDFDF; margin:10px;"
+
+        for(var i=0; i<this.renditions.length; i++) {
+            var rendition = this.renditions[i];
+            var renditionsId = myId+"-rendition-" + i + "-image";
+
+            var existingRenEl = document.getElementById(renditionsId);
+            if(existingRenEl)  {
+                existingRenEl.parentNode.removeChild(existingRenEl);
+            }
+
+            var renContainerEl = document.createElement("div");
+            renContainerEl.id = renditionsId;
+            renContainerEl.style = "display: inline-block; width: 200px; margin-left: 10px; margin-right: 26px;"
+            rensContainerEl.appendChild(renContainerEl);
+            var renEl = document.createElement("div");
+            renEl.style = 'display: block; margin: auto; text-align:center; padding: 10px;';
+            renContainerEl.appendChild(renEl);
+            renEl.innerHTML = "<b>Rendition:</b> " + rendition;
+
+            var previewEl = document.createElement("img");
+            previewEl.style = 'display: block; margin: auto; padding: 10px; max-height:80; max-width:150px';
+            renContainerEl.appendChild(previewEl);
+
+            rendition = rendition.replace(" ","");
+            var renditionPath = value.substring(0, value.lastIndexOf("/")+1)+"renditions/"+value.substring(value.lastIndexOf("/")+1);
+            renditionPath = renditionPath.replace(".", "-"+rendition+".");
+
+            previewEl.src = CStudioAuthoringContext.previewAppBaseUri + renditionPath
+         }
     },
 
     getName: function() {
