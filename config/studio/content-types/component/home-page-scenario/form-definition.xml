@@ -117,51 +117,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>node-selector</type>
-					<id>touts</id>
-					<iceId></iceId>
-					<title>Touts</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>minSize</name>
-							<value></value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxSize</name>
-							<value></value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>itemManager</name>
-							<value>[&quot;touts&quot;]</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>allowDuplicates</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>Targeting Criteria</title>
-			<description></description>
-			<defaultOpen>true</defaultOpen>
-			<fields>
-				<field>
 					<type>checkbox-group</type>
 					<id>segment</id>
 					<iceId></iceId>
@@ -198,24 +153,6 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>child-content</type>
-					<id>touts</id>
-					<title>touts</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/site/components/touts</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
-							<value>/component/tout</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>key-value-list</type>
 					<id>segments</id>
 					<title>segments</title>
