@@ -118,7 +118,7 @@
                 <control>
                     <name>label</name>
                     <icon>
-                        <class>page-nav-order</class>
+                        <class>fa-tag</class>
                     </icon>
                 </control>
                 <control>
