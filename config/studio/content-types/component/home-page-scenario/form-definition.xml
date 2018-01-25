@@ -3,6 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/home-page-scenario</content-type>
+	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -55,14 +56,14 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value>[]</value>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value></value>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -88,12 +89,12 @@
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value>[]</value>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value>[]</value>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
@@ -103,14 +104,14 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value>[]</value>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value></value>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -126,12 +127,12 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value>[]</value>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value>[]</value>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
@@ -141,14 +142,14 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value>[]</value>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>allowDuplicates</name>
-							<value></value>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -176,19 +177,19 @@
 						</property>
 						<property>
 							<name>selectAll</name>
-							<value>[]</value>
+							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value>[]</value>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>minSize</name>
-							<value></value>
+							<value><![CDATA[]]></value>
 							<type>int</type>
 						</constraint>
 					</constraints>
