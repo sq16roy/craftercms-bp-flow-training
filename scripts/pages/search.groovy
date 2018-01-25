@@ -1,5 +1,5 @@
 
-def articleService = applicationContext.get("myArticleService")
+def articleService = applicationContext.get("articleService")
 
 def keyword = params.keyword
 
