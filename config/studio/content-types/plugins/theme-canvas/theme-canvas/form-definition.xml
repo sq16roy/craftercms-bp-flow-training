@@ -3,6 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/plugins/theme-canvas/theme-canvas</content-type>
+	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
