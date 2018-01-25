@@ -217,7 +217,7 @@
 				</field>
 				<field>
 					<type>image-picker-rendition</type>
-					<id>backgroundImage</id>
+					<id>bckgroundImage</id>
 					<iceId>background</iceId>
 					<title>Background Image</title>
 					<description></description>
