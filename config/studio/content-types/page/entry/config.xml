@@ -1,5 +1,5 @@
 <content-type name="/page/entry" is-wcm-type="true">
-	<label>Entry</label>
+	<label>Page: Home</label>
 	<form>/page/entry</form>
 	<form-path>simple</form-path>
 	<model-instance-path>not-used</model-instance-path>
