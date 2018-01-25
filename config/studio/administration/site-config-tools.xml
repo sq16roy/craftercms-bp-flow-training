@@ -111,7 +111,7 @@
                 <control>
                     <name>youtube</name>
                     <icon>
-                        <class>fa-youtube</class>
+                        <class>youtube-play</class>
                     </icon>
                 </control>
 				<control>
