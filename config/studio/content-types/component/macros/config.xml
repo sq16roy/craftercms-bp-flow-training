@@ -1,5 +1,5 @@
 <content-type name="/component/macros" is-wcm-type="true">
-	<label>Macros</label>
+	<label>Item: Macros</label>
 	<form>/component/macros</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
