@@ -216,8 +216,8 @@
 					</constraints>
 				</field>
 				<field>
-					<type>image-picker</type>
-					<id>bckgroundImage</id>
+					<type>image-picker-rendition</type>
+					<id>backgroundImage</id>
 					<iceId>background</iceId>
 					<title>Background Image</title>
 					<description></description>
@@ -248,6 +248,11 @@
 							<name>imageManager</name>
 							<value>desktopImages</value>
 							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>renditions</name>
+							<value>quarter</value>
+							<type>string</type>
 						</property>
 						<property>
 							<name>readonly</name>
