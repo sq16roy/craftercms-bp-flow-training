@@ -1,5 +1,5 @@
 <content-type name="/component/document" is-wcm-type="true">
-	<label>Document</label>
+	<label>Item: Document</label>
 	<form>/component/document</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
