@@ -10,7 +10,7 @@
 	<image-thumbnail></image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^/site/components/homepage-scenarios</pattern>
+			<pattern>^/site/components/homepage-scenarios/.*</pattern>
 		</includes>
 	</paths>
 </content-type>
