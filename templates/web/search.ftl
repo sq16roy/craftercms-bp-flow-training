@@ -42,9 +42,6 @@
                         <li class="search-result">
                         
                             <h3>
-                            	FROM: ${match.localId}<br/>
- 								TO: ${urlTransformationService.transform('storeUrlToRenderUrl', match.localId)}<br/>
-
                             	<a href="${urlTransformationService.transform('storeUrlToRenderUrl', match.localId)}">${match.title}</a>
                              </h3>
                              <#if highlighting[match.id].bodyContent??>
