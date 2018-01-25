@@ -1,5 +1,5 @@
 <content-type name="/component/taxonomy" is-wcm-type="true">
-	<label>Taxonomy</label>
+	<label>Item: Taxonomy</label>
 	<form>/component/taxonomy</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
