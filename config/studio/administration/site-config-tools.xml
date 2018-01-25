@@ -92,7 +92,8 @@
                 <control>
                     <name>image-picker-rendition</name>
                     <icon>
-                        <class>fa-photo-o</class>
+
+                        <class>fa-picture-o</class>
                         <styles>
                             <color>#7e9dbb</color>
                         </styles>
