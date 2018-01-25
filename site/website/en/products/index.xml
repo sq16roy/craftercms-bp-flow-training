@@ -11,8 +11,8 @@
 	<internal-name>Products</internal-name>
 	<createdDate>11/13/2017 22:16:8</createdDate>
 	<createdDate_dt>11/13/2017 22:16:8</createdDate_dt>
-	<lastModifiedDate>2017-12-12T14:01:08.300Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-12-12T14:01:08.300Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-01-25T21:43:12.983Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-25T21:43:12.983Z</lastModifiedDate_dt>
 	<authorName>James</authorName>
 	<authorPosition/>
 	<title>Products</title>
@@ -98,7 +98,6 @@
 	<navLabel>Products</navLabel>
 	<disabled>false</disabled>
 	<expireDate_dt>2017-11-14T00:47:21.000Z</expireDate_dt>
-	<arrayContent>Cars</arrayContent>
 	<a/>
 	<b/>
 </page>
