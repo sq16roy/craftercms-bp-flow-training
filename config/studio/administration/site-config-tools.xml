@@ -111,7 +111,7 @@
                 <control>
                     <name>youtube</name>
                     <icon>
-                        <class>youtube-play</class>
+                        <class>fa-video-camera</class>
                     </icon>
                 </control>
 				<control>
@@ -123,7 +123,7 @@
                 <control>
                     <name>label</name>
                     <icon>
-                        <class>fa-tag</class>
+                        <class>page-nav-order</class>
                     </icon>
                 </control>
                 <control>
