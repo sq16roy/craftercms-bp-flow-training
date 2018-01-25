@@ -1,5 +1,5 @@
 <content-type name="/component/home-page-scenario" is-wcm-type="true">
-<label>Home Page Scenario</label>
+<label>Component: Home Page Scenario</label>
 <form>/component/home-page-scenario</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
