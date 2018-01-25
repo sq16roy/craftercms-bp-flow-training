@@ -4,11 +4,11 @@ public class RenditionService {
 
   def logger = null
 
-  def REPO_PATH = "/Users/rdanner/crafter-installs/302v/craftercms/crafter-authoring/data/repos/sites/kidshealthorg/sandbox"
+  def REPO_PATH = "/Users/rdanner/crafter-installs/ent/craftercms/crafter-authoring/data/repos/sites/flow/sandbox"
   def RENDITION_FOLDER = "/renditions/"
 
   def PRESETS = [
-      "identity" : [options: " ",                              postfix: "-id"],
+      "identity" : [options: " ",                 postfix: "-id"],
       "quarter"    : [options: "-scale 25%   ",   postfix: "-quarter"],
       "thumb"     : [options: "-trim +repage -gravity center -background transparent -extent 128x128 ", postfix: "-thumb"]
   ]  
