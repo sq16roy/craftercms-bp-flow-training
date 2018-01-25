@@ -1,5 +1,5 @@
 <content-type name="/plugins/theme-canvas/theme-canvas" is-wcm-type="true">
-<label>Theme Canvas</label>
+<label>Item: Theme Canvas</label>
 <form>/plugins/theme-canvas/theme-canvas</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
