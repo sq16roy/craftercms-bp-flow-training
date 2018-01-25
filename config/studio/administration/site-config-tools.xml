@@ -88,7 +88,18 @@
                         <class>fa-crosshairs</class>
                     </icon>
                 </control>
+                
                 <control>
+                    <name>image-picker-rendition</name>
+                    <icon>
+                        <class>fa-image-o</class>
+                        <styles>
+                            <color>#7e9dbb</color>
+                        </styles>
+                    </icon>
+                </control>
+
+				<control>
                     <name>image-picker</name>
                     <icon>
                         <class>fa-picture-o</class>
