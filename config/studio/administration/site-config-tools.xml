@@ -109,12 +109,6 @@
                         </styles>
                     </icon>
                 </control>
-                <control>
-                    <name>youtube</name>
-                    <icon>
-                        <class>fa-video-camera</class>
-                    </icon>
-                </control>
 				<control>
                     <name>video-picker</name>
                     <icon>
@@ -191,6 +185,14 @@
                         <class>fa-plug</class>
                     </icon>
                 </datasource>
+
+				<datasource>
+                    <name>youtube</name>
+                    <icon>
+                        <class>fa-video-camera</class>
+                    </icon>
+                </datasource>
+
                 <datasource>
                     <name>video-desktop-upload</name>
                     <icon>
