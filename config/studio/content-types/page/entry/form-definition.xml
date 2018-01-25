@@ -251,7 +251,7 @@
 						</property>
 						<property>
 							<name>renditions</name>
-							<value>quarter</value>
+							<value>quarter, thumb</value>
 							<type>string</type>
 						</property>
 						<property>
