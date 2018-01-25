@@ -18,28 +18,28 @@ public class ArticleService {
 
         def query = searchService.createQuery()
         query.setQuery(queryStatement)
-        query.addParam("facet","on")
-        query.addParam("facet.field","bodyContent")
+      //  query.addParam("facet","on")
+       // query.addParam("facet.field","bodyContent")
 
-        if(keyword) {
-            query = query.addParam("facet.prefix", keyword.toLowerCase())
-        }
+        //if(keyword) {
+        //    query = query.addParam("facet.prefix", keyword.toLowerCase())
+       // }
 
         // execute query
         def executedQuery = searchService.search(query)
 
         // build suggestions
-        def terms = executedQuery.facet_counts.facet_fields['bodyContent']
+        //def terms = executedQuery.facet_counts.facet_fields['bodyContent']
 
-        def suggestions = []
+       // def suggestions = []
 
-        terms.each { term ->
-            if(term.value > 0) {
-                suggestions.add(term.key);
-            }
-        }
+        //terms.each { term ->
+        //    if(term.value > 0) {
+        //        suggestions.add(term.key);
+        //    }
+        //}
 
-        return suggestions
+        return executedQuery
     }
 
     /**
