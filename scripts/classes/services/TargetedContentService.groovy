@@ -13,16 +13,19 @@ public class TargetedContentService {
     public getSiteItemService() { return siteItemService }
     public setSiteItemService(service) { siteItemService = service }
 
+    private targetingHelper
+    public getTargetingHelper() { return targetingHelper }
+    public setTargetingHelper(helper) { targetingHelper = helper }
     /**
      * get the homepage scenario with the best fit for the given profile
      * @param Profile of the current user
      */
     public getHomepageScenario(profile) {
         /* determine season for profile's locale */
-        def season = "spring"
+        def season = targetingHelper.determineSeason(profile)
         def defaultScenarioId = "/site/components/homepage-scenarios/9df1c3bc-c7f8-71e2-8b28-aa5c55872dc5.xml"
         def queryStatement = 'content-type:"/component/home-page-scenario" ' +
-                              'AND ((seasons.item.key:"'+ season + '") OR localId:"' + defaultScenarioId + '")'
+                              'AND ((season.item.key:"'+ season + '")^100 OR localId:"' + defaultScenarioId + '")'
 
         System.out.println(queryStatement)
         def query = searchService.createQuery()
