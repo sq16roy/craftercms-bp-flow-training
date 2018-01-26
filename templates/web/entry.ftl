@@ -84,9 +84,9 @@
         </div>
       </section>
       
-          <section id="about" style="min-height:0px !important; padding: 5px; background-color:black !important;"  >
+          <section id="about" style="min-height:0px !important; padding: 5px;"  >
 
-          <div style="min-height:0px !important; background-color:black !important;" class="row about-intro clearfix" <@studio.componentContainerAttr target="col1" objectId=contentModel.objectId /> >
+          <div style="min-height:0px !important; class="row about-intro clearfix" <@studio.componentContainerAttr target="col1" objectId=contentModel.objectId /> >
               <#if contentModel.col1?? && contentModel.col1.item??>
                   <#list contentModel.col1.item as module>
                       <@renderComponent component=module />
