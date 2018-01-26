@@ -23,11 +23,10 @@
             data-parallax="scroll" 
             data-image-src="${homepageScenario.bckgroundImage}"
             data-natural-width=3000 
-            data-natural-height=2000 
-			<@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
+            data-natural-height=2000>
 
         <div class="overlay"></div>
-        <div class="home-content">        
+        <div class="home-content" <@studio.componentAttr path=homepageScenario.storeUrl ice=true />>        
 
             <div class="row contents">                     
                 <div class="home-content-left">
