@@ -26,10 +26,10 @@
             data-natural-height=2000>
 
         <div class="overlay"></div>
-        <div class="home-content" <@studio.componentAttr path=homepageScenario.storeUrl ice=true />>        
+        <div class="home-content">        
 
             <div class="row contents">                     
-                <div class="home-content-left">
+                <div class="home-content-left"<@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
 
                     <h3 data-aos="fade-up" <@studio.iceAttr iceGroup="headlines"/>>${contentModel.headline}</h3>
 
