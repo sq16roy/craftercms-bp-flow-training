@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/home-page-scenario</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>421d</objectGroupId>
+	<objectId>421dc65a-19fc-44db-8719-a0c4d2203aab</objectId>
+	<file-name>421dc65a-19fc-44db-8719-a0c4d2203aab.xml</file-name>
+	<internal-name>Summer</internal-name>
+	<disabled>false</disabled>
+	<hoverImageLarge>/static-assets/images/homepage-scenarios/iphone.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/homepage-scenarios/iphone.png</hoverImageSmall>
+	<bckgroundImage>/static-assets/images/homepage-scenarios/summer.jpeg</bckgroundImage>
+	<season>	<item>	<key>Summer</key>
+	<value>Summer</value>
+	</item></season>
+	<createdDate>2018-01-26T01:15:41.616Z</createdDate>
+	<createdDate_dt>2018-01-26T01:15:41.616Z</createdDate_dt>
+	<lastModifiedDate>2018-01-26T01:15:41.616Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-26T01:15:41.616Z</lastModifiedDate_dt>
+</component>
