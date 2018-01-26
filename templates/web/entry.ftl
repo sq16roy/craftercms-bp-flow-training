@@ -37,7 +37,7 @@
                         ${contentModel.subHeadline}
                     </h1>
 
-                    <div class="buttons" <@studio.iceAttr iceGroup="ctas"/>>
+                    <div class="buttons" <@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
                        <#if homepageScenario.ctas?? &&  homepageScenario.ctas.item??>
                          <#list homepageScenario.ctas.item as cta>
                             <a href="${cta.link}" class="smoothscroll button stroke">
