@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a9d6</objectGroupId>
+	<objectId>a9d6c51d-1313-63dc-78df-053a674976f8</objectId>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>5000</orderDefault_f>
+	<disabled>false</disabled>
+	<file-name>index.xml</file-name>
+	<folder-name>a-demo</folder-name>
+	<navLabel>Demo 123</navLabel>
+	<internal-name>Demo Page</internal-name>
+	<authorName>Russ</authorName>
+	<authorPosition>Staff Writer</authorPosition>
+	<title>My Article</title>
+	<authorImage>/static-assets/images/authors/user-04.jpg</authorImage>
+	<bodyContent>&lt;h1&gt;Header 1&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;Header 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
+&lt;h3&gt;Header 3&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Bold&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Italic&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Underline&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: line-through;"&gt;Strike&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Style&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 1&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 2&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;Header 3&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width="117" valign="top"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
+	<createdDate>2018-01-26T15:47:09.371Z</createdDate>
+	<createdDate_dt>2018-01-26T15:47:09.371Z</createdDate_dt>
+	<lastModifiedDate>2018-01-26T15:47:09.371Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-26T15:47:09.371Z</lastModifiedDate_dt>
+	<expireDate_dt>2018-01-26T15:47:09.000Z</expireDate_dt>
+</page>
