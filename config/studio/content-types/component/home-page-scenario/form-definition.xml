@@ -359,6 +359,39 @@
 				</field>
 					</fields>
 				</field>
+				<field>
+					<type>checkbox-group</type>
+					<id>season</id>
+					<iceId></iceId>
+					<title>Seasons</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>seasons</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>selectAll</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>minSize</name>
+							<value><![CDATA[1]]></value>
+							<type>int</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
@@ -384,6 +417,29 @@
 						<property>
 							<name>repoPath</name>
 							<value>/static-assets/images/homepage-scenarios</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>seasons</id>
+					<title>Seasons</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;Winter&quot;,&quot;value&quot;:&quot;Winter&quot;},{&quot;key&quot;:&quot;Spring&quot;,&quot;value&quot;:&quot;Spring&quot;},{&quot;key&quot;:&quot;Summer&quot;,&quot;value&quot;:&quot;Summer&quot;},{&quot;key&quot;:&quot;Fall&quot;,&quot;value&quot;:&quot;Fall&quot;},{&quot;key&quot;:&quot;All&quot;,&quot;value&quot;:&quot;All&quot;}]</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
 								<type>undefined</type>
 						</property>
 					</properties>
