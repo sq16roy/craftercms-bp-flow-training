@@ -31,7 +31,7 @@
             <div class="row contents">                     
                 <div class="home-content-left"<@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
 
-                    <h3 data-aos="fade-up" <@studio.iceAttr iceGroup="headlines"/>>${contentModel.headline}</h3>
+                    <h3 data-aos="fade-up"><div <@studio.iceAttr iceGroup="headlines"/>>${contentModel.headline}<div></h3>
 
                     <h1 data-aos="fade-up">
                         ${contentModel.subHeadline}
