@@ -13,7 +13,7 @@
 	<internal-name>Demo Page</internal-name>
 	<authorName>Russ</authorName>
 	<authorPosition>Staff Writer</authorPosition>
-	<title>My Article</title>
+	<title>Mi Article</title>
 	<authorImage>/static-assets/images/authors/user-04.jpg</authorImage>
 	<bodyContent>&lt;h1&gt;El Header 1&lt;/h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
@@ -83,7 +83,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>2018-01-26T15:47:09.371Z</createdDate>
 	<createdDate_dt>2018-01-26T15:47:09.371Z</createdDate_dt>
-	<lastModifiedDate>2018-01-26T15:53:13.237Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-01-26T15:53:13.237Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-01-26T15:53:34.753Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-01-26T15:53:34.753Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-01-26T15:47:09.000Z</expireDate_dt>
 </page>
