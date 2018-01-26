@@ -74,11 +74,11 @@
                         <variations>
                             <variation>
                                 <title>Black Trim</title>
-                                <url></url>
+                                <url>/en</url>
                             </variation>
                             <variation>
                                 <title>Blue Trim</title>
-                                <url>?c1v1</url>
+                                <url>/en?c1v1</url>
                             </variation>
                         </variations>
                     </experiment>
