@@ -24,7 +24,7 @@
             data-image-src="${homepageScenario.bckgroundImage}"
             data-natural-width=3000 
             data-natural-height=2000 
-            <@studio.iceAttr iceGroup="background"/>>
+			<@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
 
         <div class="overlay"></div>
         <div class="home-content">        
