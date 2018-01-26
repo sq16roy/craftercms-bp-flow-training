@@ -39,7 +39,7 @@
                     </h1>
 
                     <div class="buttons" <@studio.iceAttr iceGroup="ctas"/>>
-                       <#if contentModel.ctas?? &&  contentModel.ctas.item??>
+                       <#if homepageScenario.ctas?? &&  homepageScenario.ctas.item??>
                          <#list homepageScenario.ctas.item as cta>
                             <a href="${cta.link}" class="smoothscroll button stroke">
                                 <span class="icon-circle-down" aria-hidden="true"></span>
