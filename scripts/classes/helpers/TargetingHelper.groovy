@@ -10,6 +10,16 @@ public class TargetingHelper {
      * @param Profile of the current user
      */
     public determineSeason(profile) {
-        return profile.attributes.season
+        def season = "Season"
+
+        if(profile) {
+            if(profile.attributes) {
+                if (profile.attributes.season) {
+                    season = profile.attributes.season
+                }
+            }
+        }
+
+        return season
     }
 }
