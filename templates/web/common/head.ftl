@@ -26,20 +26,14 @@
 
   <#if RequestParameters["c1v1"]??>
     <#assign bgColorLite = "#003F87" />
-    <#assign bgColor = "#3B6AA0" />
+    <#assign bgColorDark = "#3B6AA0" />
   <#else>
     <#assign bgColorLite = "grey" />
     <#assign bgColorDark = "black" />
   </#if>
-  <style>
-    #header {
-      background-color: ${bgColorDark};
-    }
-    body {
-      background-color: ${bgColorDark};
-    }
 
-    #about {
+  <style>
+    #header, body, #about, #header-nav-wrap  {
       background-color: ${bgColorDark};
     }
 
