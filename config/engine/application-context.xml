@@ -10,4 +10,9 @@
         <property name="searchService"  ref="crafter.searchService" />
     </bean>
 
+    <bean id="targetedContentService" class="services.targetedContentService">
+        <property name="searchService"  ref="crafter.searchService" />
+        <property name="siteItemService"  ref="crafter.siteItemService" />
+    </bean>
+
 </beans>

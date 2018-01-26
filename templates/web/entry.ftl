@@ -21,7 +21,7 @@
    ================================================== -->
    <section id="home" 
             data-parallax="scroll" 
-            data-image-src="${contentModel.bckgroundImage}" 
+            data-image-src="${homepageScenario.bckgroundImage}"
             data-natural-width=3000 
             data-natural-height=2000 
             <@studio.iceAttr iceGroup="background"/>>
@@ -40,7 +40,7 @@
 
                     <div class="buttons" <@studio.iceAttr iceGroup="ctas"/>>
                        <#if contentModel.ctas?? &&  contentModel.ctas.item??>
-                         <#list contentModel.ctas.item as cta>
+                         <#list homepageScenario.ctas.item as cta>
                             <a href="${cta.link}" class="smoothscroll button stroke">
                                 <span class="icon-circle-down" aria-hidden="true"></span>
                                 ${cta.label}
@@ -52,8 +52,8 @@
                 </div>
 
                 <div class="home-image-right" <@studio.iceAttr iceGroup="hover"/>>
-                    <img src="${contentModel.hoverImageSmall}" 
-                        srcset="${contentModel.hoverImageSmall} 1x, ${contentModel.hoverImageLarge} 2x" >
+                    <img src="${homepageScenario.hoverImageSmall}"
+                        srcset="${homepageScenario.hoverImageSmall} 1x, ${homepageScenario.hoverImageLarge} 2x" >
                 </div>
             </div>
 
