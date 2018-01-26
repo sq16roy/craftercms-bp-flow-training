@@ -10,7 +10,7 @@
 	<image-thumbnail>redirect.png</image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^/site/website/*</pattern>
+			<pattern>^/site/website.*</pattern>
 		</includes>
 	</paths>
 </content-type>
