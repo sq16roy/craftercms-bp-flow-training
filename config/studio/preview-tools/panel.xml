@@ -70,10 +70,10 @@
             <config>
                 <experiments>
                     <experiment>
-                        <title>YellowVsBlue</title>
+                        <title>Black vs Blue Trim</title>
                         <variations>
                             <variation>
-                                <title>yellow</title>
+                                <title>black</title>
                                 <url>/</url>
                             </variation>
                             <variation>
