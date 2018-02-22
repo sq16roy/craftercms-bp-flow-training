@@ -17,13 +17,13 @@
     
     
     <filters>  
-        <filter>
+        <!--filter>
             <script>/scripts/filters/Timer.groovy</script>
                 <mapping>
                     <include>/**</include>
                 </mapping>
            
-        </filter>
+        </filter-->
 
         <filter>
             <script>/scripts/filters/ReverseProxy.groovy</script>
