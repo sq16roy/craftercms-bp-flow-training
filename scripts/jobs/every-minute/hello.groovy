@@ -1,1 +1,1 @@
-logger.info("This Job runs every minute because it's a script in /scripts/job/every-minute.  Hello Word!")
+logger.info("This script runs every minute because it's a located in /scripts/job/every-minute. Hello Word!")
