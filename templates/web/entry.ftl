@@ -34,7 +34,6 @@
                     <h3 data-aos="fade-up" <@studio.iceAttr iceGroup="headlines"/> >${contentModel.headline}</h3>
 
                     <h1 data-aos="fade-up">
-		     <h1>RUSS WAS HERE</h1>
                         ${contentModel.subHeadline}
                     </h1>
 
