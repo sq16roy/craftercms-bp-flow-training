@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>1a72</objectGroupId>
+	<objectId>1a727862-6edb-2745-ca03-f44ffbe5c3d1</objectId>
+	<file-name>1a727862-6edb-2745-ca03-f44ffbe5c3d1.xml</file-name>
+	<content_html>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;This is some more content&lt;/p&gt;</content_html>
+	<createdDate>2018-04-06T17:20:18.504Z</createdDate>
+	<createdDate_dt>2018-04-06T17:20:18.504Z</createdDate_dt>
+	<lastModifiedDate>2018-04-06T17:20:18.504Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-06T17:20:18.504Z</lastModifiedDate_dt>
+</component>
