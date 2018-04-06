@@ -18,8 +18,5 @@
 	<headline>Modern design</headline>
 	<subHeadline>Dazzle Bootstap Theme
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/1ca5d8d1-fef5-4891-e593-3a6ba3fbe80b.xml</value>
-	<key>/site/components/page/1ca5d8d1-fef5-4891-e593-3a6ba3fbe80b.xml</key>
-	<include>/site/components/page/1ca5d8d1-fef5-4891-e593-3a6ba3fbe80b.xml</include>
-	</item></col1>
+	<col1/>
 </page>
