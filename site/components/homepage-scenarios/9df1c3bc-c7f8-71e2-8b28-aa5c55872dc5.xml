@@ -7,15 +7,15 @@
 	<file-name>9df1c3bc-c7f8-71e2-8b28-aa5c55872dc5.xml</file-name>
 	<internal-name>Default</internal-name>
 	<bckgroundImage>/static-assets/images/homepage-scenarios/shutterbug.jpg</bckgroundImage>
-	<hoverImageLarge>/static-assets/images/homepage-scenarios/iphone-app-940.png</hoverImageLarge>
-	<hoverImageSmall>/static-assets/images/homepage-scenarios/iphone-app-940.png</hoverImageSmall>
+	<hoverImageLarge>/static-assets/images/homepage-scenarios/iphone-app-470.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/homepage-scenarios/iphone-app-470.png</hoverImageSmall>
 	<ctas>	<item>	<label>Learn More</label>
 	<link>/products</link>
 	</item></ctas>
 	<createdDate>2018-01-25T23:13:58.951Z</createdDate>
 	<createdDate_dt>2018-01-25T23:13:58.951Z</createdDate_dt>
-	<lastModifiedDate>2018-02-05T20:02:22.300Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-02-05T20:02:22.300Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-06T16:45:06.822Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-06T16:45:06.822Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<season>	<item>	<key>All</key>
 	<value>All</value>
