@@ -12,13 +12,13 @@
 	<disabled>false</disabled>
 	<file-name>index.xml</file-name>
 	<folder-name>april</folder-name>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>6000</orderDefault_f>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
 	<bodyContent>&lt;p&gt;THIS IS MY ARTICLE&lt;/p&gt;</bodyContent>
 	<createdDate>2018-04-06T17:25:21.337Z</createdDate>
 	<createdDate_dt>2018-04-06T17:25:21.337Z</createdDate_dt>
-	<lastModifiedDate>2018-04-06T17:25:21.337Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-04-06T17:25:21.337Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-04-06T17:26:39.150Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-06T17:26:39.150Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-04-06T17:25:21.000Z</expireDate_dt>
 </page>
