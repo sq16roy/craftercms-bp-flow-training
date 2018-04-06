@@ -20,7 +20,7 @@
     </bean>
 <!--
     <bean id="kinesisProducerHelper" class="helpers.aws.KinesisProducerHelper">
--->
-    </bean>
 
+    </bean>
+-->
 </beans>
