@@ -19,4 +19,8 @@
     <bean id="targetingHelper" class="helpers.TargetingHelper">
     </bean>
 
+    <bean id="kinesisProducerHelper" class="helpers.aws.KinesisProducerHelper">
+
+    </bean>
+
 </beans>
