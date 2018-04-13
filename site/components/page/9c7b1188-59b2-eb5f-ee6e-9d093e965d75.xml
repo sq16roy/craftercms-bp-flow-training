@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>9c7b</objectGroupId>
+	<objectId>9c7b1188-59b2-eb5f-ee6e-9d093e965d75</objectId>
+	<file-name>9c7b1188-59b2-eb5f-ee6e-9d093e965d75.xml</file-name>
+	<content_html>&lt;p&gt;Content Goes Here&lt;/p&gt;</content_html>
+	<createdDate>2018-04-13T14:10:30.460Z</createdDate>
+	<createdDate_dt>2018-04-13T14:10:30.460Z</createdDate_dt>
+	<lastModifiedDate>2018-04-13T14:10:30.460Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-04-13T14:10:30.460Z</lastModifiedDate_dt>
+</component>
