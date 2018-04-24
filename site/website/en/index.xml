@@ -21,5 +21,8 @@
 	<col1>	<item>	<value>/site/components/page/9c7b1188-59b2-eb5f-ee6e-9d093e965d75.xml</value>
 	<key>/site/components/page/9c7b1188-59b2-eb5f-ee6e-9d093e965d75.xml</key>
 	<include>/site/components/page/9c7b1188-59b2-eb5f-ee6e-9d093e965d75.xml</include>
+	</item>	<item>	<value>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</value>
+	<key>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</key>
+	<include>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</include>
 	</item></col1>
 </page>
