@@ -24,8 +24,8 @@
         <div class="row about-intro">
 
             <div class="col-eight">
-                <h1 style="color:red;" class="intro-header">${contentModel.title}</h1>
-                <h2>${contentModel.dateline}</h2>
+                <h1 class="intro-header">${contentModel.title}</h1>
+                <h2>${contentModel.dateline} | ${contentModel.topic}</h2>
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">
