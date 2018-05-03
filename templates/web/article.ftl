@@ -24,11 +24,11 @@
         <div class="row about-intro">
 
             <div class="col-eight" style="color:white;">
-                <h1 class="intro-header">${contentModel.title}</h1>
-                <h2>${contentModel.dateline} | ${contentModel.topic} | ${mysum}</h2>
+                <h1 style="color:white;" class="intro-header">${contentModel.title}</h1>
+                <h2 style="color:white;">${contentModel.dateline}</h2>
                 ${contentModel.bodyContent}
             </div>                       
-            <div class="col-four">
+            <div class="col-four" style="color:white;">
                 <div class="testimonial-author">
                     <img class="img-circle" src="${contentModel.authorImage}" alt="Author image">
                     <div class="author">
