@@ -18,8 +18,5 @@
 	<headline>Very Modern design</headline>
 	<subHeadline>Dazzle
 </subHeadline>
-	<col1>	<item>	<value>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</value>
-	<key>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</key>
-	<include>/site/components/page/dcbc67c8-9cd1-7839-4aad-efbff3789098.xml</include>
-	</item></col1>
+	<col1/>
 </page>
