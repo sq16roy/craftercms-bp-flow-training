@@ -619,7 +619,7 @@
 						</property>
 						<property>
 							<name>populateDateExp</name>
-							<value>now + 7 days</value>
+							<value>+7 days</value>
 							<type>string</type>
 						</property>
 						<property>
