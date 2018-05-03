@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5714</objectGroupId>
+	<objectId>5714ba76-29a9-1383-0298-38fb88445ad9</objectId>
+	<navLabel>Demo</navLabel>
+	<internal-name>Demo</internal-name>
+	<authorName>Russ</authorName>
+	<authorPosition/>
+	<dateline>Reston</dateline>
+	<title>Demo</title>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>demo</folder-name>
+	<disabled>false</disabled>
+	<authorImage>/static-assets/images/authors/user-04.jpg</authorImage>
+	<bodyContent>&lt;p&gt;Demo&lt;/p&gt;</bodyContent>
+	<createdDate>2018-05-03T15:32:21.326Z</createdDate>
+	<createdDate_dt>2018-05-03T15:32:21.326Z</createdDate_dt>
+	<lastModifiedDate>2018-05-03T15:32:21.326Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-03T15:32:21.326Z</lastModifiedDate_dt>
+	<expireDate_dt>2018-05-03T15:32:21.000Z</expireDate_dt>
+</page>
