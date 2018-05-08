@@ -47,7 +47,7 @@ public class KinesisProducerHelper {
 
         KinesisProducerConfiguration config = new KinesisProducerConfiguration();
 
-        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("AKIAJNF23QAHLUDOSESQ", "soaLRZfDMzbDQX76r7ltBI7kyrKI8AvrH7e2wTHI")
+        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("X", "X")
         //def credProvider = new DefaultAWSCredentialsProviderChain()
         def credentialsProvider = new AWSStaticCredentialsProvider(awsCredentials)
 
