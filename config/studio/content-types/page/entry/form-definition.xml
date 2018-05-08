@@ -215,6 +215,24 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>label</type>
+					<id>spacer</id>
+					<iceId>headlines</iceId>
+					<title>Spacer</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>text</name>
+							<value></value>
+							<type>string</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 		<section>
