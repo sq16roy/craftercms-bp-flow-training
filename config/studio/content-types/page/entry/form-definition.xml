@@ -226,7 +226,7 @@
 					<properties>
 						<property>
 							<name>text</name>
-							<value></value>
+							<value>c</value>
 							<type>string</type>
 						</property>
 					</properties>
