@@ -8,7 +8,7 @@
 	<internal-name>Tuesday Demo</internal-name>
 	<authorName>Russ</authorName>
 	<authorPosition>Product Guy</authorPosition>
-	<title>My Article Title</title>
+	<title>Mi Article Title</title>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>7000</orderDefault_f>
 	<disabled>false</disabled>
@@ -83,7 +83,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>2018-05-08T14:27:03.031Z</createdDate>
 	<createdDate_dt>2018-05-08T14:27:03.031Z</createdDate_dt>
-	<lastModifiedDate>2018-05-08T14:27:03.031Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-08T14:27:03.031Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-08T14:35:23.070Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-08T14:35:23.070Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-05-08T14:27:03.000Z</expireDate_dt>
 </page>
