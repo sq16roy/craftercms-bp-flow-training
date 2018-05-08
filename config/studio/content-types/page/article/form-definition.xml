@@ -167,6 +167,49 @@
 					<constraints>
 					</constraints>
 				</field>
+				<field>
+					<type>textarea</type>
+					<id>keywords</id>
+					<iceId></iceId>
+					<title>Keywords</title>
+					<description>Comma separate keywords</description>
+					<defaultValue>Article</defaultValue>
+					<help>Comma separate keywords.&amp;amp;nbsp; Be descriptive.</help>
+					<properties>
+						<property>
+							<name>cols</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>rows</name>
+							<value>5</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>100000</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 		<section>
