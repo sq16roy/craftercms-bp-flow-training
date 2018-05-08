@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>592a</objectGroupId>
+	<objectId>592a7cbe-f518-4e3f-4df6-5ef8df79f141</objectId>
+	<file-name>592a7cbe-f518-4e3f-4df6-5ef8df79f141.xml</file-name>
+	<content_html>&lt;h1&gt;My Title&lt;/h1&gt;
+&lt;p&gt;Bacon ipsum dolor amet cow leberkas chuck strip steak turkey ball tip bresaola doner. Doner flank shank pork belly chuck. Jowl kevin swine sausage pork ham t-bone turkey alcatra. Pork boudin salami, ball tip bresaola beef ribs pork belly ham hock cow capicola jerky corned beef tri-tip. Doner pork loin ham meatball, kielbasa bacon t-bone.&lt;/p&gt;</content_html>
+	<createdDate>2018-05-08T14:21:59.588Z</createdDate>
+	<createdDate_dt>2018-05-08T14:21:59.588Z</createdDate_dt>
+	<lastModifiedDate>2018-05-08T14:21:59.588Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-08T14:21:59.588Z</lastModifiedDate_dt>
+</component>
