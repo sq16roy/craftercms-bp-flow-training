@@ -12,13 +12,14 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-05-08T14:18:40.432Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-08T14:18:40.432Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-18T18:52:22.898Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-18T18:52:22.898Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Very  Modern design</headline>
-	<subHeadline>Dazzle</subHeadline>
+	<subHeadline>Dazzle 123</subHeadline>
 	<col1>	<item>	<value>/site/components/page/03bbc113-c424-794f-7745-ca0e9da63d3a.xml</value>
 	<key>/site/components/page/03bbc113-c424-794f-7745-ca0e9da63d3a.xml</key>
 	<include>/site/components/page/03bbc113-c424-794f-7745-ca0e9da63d3a.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
