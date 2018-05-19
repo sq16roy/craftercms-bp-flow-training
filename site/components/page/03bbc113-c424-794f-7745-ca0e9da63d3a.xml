@@ -6,10 +6,7 @@
 	<objectId>03bbc113-c424-794f-7745-ca0e9da63d3a</objectId>
 	<file-name>03bbc113-c424-794f-7745-ca0e9da63d3a.xml</file-name>
 	<sectionID>content</sectionID>
-	<zone1>	<item>	<value>/site/components/page/592a7cbe-f518-4e3f-4df6-5ef8df79f141.xml</value>
-	<key>/site/components/page/592a7cbe-f518-4e3f-4df6-5ef8df79f141.xml</key>
-	<include>/site/components/page/592a7cbe-f518-4e3f-4df6-5ef8df79f141.xml</include>
-	</item></zone1>
+	<zone1/>
 	<zone2/>
 	<createdDate>2018-05-08T14:21:32.321Z</createdDate>
 	<createdDate_dt>2018-05-08T14:21:32.321Z</createdDate_dt>
