@@ -73,6 +73,14 @@
 
 
 
+<category>
+<label>Targeting</label>
+<component>
+<label>Targeted Section</label>
+<type>/plugins/targeting/targeter</type>
+<path>/site/components/page</path>
+</component>
+</category>
 
 
 
