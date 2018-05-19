@@ -5,7 +5,7 @@
 	<objectGroupId>ea2f</objectGroupId>
 	<objectId>ea2faae0-87af-3ad3-132a-3b37a25ebab4</objectId>
 	<file-name>ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</file-name>
-	<segment>Early Investors</segment>
+	<segment>Early Investor</segment>
 	<zone1>	<item>	<value>undefined</value>
 	<key>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</key>
 	<include>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</include>
@@ -13,6 +13,6 @@
 	</item></zone1>
 	<createdDate>2018-05-19T05:50:54.625Z</createdDate>
 	<createdDate_dt>2018-05-19T05:50:54.625Z</createdDate_dt>
-	<lastModifiedDate>2018-05-19T06:06:53.657Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-19T06:06:53.657Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-19T06:08:57.071Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T06:08:57.071Z</lastModifiedDate_dt>
 </component>
