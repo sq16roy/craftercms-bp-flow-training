@@ -20,5 +20,8 @@
 	<col1>	<item>	<value>/site/components/page/c5f68a91-83bf-48c3-0093-04e87f09d869.xml</value>
 	<key>/site/components/page/c5f68a91-83bf-48c3-0093-04e87f09d869.xml</key>
 	<include>/site/components/page/c5f68a91-83bf-48c3-0093-04e87f09d869.xml</include>
+	</item>	<item>	<value>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</value>
+	<key>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</key>
+	<include>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</include>
 	</item></col1>
 </page>
