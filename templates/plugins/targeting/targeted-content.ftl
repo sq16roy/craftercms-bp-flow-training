@@ -2,7 +2,7 @@
 
     <div class="container clearfix row" <@studio.componentAttr path=contentModel.storeUrl ice=false />>
 
-      <div style="min-height:200px;" class="col-five" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
+      <div style="min-height:200px;" class="col-ten" <@studio.componentContainerAttr target="zone1" objectId=contentModel.objectId />>
         ${contentModel.segment}
         <#if contentModel.zone1?? &&  contentModel.zone1.item?? >
             <#list contentModel.zone1.item as module>
