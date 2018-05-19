@@ -9,12 +9,14 @@
 	<zone1>	<item>	<value>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</value>
 	<key>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</key>
 	<include>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item>	<value>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</value>
 	<key>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</key>
 	<include>/site/components/page/22362e7f-5501-beb6-618d-490b02b63506.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></zone1>
 	<createdDate>2018-05-19T05:50:54.625Z</createdDate>
 	<createdDate_dt>2018-05-19T05:50:54.625Z</createdDate_dt>
-	<lastModifiedDate>2018-05-19T06:01:58.091Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-19T06:01:58.091Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-19T06:05:14.835Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T06:05:14.835Z</lastModifiedDate_dt>
 </component>
