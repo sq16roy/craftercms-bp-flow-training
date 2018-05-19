@@ -5,7 +5,10 @@
 	<objectGroupId>781c</objectGroupId>
 	<objectId>781ccac1-15fe-fdb7-dc03-9c465e233553</objectId>
 	<file-name>781ccac1-15fe-fdb7-dc03-9c465e233553.xml</file-name>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</value>
+	<key>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</key>
+	<include>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</include>
+	</item></zone1>
 	<rules>	<item>	<operator>Contains</operator>
 	<value>Foo</value>
 	</item></rules>
