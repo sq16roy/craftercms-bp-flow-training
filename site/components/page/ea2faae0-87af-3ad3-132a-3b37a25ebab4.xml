@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/targeting/targeted-content</content-type>	<display-template>/templates/plugins/targeting/targeted-content.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ea2f</objectGroupId>
+	<objectId>ea2faae0-87af-3ad3-132a-3b37a25ebab4</objectId>
+	<file-name>ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</file-name>
+	<segment>fff</segment>
+	<zone1/>
+	<createdDate>2018-05-19T05:50:54.625Z</createdDate>
+	<createdDate_dt>2018-05-19T05:50:54.625Z</createdDate_dt>
+	<lastModifiedDate>2018-05-19T05:50:54.625Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T05:50:54.625Z</lastModifiedDate_dt>
+</component>
