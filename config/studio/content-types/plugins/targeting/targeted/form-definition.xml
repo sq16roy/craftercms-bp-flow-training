@@ -16,9 +16,7 @@
 			<type>string</type>
 		</property>
 	</properties>
-			<sections>		
-
-				<section>
+	<sections>		<section>
 			<title>Component Targeter</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
