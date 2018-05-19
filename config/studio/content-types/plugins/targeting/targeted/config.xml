@@ -1,6 +1,6 @@
-<content-type name="/plugins/bootstrap-layouts/2-col" is-wcm-type="true">
-<label>Component: 2 Column Layout</label>
-<form>/plugins/bootstrap-layouts/2-col</form>
+<content-type name="/plugins/targeting/targeter" is-wcm-type="true">
+<label>Component: Targeter</label>
+<form>/plugins/targeting/targeter</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>
