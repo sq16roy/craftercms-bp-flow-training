@@ -17,8 +17,5 @@
 	<disabled>false</disabled>
 	<headline>Very  Modern design</headline>
 	<subHeadline>Dazzle 123</subHeadline>
-	<col1>	<item>	<value>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</value>
-	<key>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</key>
-	<include>/site/components/page/446f6d24-14cf-a12e-c538-b738d3e027ec.xml</include>
-	</item></col1>
+	<col1/>
 </page>
