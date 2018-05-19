@@ -3,6 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/plugins/targeting/targeter</content-type>
+	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -114,7 +115,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>properties</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
