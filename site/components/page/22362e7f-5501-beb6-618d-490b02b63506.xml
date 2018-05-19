@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/targeting/component-2-col.ftl</display-template>
+	<content-type>/plugins/bootstrap-layouts/2-col</content-type>	<display-template>/templates/plugins/bootstrap-layouts/component-2-col.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>2236</objectGroupId>
 	<objectId>22362e7f-5501-beb6-618d-490b02b63506</objectId>
@@ -10,6 +10,6 @@
 	<zone2/>
 	<createdDate>2018-05-19T06:03:21.122Z</createdDate>
 	<createdDate_dt>2018-05-19T06:03:21.122Z</createdDate_dt>
-	<lastModifiedDate>2018-05-19T06:03:21.122Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-19T06:03:21.122Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-19T06:06:58.007Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T06:06:58.007Z</lastModifiedDate_dt>
 </component>
