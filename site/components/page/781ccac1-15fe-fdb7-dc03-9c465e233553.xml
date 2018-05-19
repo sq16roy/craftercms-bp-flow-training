@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/targeting/targeter</content-type>	<display-template>/templates/plugins/targeting/targeter.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>781c</objectGroupId>
+	<objectId>781ccac1-15fe-fdb7-dc03-9c465e233553</objectId>
+	<file-name>781ccac1-15fe-fdb7-dc03-9c465e233553.xml</file-name>
+	<zone1/>
+	<rules>	<item>	<operator>Contains</operator>
+	<value>Foo</value>
+	</item></rules>
+	<createdDate>2018-05-19T05:50:31.410Z</createdDate>
+	<createdDate_dt>2018-05-19T05:50:31.410Z</createdDate_dt>
+	<lastModifiedDate>2018-05-19T05:50:31.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T05:50:31.410Z</lastModifiedDate_dt>
+</component>
