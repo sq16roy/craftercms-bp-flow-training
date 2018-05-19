@@ -80,6 +80,11 @@
 <type>/plugins/targeting/targeter</type>
 <path>/site/components/page</path>
 </component>
+<component>
+<label>Targeted Content</label>
+<type>/plugins/targeting/targeted-content</type>
+<path>/site/components/page</path>
+</component>
 </category>
 
 
