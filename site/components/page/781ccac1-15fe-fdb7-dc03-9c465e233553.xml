@@ -5,15 +5,16 @@
 	<objectGroupId>781c</objectGroupId>
 	<objectId>781ccac1-15fe-fdb7-dc03-9c465e233553</objectId>
 	<file-name>781ccac1-15fe-fdb7-dc03-9c465e233553.xml</file-name>
-	<zone1>	<item>	<value>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</value>
+	<zone1>	<item>	<value>undefined</value>
 	<key>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</key>
 	<include>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></zone1>
 	<rules>	<item>	<operator>Contains</operator>
 	<value>Foo</value>
 	</item></rules>
 	<createdDate>2018-05-19T05:50:31.410Z</createdDate>
 	<createdDate_dt>2018-05-19T05:50:31.410Z</createdDate_dt>
-	<lastModifiedDate>2018-05-19T05:50:31.410Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-19T05:50:31.410Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-19T05:52:31.385Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T05:52:31.385Z</lastModifiedDate_dt>
 </component>
