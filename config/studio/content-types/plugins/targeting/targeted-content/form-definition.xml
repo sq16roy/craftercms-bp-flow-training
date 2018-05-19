@@ -78,6 +78,13 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Content</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
 					<type>node-selector</type>
 					<id>zone1</id>
