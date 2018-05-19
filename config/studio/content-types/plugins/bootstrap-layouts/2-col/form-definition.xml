@@ -1,9 +1,8 @@
 <form>
-	<title>Component: 2 Targeter</title>
+	<title>Component: 2 Column Layout</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/plugins/bootstrap-layouts/2-col</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -18,7 +17,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Component Targeter</title>
+			<title>Component 2 Column Layout</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -35,6 +34,107 @@
 					<constraints>
 					</constraints>
 				</field>
+				<field>
+					<type>label</type>
+					<id>NothingToFillOut</id>
+					<iceId></iceId>
+					<title>NothingToFillOut</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>text</name>
+							<value>Use Drag and Drop to add components or manage them directly in the components section below.</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>section</id>
+					<iceId></iceId>
+					<title>Section</title>
+					<description></description>
+					<defaultValue>Yes</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value></value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>sectionID</id>
+					<iceId></iceId>
+					<title>Section ID</title>
+					<description></description>
+					<defaultValue>content</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Components</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
 					<type>node-selector</type>
 					<id>zone1</id>
@@ -84,110 +184,28 @@
 					</constraints>
 				</field>
 				<field>
-					<type>repeat</type>
-					<id>rules</id>
+					<type>node-selector</type>
+					<id>zone2</id>
 					<iceId></iceId>
-					<title>Rules</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>dropdown</type>
-					<id>property</id>
-					<iceId></iceId>
-					<title>Property</title>
+					<title>Zone 2</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>datasource</name>
+							<name>minSize</name>
 							<value></value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>dropdown</type>
-					<id>operator</id>
-					<iceId></iceId>
-					<title>Operator</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>operators</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>value</id>
-					<iceId></iceId>
-					<title>Value</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>50</value>
+							<name>maxSize</name>
+							<value></value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value>components</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -195,25 +213,23 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>tokenize</name>
-							<value>false</value>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
-				</field>
-					</fields>
 				</field>
 			</fields>
 		</section>
@@ -243,8 +259,8 @@
 				</datasource>
 				<datasource>
 					<type>key-value-list</type>
-					<id>properties</id>
-					<title>Properties</title>
+					<id>yesNo</id>
+					<title>YesNo</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -254,30 +270,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;Segment&quot;,&quot;value&quot;:&quot;Segment&quot;},{&quot;key&quot;:&quot;Age&quot;,&quot;value&quot;:&quot;Age&quot;},{&quot;key&quot;:&quot;Gender&quot;,&quot;value&quot;:&quot;Gender&quot;},{&quot;key&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Region&quot;}]</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>showkeys</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>key-value-list</type>
-					<id>operators</id>
-					<title>Operators</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;Equals&quot;,&quot;value&quot;:&quot;Equals&quot;},{&quot;key&quot;:&quot;Contains&quot;,&quot;value&quot;:&quot;Contains&quot;},{&quot;key&quot;:&quot;Not Equal&quot;,&quot;value&quot;:&quot;Not Equal&quot;},{&quot;key&quot;:&quot;Greater Than&quot;,&quot;value&quot;:&quot;Greater Than&quot;},{&quot;key&quot;:&quot;Less Than&quot;,&quot;value&quot;:&quot;Less Than&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;Yes&quot;,&quot;value&quot;:&quot;Yes&quot;},{&quot;key&quot;:&quot;No&quot;,&quot;value&quot;:&quot;Bi&quot;}]</value>
 								<type>undefined</type>
 						</property>
 						<property>
