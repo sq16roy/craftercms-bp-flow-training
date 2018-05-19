@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/targeting/targeted-content</content-type>	<display-template>/templates/plugins/targeting/targeted-content.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4d43</objectGroupId>
+	<objectId>4d43ad9c-a699-a68f-3cb1-de51d2dfd76c</objectId>
+	<file-name>4d43ad9c-a699-a68f-3cb1-de51d2dfd76c.xml</file-name>
+	<segment>Late Investers</segment>
+	<zone1/>
+	<createdDate>2018-05-19T05:53:24.020Z</createdDate>
+	<createdDate_dt>2018-05-19T05:53:24.020Z</createdDate_dt>
+	<lastModifiedDate>2018-05-19T05:53:24.020Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T05:53:24.020Z</lastModifiedDate_dt>
+</component>
