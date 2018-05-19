@@ -14,13 +14,13 @@
 	<include>/site/components/page/4d43ad9c-a699-a68f-3cb1-de51d2dfd76c.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></zone1>
-	<rules>	<item>	<operator>Contains</operator>
+	<rules>	<item>	<operator>Equals</operator>
 	<value/>
 	<property>Segment</property>
 	<valueInProfile>true</valueInProfile>
 	</item></rules>
 	<createdDate>2018-05-19T05:50:31.410Z</createdDate>
 	<createdDate_dt>2018-05-19T05:50:31.410Z</createdDate_dt>
-	<lastModifiedDate>2018-05-19T05:59:13.038Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-05-19T05:59:13.038Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-05-19T06:01:24.160Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-19T06:01:24.160Z</lastModifiedDate_dt>
 </component>
