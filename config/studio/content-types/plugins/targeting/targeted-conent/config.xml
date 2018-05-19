@@ -1,6 +1,6 @@
 <content-type name="/plugins/targeting/targeted-content" is-wcm-type="true">
 <label>Component: Targeted Content</label>
-<form>/plugins/targeting/targed-content</form>
+<form>/plugins/targeting/targeted-content</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>
