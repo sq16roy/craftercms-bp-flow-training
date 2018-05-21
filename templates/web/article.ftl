@@ -41,8 +41,9 @@
             
         </div>
 
-    </section> <!-- end about -->  
+    </section>
 
+    <!-- end about -->
     <#include "/templates/web/common/footer.ftl" />  
 
     <#include "/templates/web/common/common-scripts.ftl" />
