@@ -9,7 +9,10 @@
 	<key>/site/components/page/bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</key>
 	<include>/site/components/page/bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</include>
 	</item></zone1>
-	<zone2/>
+	<zone2>	<item>	<value>/site/components/page/c7ba6f06-8a0d-5ced-11c3-3dfc1d6059df.xml</value>
+	<key>/site/components/page/c7ba6f06-8a0d-5ced-11c3-3dfc1d6059df.xml</key>
+	<include>/site/components/page/c7ba6f06-8a0d-5ced-11c3-3dfc1d6059df.xml</include>
+	</item></zone2>
 	<sectionID>content</sectionID>
 	<createdDate>2018-05-31T17:34:28.553Z</createdDate>
 	<createdDate_dt>2018-05-31T17:34:28.553Z</createdDate_dt>
