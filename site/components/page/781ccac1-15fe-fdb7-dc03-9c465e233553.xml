@@ -9,10 +9,6 @@
 	<key>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</key>
 	<include>/site/components/page/ea2faae0-87af-3ad3-132a-3b37a25ebab4.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<value>/site/components/page/4d43ad9c-a699-a68f-3cb1-de51d2dfd76c.xml</value>
-	<key>/site/components/page/4d43ad9c-a699-a68f-3cb1-de51d2dfd76c.xml</key>
-	<include>/site/components/page/4d43ad9c-a699-a68f-3cb1-de51d2dfd76c.xml</include>
-	<disableFlattening>false</disableFlattening>
 	</item></zone1>
 	<rules>	<item>	<operator>Equals</operator>
 	<value/>
