@@ -5,7 +5,10 @@
 	<objectGroupId>4879</objectGroupId>
 	<objectId>48794688-e07e-39d4-e4b3-8eac64dbbd55</objectId>
 	<file-name>48794688-e07e-39d4-e4b3-8eac64dbbd55.xml</file-name>
-	<zone1/>
+	<zone1>	<item>	<value>/site/components/page/bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</value>
+	<key>/site/components/page/bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</key>
+	<include>/site/components/page/bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</include>
+	</item></zone1>
 	<zone2/>
 	<sectionID>content</sectionID>
 	<createdDate>2018-05-31T17:34:28.553Z</createdDate>
