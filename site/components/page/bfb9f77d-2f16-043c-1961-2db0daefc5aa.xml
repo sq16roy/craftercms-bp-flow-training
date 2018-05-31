@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>bfb9</objectGroupId>
+	<objectId>bfb9f77d-2f16-043c-1961-2db0daefc5aa</objectId>
+	<file-name>bfb9f77d-2f16-043c-1961-2db0daefc5aa.xml</file-name>
+	<content_html>&lt;p&gt;ABC&lt;/p&gt;</content_html>
+	<createdDate>2018-05-31T17:34:36.577Z</createdDate>
+	<createdDate_dt>2018-05-31T17:34:36.577Z</createdDate_dt>
+	<lastModifiedDate>2018-05-31T17:34:36.577Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-31T17:34:36.577Z</lastModifiedDate_dt>
+</component>
