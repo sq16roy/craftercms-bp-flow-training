@@ -88,19 +88,7 @@
                         <class>fa-crosshairs</class>
                     </icon>
                 </control>
-                
                 <control>
-                    <name>image-picker-rendition</name>
-                    <icon>
-
-                        <class>fa-picture-o</class>
-                        <styles>
-                            <color>#7e9dbb</color>
-                        </styles>
-                    </icon>
-                </control>
-
-				<control>
                     <name>image-picker</name>
                     <icon>
                         <class>fa-picture-o</class>
@@ -109,7 +97,7 @@
                         </styles>
                     </icon>
                 </control>
-				<control>
+                <control>
                     <name>video-picker</name>
                     <icon>
                         <class>fa-video-camera</class>
@@ -185,14 +173,6 @@
                         <class>fa-plug</class>
                     </icon>
                 </datasource>
-
-				<datasource>
-                    <name>youtube</name>
-                    <icon>
-                        <class>fa-video-camera</class>
-                    </icon>
-                </datasource>
-
                 <datasource>
                     <name>video-desktop-upload</name>
                     <icon>
@@ -278,10 +258,6 @@
             <label>Audit</label>
         </tool>
         <tool>
-            <name>bulkoperations</name>
-            <label>Bulk Operations</label>
-        </tool>
-        <tool>
             <name>workflow-states</name>
             <label>Workflow States</label>
         </tool>
@@ -294,12 +270,18 @@
             <label>Log Console</label>
         </tool>
         <tool>
-            <name>preview-sync</name>
-            <label>Preview Sync</label>
+            <name>status-view</name>
+            <label>Publishing</label>
+            <icon>
+                <class>fa-cloud-upload</class>
+            </icon>
         </tool>
         <tool>
-            <name>sync-from-repository</name>
-            <label>Sync From Repository</label>
+            <name>repository</name>
+            <label>Remote Repositories</label>
+            <icon>
+                <class>fa-database</class>
+            </icon>
         </tool>
     </tools>
 </config>
