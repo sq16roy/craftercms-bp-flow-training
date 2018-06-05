@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>296b</objectGroupId>
+	<objectId>296b7041-910e-8489-e6e7-dd3eeee642cd</objectId>
+	<file-name>296b7041-910e-8489-e6e7-dd3eeee642cd.xml</file-name>
+	<content_html>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;My content updates for today&amp;#39;s webinar.&lt;/p&gt;</content_html>
+	<createdDate>2018-06-05T17:42:37.435Z</createdDate>
+	<createdDate_dt>2018-06-05T17:42:37.435Z</createdDate_dt>
+	<lastModifiedDate>2018-06-05T17:42:37.435Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-06-05T17:42:37.435Z</lastModifiedDate_dt>
+</component>
