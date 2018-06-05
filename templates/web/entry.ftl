@@ -33,9 +33,9 @@
 
                     <h1 data-aos="fade-up" <@studio.iceAttr iceGroup="headlines"/> >${contentModel.headline}</h1>
 
-                    <h1 data-aos="fade-up">
+                    <h3 data-aos="fade-up">
                     ${contentModel.subHeadline} 
-                    </h1>
+                    </h3>
 
                     <div class="buttons" <@studio.componentAttr path=homepageScenario.storeUrl ice=true />>
                        <#if homepageScenario.ctas?? &&  homepageScenario.ctas.item??>
