@@ -17,7 +17,10 @@
 	<disabled>false</disabled>
 	<headline>Very Modern design</headline>
 	<subHeadline>Dazzle</subHeadline>
-	<col1>	<item>	<value>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</value>
+	<col1>	<item>	<value>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</value>
+	<key>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</key>
+	<include>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</include>
+	</item>	<item>	<value>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</value>
 	<key>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</key>
 	<include>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</include>
 	</item></col1>
