@@ -5,29 +5,23 @@
 	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
 	<placeInNav>false</placeInNav>
 	<file-name>index.xml</file-name>
-	<internal-name>Home (EN)</internal-name>
+	<internal-name>Home (EN_Us)</internal-name>
 	<orderDefault_f>-1</orderDefault_f>
 	<objectGroupId>8d7f</objectGroupId>
 	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-06-18T19:21:20.091Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-06-18T19:21:20.091Z</lastModifiedDate_dt>
+	<lastModifiedDate>12/12/2017 1:17:1</lastModifiedDate>
+	<lastModifiedDate_dt>12/12/2017 1:17:1</lastModifiedDate_dt>
 	<disabled>false</disabled>
-	<headline>Very Modern design</headline>
-	<subHeadline>Dazzle</subHeadline>
-	<col1>	<item>	<value>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</value>
-	<key>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</key>
-	<include>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<value>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</value>
-	<key>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</key>
-	<include>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<value>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</value>
-	<key>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</key>
-	<include>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></col1>
+	<bckgroundImage>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//shutterbug.jpg</bckgroundImage>
+	<hoverImageLarge>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageLarge>
+	<hoverImageSmall>/static-assets/images/pages/8d7f21fa-5e09-00aa-8340-853b7db302da//iphone-app-470.png</hoverImageSmall>
+	<ctas>	<item>	<label>Watch Video</label>
+	<link>http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a</link>
+	</item></ctas>
+	<headline>Modern design</headline>
+	<subHeadline>Razzle Dazzle!!!!
+</subHeadline>
 </page>
