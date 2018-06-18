@@ -12,19 +12,22 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-06-05T17:41:03.771Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-06-05T17:41:03.771Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-06-18T19:21:20.091Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-06-18T19:21:20.091Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Very Modern design</headline>
 	<subHeadline>Dazzle</subHeadline>
 	<col1>	<item>	<value>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</value>
 	<key>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</key>
 	<include>/site/components/page/296b7041-910e-8489-e6e7-dd3eeee642cd.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item>	<value>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</value>
 	<key>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</key>
 	<include>/site/components/page/3970dc49-323a-9ec3-a11f-72f26fc8bc7a.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item>	<value>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</value>
 	<key>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</key>
 	<include>/site/components/page/19bde85e-7b0e-7df6-f673-87102866d0ca.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
