@@ -19,7 +19,7 @@
     <#include "/templates/web/common/header.ftl" />
 
 
-   <section id="about">
+   <section id="about" style="background-color:white;">
 
         <div class="row about-intro">
 
