@@ -24,7 +24,7 @@
         <div class="row about-intro">
 
             <div class="col-eight">
-                <h1 class="intro-header">${contentModel.title}</h1>
+                <h1 class="intro-header">${contentModel.title} | (${mysum})</h1>
                 <h2 style="color:green">${contentModel.dateline}</h2>
                
                 ${contentModel.bodyContent}
