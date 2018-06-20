@@ -10,7 +10,7 @@
 	<internal-name>Our Demo Page (note)</internal-name>
 	<authorName>Russ</authorName>
 	<authorPosition>Write</authorPosition>
-	<title>My Demo Article 123</title>
+	<title>My Demo Article</title>
 	<disabled>false</disabled>
 	<file-name>index.xml</file-name>
 	<folder-name>our-demo</folder-name>
@@ -84,7 +84,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>2018-06-20T16:15:36.378Z</createdDate>
 	<createdDate_dt>2018-06-20T16:15:36.378Z</createdDate_dt>
-	<lastModifiedDate>2018-06-20T16:18:41.246Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-06-20T16:18:41.246Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-06-20T16:15:36.378Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-06-20T16:15:36.378Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-06-20T16:15:36.000Z</expireDate_dt>
 </page>
