@@ -25,6 +25,7 @@
 
             <div class="col-eight">
                 <h1 class="intro-header">${contentModel.title}</h1>
+                <h2 style="color:green">${contentModel.dateline}</h2>
                
                 ${contentModel.bodyContent}
             </div>                       
