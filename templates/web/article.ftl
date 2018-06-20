@@ -11,7 +11,6 @@
 
 <head>
     <title>Dazzle</title>
-    <meta id="keywords">${contentModel.keywords}</meta>
     <#include "/templates/web/common/head.ftl" />
 </head>
 
