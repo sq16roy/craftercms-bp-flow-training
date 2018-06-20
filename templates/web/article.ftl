@@ -23,12 +23,12 @@
 
         <div class="row about-intro">
 
-            <div class="col-eight" style="color:white;">
-                <h1 style="color:white;" class="intro-header">${contentModel.title}</h1>
+            <div class="col-eight">
+                <h1 class="intro-header">${contentModel.title}</h1>
                
                 ${contentModel.bodyContent}
             </div>                       
-            <div class="col-four" style="color:white;">
+            <div class="col-four">
                 <div class="testimonial-author">
                     <img class="img-circle" src="${contentModel.authorImage}" alt="Author image">
                     <div class="author">
