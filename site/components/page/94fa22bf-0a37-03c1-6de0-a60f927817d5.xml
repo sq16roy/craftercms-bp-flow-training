@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>94fa</objectGroupId>
+	<objectId>94fa22bf-0a37-03c1-6de0-a60f927817d5</objectId>
+	<file-name>94fa22bf-0a37-03c1-6de0-a60f927817d5.xml</file-name>
+	<content_html>&lt;h1&gt;eGoverment&amp;nbsp;&lt;/h1&gt;
+&lt;p&gt;Bacon ipsum &lt;strong&gt;dolor&lt;/strong&gt; amet turducken bacon pig pastrami. Turkey rump venison, chicken porchetta salami swine tongue strip steak drumstick biltong cupim short ribs leberkas ribeye. Bresaola kevin sirloin strip steak jerky. Pork sirloin picanha tenderloin frankfurter cow. Prosciutto porchetta jerky shoulder corned beef ribeye buffalo swine venison spare ribs.&lt;/p&gt;
+&lt;p&gt;Jerky rump t-bone kielbasa hamburger prosciutto. Buffalo ham short loin short ribs chuck. Pork chop pastrami tenderloin shank porchetta ground round brisket ham salami pork burgdoggen tongue fatback flank. Capicola sausage porchetta buffalo. Cow rump fatback tongue brisket boudin shoulder chuck burgdoggen.&lt;/p&gt;</content_html>
+	<createdDate>2018-06-26T15:31:24.411Z</createdDate>
+	<createdDate_dt>2018-06-26T15:31:24.411Z</createdDate_dt>
+	<lastModifiedDate>2018-06-26T15:31:24.411Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-06-26T15:31:24.411Z</lastModifiedDate_dt>
+</component>
