@@ -103,6 +103,10 @@
     body.studio-dnd-enabled [data-studio-components-target] {
 	    margin: 10px !important;
     	margin-left: 52px !important;
+        
+         .removeComp {
+    		color: #f00 !important;
+         }
 	</style>
 </body>
 
