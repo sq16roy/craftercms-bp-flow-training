@@ -21,9 +21,5 @@
 	<key>/site/components/page/9a9eb5e5-6942-1490-13f5-1614317ccd5a.xml</key>
 	<include>/site/components/page/9a9eb5e5-6942-1490-13f5-1614317ccd5a.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<value>/site/components/page/94fa22bf-0a37-03c1-6de0-a60f927817d5.xml</value>
-	<key>/site/components/page/94fa22bf-0a37-03c1-6de0-a60f927817d5.xml</key>
-	<include>/site/components/page/94fa22bf-0a37-03c1-6de0-a60f927817d5.xml</include>
-	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
