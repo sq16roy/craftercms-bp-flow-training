@@ -25,7 +25,7 @@
         </rteStylesheets>
 
         <toolbarItems1>
-            table, formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,edithtml,|,undo,redo,tablecontrols,tables
+            formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,edithtml,|,undo,redo,tablecontrols,tables
         </toolbarItems1>
         <toolbarItems2></toolbarItems2>
         <toolbarItems3></toolbarItems3>
@@ -109,7 +109,7 @@
 		</rteStyleOverride>
 
         <toolbarItems1>
-            formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
+           table,  formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
         </toolbarItems1>
         <toolbarItems2></toolbarItems2>
         <toolbarItems3></toolbarItems3>
