@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<savedAsDraft>true</savedAsDraft>	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3d43</objectGroupId>
 	<objectId>3d43864e-d570-5422-5e61-f6289028b423</objectId>
@@ -9,7 +9,16 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>3000</orderDefault_f>
 	<internal-name>Services</internal-name>
-	<bodyContent>&lt;p&gt;&lt;br class="Apple-interchange-newline" /&gt;&lt;/p&gt;
+	<bodyContent>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;br class="Apple-interchange-newline" /&gt;
+
+
+
+
 &lt;table border="0"&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -21,13 +30,44 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;
-&lt;blockquote&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/blockquote&gt;
-&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.&lt;/p&gt;</bodyContent>
+
+
+
+Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.
+
+
+
+
+[quote]Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.[/quote]
+
+
+
+Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.
+&lt;/body&gt;
+&lt;/html&gt;</bodyContent>
 	<authorName>Joe Bloggs</authorName>
 	<authorPosition>CEO</authorPosition>
 	<authorImage>/static-assets/images/authors/user-04.jpg</authorImage>
@@ -38,8 +78,8 @@
 	<b>2</b>
 	<createdDate>2018-01-25T22:38:23.445Z</createdDate>
 	<createdDate_dt>2018-01-25T22:38:23.445Z</createdDate_dt>
-	<lastModifiedDate>2018-07-03T14:46:36.620Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-03T14:46:36.620Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-03T16:09:34.199Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-03T16:09:34.199Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-01-25T22:38:23.000Z</expireDate_dt>
 	<keywords>Article</keywords>
 	<dateline>Reston, Va, USA</dateline>
