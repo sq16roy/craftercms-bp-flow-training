@@ -109,7 +109,7 @@
 		</rteStyleOverride>
 
         <toolbarItems1>
-           table,  formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
+           table, tablecols,  formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
         </toolbarItems1>
         <toolbarItems2></toolbarItems2>
         <toolbarItems3></toolbarItems3>
