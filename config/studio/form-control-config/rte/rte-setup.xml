@@ -109,7 +109,7 @@
 		</rteStyleOverride>
 
         <toolbarItems1>
-           tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol
+           tableprops, tabledelete, |, tableinsertrowbefore, tableinsertrowafter, tabledeleterow, |, tableinsertcolbefore, tableinsertcolafter, tabledeletecol
            
            ,  formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
         </toolbarItems1>
