@@ -34,7 +34,7 @@
            bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
         </toolbarItems1>
         <toolbarItems2>table,formatselect,|</toolbarItems2>
-        <toolbarItems3></toolbarItems3>
+        <toolbarItems3>tableprops,tabledelete,|,tableinsertrowbefore,tableinsertrowafter,tabledeleterow,|,tableinsertcolbefore,tableinsertcolafter,tabledeletecol</toolbarItems3>
         <toolbarItems4></toolbarItems4>
 
         <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
