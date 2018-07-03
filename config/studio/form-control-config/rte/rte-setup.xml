@@ -31,10 +31,10 @@
 		</rteStyleOverride>
 
         <toolbarItems1>
-           bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
+           table,formatselect,|bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
         </toolbarItems1>
-        <toolbarItems2>table,formatselect,|</toolbarItems2>
-        <toolbarItems3>tablecontrols</toolbarItems3>
+        <toolbarItems2>tablecontrols</toolbarItems2>
+        <toolbarItems3></toolbarItems3>
         <toolbarItems4></toolbarItems4>
 
         <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
