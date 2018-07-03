@@ -10,6 +10,7 @@
     <default-timezone>EST5EDT</default-timezone>
 
 	<baseSite>flow</baseSite>
+    <sandbox-branch>master</sandbox-branch>
     
     <repository rootPrefix="/site">
 
