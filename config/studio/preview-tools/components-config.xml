@@ -100,8 +100,8 @@
 </category>
 
  <browse>
-         <label>Headers</label>
-         <path>/site/components</path>
+         <label>Common</label>
+         <path>/site/components/common</path>
        </browse>
 
 </config>
