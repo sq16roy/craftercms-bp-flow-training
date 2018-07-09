@@ -31,10 +31,10 @@
 		</rteStyleOverride>
 
         <toolbarItems1>
-           table,formatselect,|bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo
+           formatselect,|bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,|,undo,redo,|,tablecontrols,media,visualblocks,advhr,autosave,directionality,iespell,media,print,table,xhtmlxtras,advimage,bbcode,  emotions,inlinepopups,nonbreaking,template,advlink,contextmenu,example,insertdatetime,noneditable,searchreplace,visualblocks,advlist,cs_contextmenu,example_dependency,layer,pagebreak,spellchecker,visualchars,autolink,cs_inlinepopups,fullpage,legacyoutput,paste,style,wordc,autoresize,cs_table,fullscreen,lists,preview, tabfocus,wordcount
         </toolbarItems1>
-        <toolbarItems2>tablecontrols, media,visualblocks</toolbarItems2>
-        <toolbarItems3>advhr,autosave,directionality,iespell,media,print,table,xhtmlxtras,advimage,bbcode,  emotions,inlinepopups,nonbreaking,template,advlink,contextmenu,example,insertdatetime,noneditable,searchreplace,visualblocks,advlist,cs_contextmenu,example_dependency,layer,pagebreak,spellchecker,visualchars,autolink,cs_inlinepopups,fullpage,legacyoutput,paste,style,wordc,autoresize,cs_table,fullscreen,lists,preview, tabfocus,wordcount</toolbarItems3>
+        <toolbarItems2></toolbarItems2>
+        <toolbarItems3></toolbarItems3>
         <toolbarItems4></toolbarItems4>
 
         <rteLinkStyles> <!-- configures HTTP link styles within the RTE (double click a link in the RTE and select the
