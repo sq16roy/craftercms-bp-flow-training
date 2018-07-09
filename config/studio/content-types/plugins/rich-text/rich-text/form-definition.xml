@@ -128,7 +128,7 @@
 						</property>
 						<property>
 							<name>rteConfiguration</name>
-							<value>generic</value>
+							<value>article</value>
 							<type>string</type>
 						</property>
 						<property>
