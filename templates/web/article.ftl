@@ -25,7 +25,7 @@
 
             <div class="col-eight">
                 <h1 class="intro-header">${contentModel.title}</h1>               
-                ${contentModel.bodyContent}
+                ${content}
             </div>                       
             <div class="col-four">
                 <div class="testimonial-author">
@@ -33,6 +33,8 @@
                     <div class="author">
                         ${contentModel.authorName}
                         <span class="position">${contentModel.authorPosition!""}</span>
+                        
+                        
                     </div>
                 </div>                            
             </div>
