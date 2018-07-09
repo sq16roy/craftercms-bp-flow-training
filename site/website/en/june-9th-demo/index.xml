@@ -20,7 +20,7 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/static-assets/images/authors/android-png.png" align="left" style="display: inline; margin-right: 20px;" width="84" height="84" /&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. &lt;a href="http://google.com" target="_self"&gt;Duis&lt;/a&gt; luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
 &lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
 &lt;h3&gt;Header 3&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
@@ -83,7 +83,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
 	<createdDate>2018-07-09T20:31:51.046Z</createdDate>
 	<createdDate_dt>2018-07-09T20:31:51.046Z</createdDate_dt>
-	<lastModifiedDate>2018-07-09T20:31:51.046Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-09T20:31:51.046Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-09T20:46:44.164Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T20:46:44.164Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-07-09T20:31:51.000Z</expireDate_dt>
 </page>
