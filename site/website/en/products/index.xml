@@ -13,76 +13,16 @@
 	<authorPosition/>
 	<title>Products</title>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
-	<bodyContent>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&amp;nbsp;&lt;/p&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
-&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Bold&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Italic&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Underline&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="text-decoration: line-through;"&gt;Strike&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Style&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&lt;b&gt;Header 1&lt;/b&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&lt;b&gt;Header 2&lt;/b&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&lt;b&gt;Header 3&lt;/b&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td width="117" valign="top"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent>
+	<bodyContent>&lt;p&gt;Bacon ipsum dolor amet ribeye salami ham venison pancetta. Pork belly spare ribs shoulder swine. Strip steak flank tenderloin chicken jerky. Sausage ham salami beef ribs, ham hock pork chop swine. Prosciutto meatball beef ribs ball tip t-bone sirloin ribeye shank corned beef kevin jerky bacon burgdoggen flank.&lt;/p&gt;
+&lt;p&gt;Andouille ham hamburger jowl, burgdoggen sirloin bacon prosciutto beef pork loin tail turducken kevin. Beef ribs venison shank, prosciutto hamburger burgdoggen leberkas shoulder filet mignon ribeye pork belly. Short loin strip steak ham meatball hamburger chicken. Ham hock buffalo swine cow boudin. Sausage turducken pork, pork chop jowl shankle alcatra cow corned beef kevin tenderloin. Flank doner ribeye frankfurter turkey alcatra meatloaf, tail pastrami chuck jerky leberkas spare ribs.&lt;/p&gt;
+&lt;p&gt;Pig landjaeger rump biltong, hamburger chicken leberkas porchetta ribeye shankle ham hock prosciutto. Tenderloin chicken turducken spare ribs tail andouille, alcatra porchetta. Ball tip pork ground round, short ribs fatback alcatra boudin bresaola pork loin. Picanha landjaeger jowl meatball frankfurter andouille jerky doner filet mignon short loin shank tri-tip beef buffalo ham.&lt;/p&gt;
+&lt;p&gt;Turducken tenderloin tri-tip ham hock. Hamburger cow tri-tip pork belly rump pork loin burgdoggen turducken kevin jerky shank brisket buffalo. Spare ribs tongue pork loin short loin turkey corned beef porchetta chicken beef. Pig ground round strip steak short ribs prosciutto jerky, rump meatloaf. Ham hock boudin landjaeger shankle sausage jerky tail chicken pastrami tri-tip turducken.&lt;/p&gt;</bodyContent>
 	<navLabel>Products</navLabel>
 	<disabled>false</disabled>
 	<createdDate>2018-01-25T22:39:01.635Z</createdDate>
 	<createdDate_dt>2018-01-25T22:39:01.635Z</createdDate_dt>
-	<lastModifiedDate>2018-07-09T13:23:35.435Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-09T13:23:35.435Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-09T13:24:27.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T13:24:27.410Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-01-25T22:39:01.000Z</expireDate_dt>
 	<keywords>Article</keywords>
 </page>
