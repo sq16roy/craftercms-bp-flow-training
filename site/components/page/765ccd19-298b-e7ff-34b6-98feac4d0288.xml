@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>765c</objectGroupId>
+	<objectId>765ccd19-298b-e7ff-34b6-98feac4d0288</objectId>
+	<file-name>765ccd19-298b-e7ff-34b6-98feac4d0288.xml</file-name>
+	<internal-name>Explainer Content</internal-name>
+	<content_html>&lt;h1&gt;Bacon ipsum dolor&lt;/h1&gt;
+&lt;p&gt;amet drumstick boudin pancetta, fatback chuck t-bone jowl ribeye swine chicken pastrami capicola. Sirloin cupim biltong rump. Shankle frankfurter ground round burgdoggen. Salami burgdoggen strip steak sausage frankfurter spare ribs porchetta meatball flank fatback brisket pork belly ground round tenderloin. Chicken biltong tenderloin, shank pork loin pork chop turducken frankfurter short loin hamburger. Tenderloin meatloaf picanha cow short loin ribeye, biltong cupim ham hock sausage pig chicken.&lt;/p&gt;
+&lt;p&gt;Ham spare ribs cow burgdoggen kevin cupim beef ribs swine kielbasa prosciutto. Corned beef shankle chuck turkey drumstick pastrami jowl burgdoggen t-bone kielbasa buffalo tongue rump pork loin. Tenderloin frankfurter pastrami prosciutto hamburger. Flank biltong chicken pork belly, shankle pork chop bresaola beef ribs kevin. Picanha turkey swine turducken. Beef ribs boudin ribeye t-bone, frankfurter short loin burgdoggen pork chop hamburger shankle shank. T-bone capicola ham hock, pork belly chuck andouille jerky corned beef spare ribs landjaeger hamburger pig pork.&lt;/p&gt;</content_html>
+	<createdDate>2018-07-09T20:40:36.150Z</createdDate>
+	<createdDate_dt>2018-07-09T20:40:36.150Z</createdDate_dt>
+	<lastModifiedDate>2018-07-09T20:40:36.150Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T20:40:36.150Z</lastModifiedDate_dt>
+</component>
