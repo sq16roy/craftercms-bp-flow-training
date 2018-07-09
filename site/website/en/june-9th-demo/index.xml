@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<savedAsDraft>true</savedAsDraft>	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
+	<content-type>/page/article</content-type>	<display-template>/templates/web/article.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>b95a</objectGroupId>
 	<objectId>b95aa71b-246a-7385-d766-e01bd2d74e1b</objectId>
@@ -10,7 +10,7 @@
 	<internal-name>June 9 Demo</internal-name>
 	<authorName>Russ</authorName>
 	<authorPosition>Demo guy</authorPosition>
-	<title/>
+	<title>My Title</title>
 	<disabled>false</disabled>
 	<file-name>index.xml</file-name>
 	<folder-name>june-9th-demo</folder-name>
