@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/j9-demo-type</content-type>	<display-template>/templates/web/J9demo.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4460</objectGroupId>
+	<objectId>44600ecf-d6ee-a2dc-ae84-d619de7892a1</objectId>
+	<locations item-list="true">	<item>	<name>Chicago</name>
+	<address>Address 1</address>
+	</item>	<item>	<name>Boston</name>
+	<address>Address 2</address>
+	</item></locations>
+	<file-name>index.xml</file-name>
+	<folder-name>new-typw</folder-name>
+	<internal-name>New Page Type</internal-name>
+	<title>Our New Page Type</title>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>8000</orderDefault_f>
+	<body>&lt;p&gt;Bacon ipsum dolor amet drumstick boudin pancetta, fatback chuck t-bone jowl ribeye swine chicken pastrami capicola. Sirloin cupim biltong rump. Shankle frankfurter ground round burgdoggen. Salami burgdoggen strip steak sausage frankfurter spare ribs porchetta meatball flank fatback brisket pork belly ground round tenderloin. Chicken biltong tenderloin, shank pork loin pork chop turducken frankfurter short loin hamburger. Tenderloin meatloaf picanha cow short loin ribeye, biltong cupim ham hock sausage pig chicken.&lt;/p&gt;
+&lt;p&gt;Ham spare ribs cow burgdoggen kevin cupim beef ribs swine kielbasa prosciutto. Corned beef shankle chuck turkey drumstick pastrami jowl burgdoggen t-bone kielbasa buffalo tongue rump pork loin. Tenderloin frankfurter pastrami prosciutto hamburger. Flank biltong chicken pork belly, shankle pork chop bresaola beef ribs kevin. Picanha turkey swine turducken. Beef ribs boudin ribeye t-bone, frankfurter short loin burgdoggen pork chop hamburger shankle shank. T-bone capicola ham hock, pork belly chuck andouille jerky corned beef spare ribs landjaeger hamburger pig pork.&lt;/p&gt;</body>
+	<createdDate>2018-07-09T20:58:46.796Z</createdDate>
+	<createdDate_dt>2018-07-09T20:58:46.796Z</createdDate_dt>
+	<lastModifiedDate>2018-07-09T20:58:46.796Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T20:58:46.796Z</lastModifiedDate_dt>
+</page>
