@@ -3,7 +3,7 @@
 <head>
 	</head>
 	<body>
-		<h1>${contentModel.title}</h1>
+		<h1>${contentModel.title} | ${mySum}</h1>
         
         <p>
         ${contentModel.body}
