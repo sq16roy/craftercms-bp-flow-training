@@ -13,9 +13,7 @@
 	<authorPosition/>
 	<title>Products</title>
 	<authorImage>/static-assets/images/authors/user-03.jpg</authorImage>
-	<bodyContent>&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;p&gt;TEST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+	<bodyContent>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&amp;nbsp;&lt;/p&gt;
 &lt;h2&gt;Header 2&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a consectetur lacus. Ut iaculis quis magna id lacinia. Duis luctus vulputate dolor sed placerat. Sed dictum enim vel gravida maximus. Donec gravida lectus magna, id pharetra ante luctus vel.&lt;/p&gt;
 &lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
@@ -83,7 +81,8 @@
 	<disabled>false</disabled>
 	<createdDate>2018-01-25T22:39:01.635Z</createdDate>
 	<createdDate_dt>2018-01-25T22:39:01.635Z</createdDate_dt>
-	<lastModifiedDate>2018-01-25T22:39:01.635Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-01-25T22:39:01.635Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-09T13:23:35.435Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T13:23:35.435Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-01-25T22:39:01.000Z</expireDate_dt>
+	<keywords>Article</keywords>
 </page>
