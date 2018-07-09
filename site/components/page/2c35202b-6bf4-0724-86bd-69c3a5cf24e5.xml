@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>2c35</objectGroupId>
+	<objectId>2c35202b-6bf4-0724-86bd-69c3a5cf24e5</objectId>
+	<file-name>2c35202b-6bf4-0724-86bd-69c3a5cf24e5.xml</file-name>
+	<internal-name>Example</internal-name>
+	<content_html>&lt;p&gt;ccccccc&lt;/p&gt;</content_html>
+	<createdDate>2018-07-09T13:17:22.207Z</createdDate>
+	<createdDate_dt>2018-07-09T13:17:22.207Z</createdDate_dt>
+	<lastModifiedDate>2018-07-09T13:17:22.207Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T13:17:22.207Z</lastModifiedDate_dt>
+</component>
