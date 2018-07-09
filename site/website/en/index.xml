@@ -12,8 +12,8 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-07-09T12:55:52.497Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-09T12:55:52.497Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-09T12:58:46.405Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T12:58:46.405Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Modern design</headline>
 	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
@@ -21,8 +21,5 @@
 	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</key>
 	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<value/>
-	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88-5cbd8719.xml</key>
-	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88-5cbd8719.xml</include>
 	</item></col1>
 </page>
