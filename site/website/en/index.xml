@@ -21,5 +21,8 @@
 	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</key>
 	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value/>
+	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88-5cbd8719.xml</key>
+	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88-5cbd8719.xml</include>
 	</item></col1>
 </page>
