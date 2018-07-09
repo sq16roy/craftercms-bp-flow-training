@@ -12,16 +12,14 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-07-09T05:40:41.212Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-09T05:40:41.212Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-09T12:55:52.497Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-09T12:55:52.497Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<headline>Modern design</headline>
 	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
 	<col1 item-list="true">	<item>	<value>Banner A</value>
 	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</key>
 	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc88.xml</include>
-	</item>	<item>	<value>Banner B</value>
-	<key>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc8x.xml</key>
-	<include>/site/components/common/banners/1d6598c1-de64-2bee-1408-a3dd4b33bc8x.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
