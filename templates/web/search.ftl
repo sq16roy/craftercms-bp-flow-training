@@ -10,7 +10,7 @@
     <title>Dazzle</title>
 	<#include "/templates/web/common/head.ftl" /></head>
 
-<body id="top" style="background-color:white">
+<body id="top" style="background-color:white !important;">
 
 	<#include "/templates/web/common/header.ftl" />
 
