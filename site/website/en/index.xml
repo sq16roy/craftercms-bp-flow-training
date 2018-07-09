@@ -17,7 +17,10 @@
 	<disabled>false</disabled>
 	<headline>Modern design</headline>
 	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
-	<col1 item-list="true">	<item>	<value>Banner A</value>
+	<col1 item-list="true">	<item>	<value>/site/components/page/1957290e-4bd5-abba-0bba-1585b0a43bdb.xml</value>
+	<key>/site/components/page/1957290e-4bd5-abba-0bba-1585b0a43bdb.xml</key>
+	<include>/site/components/page/1957290e-4bd5-abba-0bba-1585b0a43bdb.xml</include>
+	</item>	<item>	<value>Banner A</value>
 	<key>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</key>
 	<include>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</include>
 	</item>	<item>	<value>Banner B</value>
