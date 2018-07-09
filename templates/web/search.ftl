@@ -47,7 +47,7 @@
                              <#if highlighting[match.id].bodyContent??>
                                 <p>${highlighting[match.id].bodyContent[0]}</p>
                             <#else>
-                               <p>${match.bodyContent?substring(0, 200)}</p>
+                               <p>${match.bodyContent?substring(0, 100)}</p>
                             </#if>
                             
                         </li>
