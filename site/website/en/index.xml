@@ -20,5 +20,8 @@
 	<col1 item-list="true">	<item>	<value>Banner A</value>
 	<key>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</key>
 	<include>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</include>
+	</item>	<item>	<value>Banner B</value>
+	<key>/site/components/common/banners/5d573a71-58e6-5a1c-0690-aaaa9ac3c8cc.xml</key>
+	<include>/site/components/common/banners/5d573a71-58e6-5a1c-0690-aaaa9ac3c8cc.xml</include>
 	</item></col1>
 </page>
