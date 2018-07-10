@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rss-feed/rss-feed</content-type>	<display-template>/templates/plugins/rss-feed/component-rss-feed.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>785e</objectGroupId>
+	<objectId>785e9465-8624-0487-2a9f-f6db6759d867</objectId>
+	<file-name>785e9465-8624-0487-2a9f-f6db6759d867.xml</file-name>
+	<internal-name>Rivet Logic Blog</internal-name>
+	<feedUrl>http://blog.rivetlogic.com/feed/</feedUrl>
+	<createdDate>2018-07-10T15:35:11.500Z</createdDate>
+	<createdDate_dt>2018-07-10T15:35:11.500Z</createdDate_dt>
+	<lastModifiedDate>2018-07-10T15:35:11.500Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-10T15:35:11.500Z</lastModifiedDate_dt>
+</component>
