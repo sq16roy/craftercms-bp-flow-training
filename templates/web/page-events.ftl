@@ -1,61 +1,15 @@
 <#include "/templates/system/common/cstudio-support.ftl" />
-<#import "/templates/web/layouts/default.ftl" as layout/>
 
-   <!DOCTYPE html>
-    <!--[if lt IE 7]>
-    <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-    <!--[if IE 7]>
-    <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
-    <!--[if IE 8]>
-    <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
-    <!--[if IE 9]>
-    <html class="no-js lt-ie10"> <![endif]-->
-    <!--[if gt IE 9]><!-->
-    <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE html>
+<html class="no-js">
     <head>
-
-        <meta charset="utf-8">
-        <title>${model.title!"Welcome ~ Marketing Asset Center"}</title>
-        <meta name="description" content="${model.description!""}"/>
-        <meta name="keywords" content="${model.keywords!""}"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="shortcut icon" type="image/ico" href="/a/favicon.ico"/>
-
-        <#if siteContext.overlayCallback??>
-        <link rel="stylesheet" href="/static-assets/styles/studio.css">
-        </#if>
-        
-        <!-- build:css(.) styles/vendor.css -->
-        <!-- bower:css -->
-        
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="/static-assets/libs/fullcalendar/fullcalendar.css" />
-        <link rel="stylesheet" href="/static-assets/libs/fontawesome/css/font-awesome.css" />
-        <link rel="stylesheet" href="/static-assets/styles/main.css">
-        <link rel="stylesheet" href="/static-assets/styles/home.css" />
-        <!-- endbuild -->
-
+        <title>Dazzle</title>
+        <#include "/templates/web/common/head.ftl" />
     </head>
-    <#if ngApp = "">
-    <body>
-    <#else>
-    <body ng-app="${ngApp}">
-    </#if>
 
-        <!--[if lt IE 7]>
-        <p class="browsehappy">
-            You are using an <strong>outdated</strong> browser.
-            Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-        </p>
-        <![endif]-->
-        <#if model.siteh?? && model.siteh.item?? >
-           <@renderComponent component = model.siteh.item />
-        <#else>
-           <@renderComponent componentPath="/site/components/common/header.xml" />     
-        </#if>
+    <body ng-app="${ngApp!""}">
+
+        <#include "/templates/web/common/header.ftl" />
 
         <section class="main">
 
@@ -466,66 +420,11 @@
 
 
 
-
-
-<style>
-    .main, .main > .container { position: static !important; }
-</style>
-
-
         </section>
 
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <h3>MPM</h3>
-                        <a href="javascript:">Marketing Plan</a>
-                        <a href="javascript:">Management</a>
-                    </div>
-                    <div class="col-sm-5">
-                        <h3>Similar Titles</h3>
-                        <div class="row">
-                            <a class="col-sm-4" href="javascript:">
-                                Toy Story of Terror
-                            </a>
-                            <a class="col-sm-4" href="javascript:">
-                                Frozen
-                            </a>
-                            <a class="col-sm-4" href="javascript:">
-                                Cars
-                            </a>
-                            <a class="col-sm-4" href="javascript:">
-                                Muppets
-                            </a>
-                            <a class="col-sm-4" href="javascript:">
-                                Pokahontas
-                            </a>
-                            <a class="col-sm-4" href="javascript:">
-                                Mulan
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <h3>Site Links</h3>
-                        <div class="row">
-                            <a class="col-sm-3" href="javascript:">
-                                Site Map
-                            </a>
-                            <a class="col-sm-3" href="javascript:">
-                                Support
-                            </a>
-                            <a class="col-sm-3" href="javascript:">
-                                About
-                            </a>
-                            <a class="col-sm-3" href="javascript:">
-                                Contact
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <#include "/templates/web/common/footer.ftl" />  
+
+        <#include "/templates/web/common/common-scripts.ftl" />
 
         <!-- build:js(.) scripts/oldieshim.js -->
         <!--[if lt IE 9]>
@@ -533,39 +432,37 @@
         <script src="static-assets/libs/json3/lib/json3.js"></script>
         <![endif]-->
 
-        <!-- build:js(.) static-assets/scripts/vendor.js -->
+        <!-- build:js(.) static-assets/app/calendar/scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="/static-assets/libs/jquery/jquery.js"></script>
-        <script src="/static-assets/libs/angular/angular.js"></script>
-        <script src="/static-assets/libs/angular-resource/angular-resource.js"></script>
-        <script src="/static-assets/libs/angular-cookies/angular-cookies.js"></script>
-        <script src="/static-assets/libs/angular-sanitize/angular-sanitize.js"></script>
-        <script src="/static-assets/libs/angular-animate/angular-animate.js"></script>
-        <script src="/static-assets/libs/angular-touch/angular-touch.js"></script>
-        <script src="/static-assets/libs/angular-route/angular-route.js"></script>
-        <script src="/static-assets/libs/angular-sanitize/angular-sanitize.js"></script>
-        <script src="/static-assets/libs/angular-ui-router/release/angular-ui-router.js"></script>
-        <script src="/static-assets/libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-        <script src="/static-assets/libs/jquery-ui/ui/jquery-ui.js"></script>
-        <script src="/static-assets/libs/fullcalendar/fullcalendar.js"></script>
-        <script src="/static-assets/libs/angular-ui-calendar/src/calendar.js"></script>
-        <script src="/static-assets/libs/moment/moment.js"></script>
+        <script src="/static-assets/app/calendar/libs/jquery/jquery.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular/angular.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-resource/angular-resource.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-cookies/angular-cookies.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-sanitize/angular-sanitize.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-animate/angular-animate.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-touch/angular-touch.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-route/angular-route.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-sanitize/angular-sanitize.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="/static-assets/app/calendar/libs/jquery-ui/ui/jquery-ui.js"></script>
+        <script src="/static-assets/app/calendar/libs/fullcalendar/fullcalendar.js"></script>
+        <script src="/static-assets/app/calendar/libs/angular-ui-calendar/src/calendar.js"></script>
+        <script src="/static-assets/app/calendar/libs/moment/moment.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) static-assets/script/main.js -->
-        <script src="/static-assets/scripts/controllers.js"></script>
-        <script src="/static-assets/scripts/services.js"></script>
-        <script src="/static-assets/scripts/search.js"></script>
-        <script src="/static-assets/scripts/browse.js"></script>
-        <script src="/static-assets/scripts/details.js"></script>
-        <script src="/static-assets/scripts/home.js"></script>
-        <script src="/static-assets/scripts/calendar.js"></script>
+        <script src="/static-assets/app/calendar/scripts/controllers.js"></script>
+        <script src="/static-assets/app/calendar/scripts/services.js"></script>
+        <script src="/static-assets/app/calendar/scripts/search.js"></script>
+        <script src="/static-assets/app/calendar/scripts/browse.js"></script>
+        <script src="/static-assets/app/calendar/scripts/details.js"></script>
+        <script src="/static-assets/app/calendar/scripts/home.js"></script>
+        <script src="/static-assets/app/calendar/scripts/calendar.js"></script>
         <!-- endbuild -->
 
-        <#if RequestParameters["c"]?? == false>
-          <@cstudioOverlaySupport/> 
-        </#if>
+        <@cstudioOverlaySupport/> 
     </body>
 </html>
 
