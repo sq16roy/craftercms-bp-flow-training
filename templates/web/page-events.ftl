@@ -7,14 +7,14 @@
         <#include "/templates/web/common/head.ftl" />
     </head>
 
-    <body ng-app="${ngApp!""}">
+    <body ng-app="mac.calendar">
 
         <#include "/templates/web/common/header.ftl" />
 
         <section class="main">
 
 
-<script type="text/ng-template" id="templates/calendar-skeleton.html">
+<script type="text/ng-template" id="/static-assets/app/calendar/templates/calendar-skeleton.html">
     <article ng-if="!multiMode && asset" class="asset-panel">
         <div class="container">
             <img ng-src="/api/1/services/rendition.json?id={{asset.id}}&resolution=300x150"
@@ -424,15 +424,13 @@
 
         <#include "/templates/web/common/footer.ftl" />  
 
-        <#include "/templates/web/common/common-scripts.ftl" />
 
         <!-- build:js(.) scripts/oldieshim.js -->
         <!--[if lt IE 9]>
-        <script src="static-assets/libs/es5-shim/es5-shim.js"></script>
-        <script src="static-assets/libs/json3/lib/json3.js"></script>
+        <script src="/static-assets/app/calendar/libs/es5-shim/es5-shim.js"></script>
+        <script src="/static-assets/app/calendar//libs/json3/lib/json3.js"></script>
         <![endif]-->
 
-        <!-- build:js(.) static-assets/app/calendar/scripts/vendor.js -->
         <!-- bower:js -->
         <script src="/static-assets/app/calendar/libs/jquery/jquery.js"></script>
         <script src="/static-assets/app/calendar/libs/angular/angular.js"></script>
@@ -449,6 +447,10 @@
         <script src="/static-assets/app/calendar/libs/fullcalendar/fullcalendar.js"></script>
         <script src="/static-assets/app/calendar/libs/angular-ui-calendar/src/calendar.js"></script>
         <script src="/static-assets/app/calendar/libs/moment/moment.js"></script>
+
+        <script src="/static-assets/app/js/plugins.js"></script>
+        <script src="/static-assets/app/js/jquery.easy-autocomplete.js"></script>
+        <script src="/static-assets/app/js/main.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 

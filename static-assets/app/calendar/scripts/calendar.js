@@ -767,13 +767,13 @@
             $stateProvider
                 .state('calendar', {
                     url: '/?id',
-                    templateUrl: 'templates/calendar-skeleton.html',
+                    templateUrl: '/static-assets/app/calendar/templates/calendar-skeleton.html',
                     controller: 'CalendarCtrl',
                     params:  { id: {value: null, dynamic: true} }
                 })
                 .state('calendar.weekly', {
                     url: 'weekly?from&to',
-                    templateUrl: 'templates/weekly-view.html',
+                    templateUrl: '/static-assets/app/calendar/templates/weekly-view.html',
                     controller: 'CalendarCtrl',
                     params: {
                         id: {value: null},
@@ -783,22 +783,22 @@
                 })
                 .state('calendar.agenda', {
                     url: 'agenda',
-                    templateUrl: 'templates/agenda-view.html',
+                    templateUrl: '/static-assets/app/calendar/templates/agenda-view.html',
                     controller: 'CalendarCtrl'
                 })
                 .state('calendar.monthly', {
                     url: 'monthly',
-                    templateUrl: 'templates/fc-view.html',
+                    templateUrl: '/static-assets/app/calendar/templates/fc-view.html',
                     controller: 'CalendarCtrl'
                 })
                 .state('calendar.week', {
                     url: 'week',
-                    templateUrl: 'templates/fc-view.html',
+                    templateUrl: '/static-assets/app/calendar/templates/fc-view.html',
                     controller: 'CalendarCtrl'
                 })
                 .state('calendar.daily', {
                     url: 'daily',
-                    templateUrl: 'templates/fc-view.html',
+                    templateUrl: '/static-assets/app/calendar/templates/fc-view.html',
                     controller: 'CalendarCtrl'
                 });
         });
