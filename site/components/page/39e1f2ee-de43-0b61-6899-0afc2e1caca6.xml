@@ -10,7 +10,10 @@
 	<key>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</key>
 	<include>/site/components/common/banners/081fe79f-f0e5-00ef-2c46-a3626465bbfa.xml</include>
 	</item></zone1>
-	<zone2 item-list="true"/>
+	<zone2 item-list="true">	<item>	<value>Rivet Logic Blog</value>
+	<key>/site/components/page/785e9465-8624-0487-2a9f-f6db6759d867.xml</key>
+	<include>/site/components/page/785e9465-8624-0487-2a9f-f6db6759d867.xml</include>
+	</item></zone2>
 	<createdDate>2018-07-09T20:40:06.022Z</createdDate>
 	<createdDate_dt>2018-07-09T20:40:06.022Z</createdDate_dt>
 	<lastModifiedDate>2018-07-09T20:40:06.022Z</lastModifiedDate>
