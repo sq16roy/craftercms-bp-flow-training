@@ -12,16 +12,18 @@
 	<folder-name>en</folder-name>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>2018-07-09T20:37:27.013Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-09T20:37:27.013Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-10T18:41:21.684Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-10T18:41:21.684Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
-	<headline>Very Modern design</headline>
-	<subHeadline>Super Creative Landing Page to Showcase Your Amazing App</subHeadline>
+	<headline>Modern design</headline>
+	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
 	<col1 item-list="true">	<item>	<value>Explainer Content</value>
 	<key>/site/components/page/765ccd19-298b-e7ff-34b6-98feac4d0288.xml</key>
 	<include>/site/components/page/765ccd19-298b-e7ff-34b6-98feac4d0288.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item>	<value>/site/components/page/39e1f2ee-de43-0b61-6899-0afc2e1caca6.xml</value>
 	<key>/site/components/page/39e1f2ee-de43-0b61-6899-0afc2e1caca6.xml</key>
 	<include>/site/components/page/39e1f2ee-de43-0b61-6899-0afc2e1caca6.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></col1>
 </page>
