@@ -2,7 +2,7 @@
 
     var isLocal = (window.location.host.indexOf('9000') !== -1);
 
-    if (isLocal) {
+    if (false) {
         var EVENTS_URL          = 'http://127.0.0.1:8080/api/1/services/calendar/events.json';
         var CREATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/create-event.json';
         var UPDATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/update-event.json';
@@ -756,7 +756,7 @@
                 restrict: "EA",
                 replace: true,
                 scope: { title: "@", content: "@", placement: "@", animation: "&", isOpen: "&" },
-                templateUrl: "template/popover/popover-html-unsafe-popup.html"
+                templateUrl: "/static-assets/app/calendar/template/popover/popover-html-unsafe-popup.html"
             };
         })
         .directive("popoverHtmlUnsafe", [ "$tooltip", function ($tooltip) {
@@ -777,8 +777,8 @@
                     controller: 'CalendarCtrl',
                     params: {
                         id: {value: null},
-                        from: {value: '12-30-2014'},
-                        to: {value: '1-30-2015'}
+                        from: {value: '12-30-2018'},
+                        to: {value: '1-30-2019'}
                     }
                 })
                 .state('calendar.agenda', {
