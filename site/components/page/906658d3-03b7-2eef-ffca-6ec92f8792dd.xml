@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rss-feed/rss-feed</content-type>	<display-template>/templates/plugins/rss-feed/component-rss-feed.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9066</objectGroupId>
+	<objectId>906658d3-03b7-2eef-ffca-6ec92f8792dd</objectId>
+	<file-name>906658d3-03b7-2eef-ffca-6ec92f8792dd.xml</file-name>
+	<internal-name>https://blog.craftercms.org/feed/</internal-name>
+	<feedUrl>https://blog.craftercms.org/feed/</feedUrl>
+	<createdDate>2018-07-10T19:22:01.213Z</createdDate>
+	<createdDate_dt>2018-07-10T19:22:01.213Z</createdDate_dt>
+	<lastModifiedDate>2018-07-10T19:22:01.213Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-10T19:22:01.213Z</lastModifiedDate_dt>
+</component>
