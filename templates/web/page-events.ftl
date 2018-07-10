@@ -457,10 +457,6 @@
         <!-- build:js({.tmp,app}) static-assets/script/main.js -->
         <script src="/static-assets/app/calendar/scripts/controllers.js"></script>
         <script src="/static-assets/app/calendar/scripts/services.js"></script>
-        <script src="/static-assets/app/calendar/scripts/search.js"></script>
-        <script src="/static-assets/app/calendar/scripts/browse.js"></script>
-        <script src="/static-assets/app/calendar/scripts/details.js"></script>
-        <script src="/static-assets/app/calendar/scripts/home.js"></script>
         <script src="/static-assets/app/calendar/scripts/calendar.js"></script>
         <!-- endbuild -->
 
