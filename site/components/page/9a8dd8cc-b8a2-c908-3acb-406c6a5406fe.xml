@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/plugins/rich-text/rich-text</content-type>	<display-template>/templates/plugins/rich-text/component-rich-text.ftl</display-template>
+	<objectGroupId>9a8d</objectGroupId>
+	<objectId>9a8dd8cc-b8a2-c908-3acb-406c6a5406fe</objectId>
+	<file-name>9a8dd8cc-b8a2-c908-3acb-406c6a5406fe.xml</file-name>
+	<internal-name>My Content</internal-name>
+	<content_html>&lt;h1&gt;&lt;span&gt;Bacon ipsum dolor &lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span&gt;amet tail kevin bacon burgdoggen capicola spare ribs pig corned beef beef ribs strip steak boudin ribeye turkey pork. Cupim picanha salami, turducken ribeye venison shoulder buffalo short ribs shankle cow tenderloin tri-tip. Short ribs prosciutto ribeye jerky biltong. Filet mignon shoulder ham ball tip turducken turkey sausage bacon boudin cupim bresaola. Buffalo venison tri-tip, corned beef kevin chicken t-bone short ribs beef ribs brisket kielbasa porchetta. Beef ribs ground round leberkas meatloaf ham chuck pastrami.&lt;/span&gt;&lt;/p&gt;</content_html>
+	<createdDate>2018-07-11T15:18:58.906Z</createdDate>
+	<createdDate_dt>2018-07-11T15:18:58.906Z</createdDate_dt>
+	<lastModifiedDate>2018-07-11T15:18:58.906Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-11T15:18:58.906Z</lastModifiedDate_dt>
+</component>
