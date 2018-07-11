@@ -395,6 +395,49 @@
 					</constraints>
 				</field>
 				<field>
+					<type>input</type>
+					<id>demo</id>
+					<iceId></iceId>
+					<title>Demo</title>
+					<description>This is my demo field</description>
+					<defaultValue></defaultValue>
+					<help>Always fill out this field with first and last names</help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>rte</type>
 					<id>bodyContent</id>
 					<iceId></iceId>
