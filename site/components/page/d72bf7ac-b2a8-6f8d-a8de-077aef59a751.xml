@@ -6,7 +6,10 @@
 	<objectId>d72bf7ac-b2a8-6f8d-a8de-077aef59a751</objectId>
 	<file-name>d72bf7ac-b2a8-6f8d-a8de-077aef59a751.xml</file-name>
 	<sectionID>content</sectionID>
-	<zone1 item-list="true"/>
+	<zone1 item-list="true">	<item>	<value>My Content</value>
+	<key>/site/components/page/9a8dd8cc-b8a2-c908-3acb-406c6a5406fe.xml</key>
+	<include>/site/components/page/9a8dd8cc-b8a2-c908-3acb-406c6a5406fe.xml</include>
+	</item></zone1>
 	<zone2 item-list="true"/>
 	<createdDate>2018-07-11T15:18:19.616Z</createdDate>
 	<createdDate_dt>2018-07-11T15:18:19.616Z</createdDate_dt>
