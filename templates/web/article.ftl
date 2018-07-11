@@ -26,6 +26,7 @@
             <div class="col-eight">
                 <h1 class="intro-header">${contentModel.title}</h1>               
                 ${content}
+                ${contentModel.demo}
                 ${contentModel.bodyContent}
             </div>                       
             <div class="col-four">
