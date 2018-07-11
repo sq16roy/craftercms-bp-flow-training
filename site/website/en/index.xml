@@ -17,8 +17,5 @@
 	<disabled>false</disabled>
 	<headline>Modern design</headline>
 	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
-	<col1 item-list="true">	<item>	<value>https://blog.craftercms.org/feed/</value>
-	<key>/site/components/page/906658d3-03b7-2eef-ffca-6ec92f8792dd.xml</key>
-	<include>/site/components/page/906658d3-03b7-2eef-ffca-6ec92f8792dd.xml</include>
-	</item></col1>
+	<col1 item-list="true"/>
 </page>
