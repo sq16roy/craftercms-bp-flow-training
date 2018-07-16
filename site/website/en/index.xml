@@ -17,10 +17,7 @@
 	<disabled>false</disabled>
 	<headline>Modern design</headline>
 	<subHeadline>Creative Landing Page to Showcase Your Amazing App</subHeadline>
-	<col1 item-list="true">	<item>	<value>My Content</value>
-	<key>/site/components/page/9a8dd8cc-b8a2-c908-3acb-406c6a5406fe.xml</key>
-	<include>/site/components/page/9a8dd8cc-b8a2-c908-3acb-406c6a5406fe.xml</include>
-	</item>	<item>	<value>/site/components/page/d72bf7ac-b2a8-6f8d-a8de-077aef59a751.xml</value>
+	<col1 item-list="true">	<item>	<value>/site/components/page/d72bf7ac-b2a8-6f8d-a8de-077aef59a751.xml</value>
 	<key>/site/components/page/d72bf7ac-b2a8-6f8d-a8de-077aef59a751.xml</key>
 	<include>/site/components/page/d72bf7ac-b2a8-6f8d-a8de-077aef59a751.xml</include>
 	</item></col1>
