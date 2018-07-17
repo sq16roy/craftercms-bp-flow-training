@@ -83,6 +83,11 @@
         </rteWidgets>
 
 	   
+            <rteTables>
+           <table>
+               <name>checkered</name>
+           </table>
+        </rteTables>
         <!-- Modules: -->
         <rteModules>
             <module>insert-image</module>
