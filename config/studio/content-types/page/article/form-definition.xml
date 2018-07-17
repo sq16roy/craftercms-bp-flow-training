@@ -488,7 +488,7 @@
 						</property>
 						<property>
 							<name>supportedChannels</name>
-							<value></value>
+							<value>[{ value: &quot;smartphone&quot;, key: &quot;Smart Phone&quot;, size: &quot;250&quot; },{ value: &quot;tablet&quot;, key: &quot;Tablet&quot;, size: &quot;450&quot; }]</value>
 							<type>supportedChannels</type>
 						</property>
 						<property>
