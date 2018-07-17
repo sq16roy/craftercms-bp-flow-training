@@ -85,7 +85,15 @@
 	   
             <rteTables>
            <table>
-               <name>checkered</name>
+               <name>Checkered</name>
+               <prototype>
+                  <![CDATA[
+                  <table>
+                     <tr><td>ROW 1 Col 1</td><td>ROW 1 Col 2</td></tr>
+                     <tr><td>ROW 2 Col 1</td><td>ROW 2 Col 2</td></tr>
+                  </table>
+                  ]]>
+               </prototype>
            </table>
         </rteTables>
         <!-- Modules: -->
