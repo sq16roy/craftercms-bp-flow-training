@@ -5,7 +5,7 @@
 	<objectGroupId>f6b8eb50</objectGroupId>
 	<objectId>f6b8eb50-da6d-48c3-bea9-bc5c56c097d4</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>products</folder-name>
+	<folder-name>products-2</folder-name>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>5000</orderDefault_f>
 	<internal-name>Products</internal-name>
@@ -21,9 +21,8 @@
 	<disabled>false</disabled>
 	<createdDate>2018-01-25T22:39:01.635Z</createdDate>
 	<createdDate_dt>2018-01-25T22:39:01.635Z</createdDate_dt>
-	<lastModifiedDate>2018-07-11T15:40:54.215Z</lastModifiedDate>
-	<lastModifiedDate_dt>2018-07-11T15:40:54.215Z</lastModifiedDate_dt>
+	<lastModifiedDate>2018-07-18T15:22:28.521Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-07-18T15:22:28.521Z</lastModifiedDate_dt>
 	<expireDate_dt>2018-01-25T22:39:01.000Z</expireDate_dt>
 	<keywords>Article</keywords>
-	<demo>Blah blah blah</demo>
 </page>
