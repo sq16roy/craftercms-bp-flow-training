@@ -6,7 +6,7 @@
 	<objectId>f7879193-5767-0a8c-e4ac-84437452030c</objectId>
 	<file-name>index.xml</file-name>
 	<folder-name>search</folder-name>
-	<placeInNav>false</placeInNav>
+	<placeInNav>true</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<internal-name>Search</internal-name>
 </page>
