@@ -2,7 +2,7 @@
 <page>
 	<content-type>/page/redirect</content-type>	<display-template/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<placeInNav>false</placeInNav>
+	<placeInNav>true</placeInNav>
 	<file-name>index.xml</file-name>
 	<internal-name>Global Home</internal-name>
 	<orderDefault_f>-1</orderDefault_f>

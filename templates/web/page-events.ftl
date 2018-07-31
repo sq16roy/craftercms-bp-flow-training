@@ -39,7 +39,6 @@
         <script src="/static-assets/app/calendar/libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
         <script src="/static-assets/app/calendar/libs/jquery-ui/ui/jquery-ui.js"></script>
         <script src="/static-assets/app/calendar/libs/fullcalendar/fullcalendar.js"></script>
-        <#--  <script src="/static-assets/app/calendar/libs/angular-fullcalendar/angular-fullcalendar.js"></script>  -->
         <script src="/static-assets/app/calendar/libs/angular-ui-calendar/src/calendar.js"></script>
         <script src="/static-assets/app/calendar/libs/moment/moment.js"></script>
 

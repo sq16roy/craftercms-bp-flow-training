@@ -11,9 +11,9 @@
   
   <nav id="header-nav-wrap">
       <ul class="header-main-nav">
-       
-       
-       <@renderNavigation "/site/website/${ Request.pageUrl?substring(14,16) }", 1 />
+        <li><a href="/en">Home</a></li>
+        <@renderNavigation "/site/website/${ Request.pageUrl?substring(14,16) }", 1 />
+        <li><a href="/en/search" class="glyphicon glyphicon-search"></a></li>
       </ul>
   </nav>
   

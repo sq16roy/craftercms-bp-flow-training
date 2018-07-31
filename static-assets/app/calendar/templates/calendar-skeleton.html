@@ -177,6 +177,7 @@
                                         name="contentId"
                                         class="form-control"
                                         ng-model="event.contentId"
+                                        ng-init="somethingHere = event.contentId || titles[0].title"
                                         ng-options="title.id as title.title for title in titles">
                                 </select>
                             </div>
@@ -184,12 +185,16 @@
                         <div class="form-group">
                             <label for="fCalendar" class="col-sm-3 control-label">Calendar:</label>
                             <div class="col-sm-9">
-                                <select required
-                                        id="fCalendar"
-                                        name="departmentId"
-                                        class="form-control"
-                                        ng-model="event.departmentId"
-                                        ng-options="department.id as department.name for department in departments">
+                                <select 
+                                    required
+                                    id="fCalendar"
+                                    name="departmentId"
+                                    class="form-control"
+                                    ng-model="event.departmentId"
+                                    ng-init="event.departmentId"
+                                    ng-options="department.id as department.name for department in departments"
+                                >
+                                    <option value="">{{event.departmentId}}</option>
                                 </select>
                             </div>
                         </div>

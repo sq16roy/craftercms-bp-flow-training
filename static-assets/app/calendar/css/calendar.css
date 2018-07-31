@@ -902,7 +902,7 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #d52f15;
-    text-decoration: underline; }
+ }
   a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -5372,7 +5372,7 @@ button.close {
     display: none !important; } }
 /* Space out content a bit */
 body {
-  background-color: #030303de;
+  background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; }
 
@@ -5472,9 +5472,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff; }
 
 .breadcrumbs {
-  margin: 7% -15px 0 -15px;
+  margin: 47px -15px 44px -15px;
   padding: 10px 15px;
-  border-bottom: 2px solid #e5e5e5; }
+}
   .breadcrumbs ul {
     margin: 0;
     padding: 0;
@@ -5574,16 +5574,20 @@ h1, h2, h3, h4, h5, h6 {
   width: 380px;
   max-width: none; }
 
+.main{
+  background-color: #fff;
+}
+
 .calendar-container {
   padding: 0;
-  margin: 15px 0;
+  margin: 15px 0 60px 0;
   position: relative; }
   .calendar-container header {
     height: 60px;
     color: #656565;
     position: relative;
     border-width: 1px 1px 4px;
-    border-color: #e5e5e5 #e5e5e5 #ed604a;
+    border-color: #e5e5e5 #e5e5e5 #39b54a;
     border-style: solid; }
     .calendar-container header .title,
     .calendar-container header .navigator,
@@ -5684,7 +5688,9 @@ body > header {
   .marketing,
   .footer {
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0; 
+    color: #969696 !important;
+  }
 
   /* Space out the masthead */
   .header {

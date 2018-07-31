@@ -76,11 +76,19 @@
                     <div class="subscribe-form">
                 
                         <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required=""> 
-                
+                            <div class="emai-input">
+                                <i class="glyphicon glyphicon-envelope email-icon"></i>
+                                <input 
+                                    type="email"
+                                    value=""
+                                    name="EMAIL"
+                                    class="email"
+                                    id="mc-email"
+                                    placeholder="Email Address"
+                                    required=""
+                                > 
+                            </div>                
                             <input type="submit" name="subscribe" value="Send">
-                
                             <label for="mc-email" class="subscribe-message"></label>
                 
                         </form>
