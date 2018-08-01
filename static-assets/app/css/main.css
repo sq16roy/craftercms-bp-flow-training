@@ -701,9 +701,11 @@
 }
 .easy-autocomplete-container li {
   list-style: none;
-  height: 40px;
-  line-height: 24px;
+  height: 50px;
   padding: 5px;
+}
+.easy-autocomplete-container li:nth-child(odd) { 
+  background: #F5F5F5; 
 }
 .easy-autocomplete-container li:hover{
   background-color: rgba(63, 180, 79, 0.3);
@@ -2535,9 +2537,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #about {
-  min-height: 280px;
+  min-height: 231px;
   background: #ffffff;
-  padding-top: 18rem;
+  padding-top: 12.7rem;
 }
 .eac-item {
   margin-left: 6px !important ;
@@ -3043,7 +3045,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 .results {
   background-color: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 105px;
 }
 .results h3 {
   text-transform: uppercase;
@@ -3061,12 +3063,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 .search-result li{
   list-style: none;
-  margin-top: 40px;
+  margin-top: 28px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #F2F2F2;
 }
 .search-result li a{
   font-size: 20px;
   font-family: "Barlow";
   font-weight: 400;
+  border-bottom: 1px solid #3FB44F;
+  color: #3FB44F;
 }
 .search-result li a:hover{
   border-bottom: 1px solid #3FB44F;
@@ -3077,6 +3083,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-family: "Barlow";
   font-weight: 400;
   color: #000000;
+  line-height: 19px;
+  margin-bottom: 0;
 }
 
 .searchinput {
@@ -3087,6 +3095,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-family: "Barlow";
     font-size: 20px;
     color: #696969;
+    border: solid 1px #E7E7E7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 blockquote {

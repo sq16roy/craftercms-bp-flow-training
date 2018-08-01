@@ -26,7 +26,7 @@
             <div class="col-eight">
                 <div id="searchbox">
                     <form id="searchForm"> 
-                        <input class="searchinput" type="input" name="keyword" id="keyword" value="${keyword}"> 
+                        <input class="searchinput" type="input" name="keyword" id="keyword" value="${keyword}" placeholder="Search..."> 
                         <button class="glyphicon glyphicon-search button-search "></button>
                     </form>
                 </div>               
@@ -42,7 +42,7 @@
         <h3>search results</h3>
         <ul class="search-result">
             <#if err??>
-                    Keyword is required
+                    <#--  Keyword is required  -->
             <#else>
             <#if matches??>
                 <#list matches as match>
