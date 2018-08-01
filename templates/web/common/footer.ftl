@@ -84,11 +84,11 @@
                                     name="EMAIL"
                                     class="email"
                                     id="mc-email"
-                                    placeholder="Email Address"
+                                    placeholder="Enter email Address..."
                                     required=""
                                 > 
                             </div>                
-                            <input type="submit" name="subscribe" value="Send">
+                            <input type="submit" name="subscribe" value="Subscribe">
                             <label for="mc-email" class="subscribe-message"></label>
                 
                         </form>
