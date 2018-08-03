@@ -31,7 +31,26 @@
         /*
          * View models
          * */
-
+        $scope.events1 = [
+            {
+                title: "test",
+                start: "07/22//2018",
+                end: "07/25/2018",
+                departmentId: "Research",
+                contact: "roy@gmail.com",
+                contentId: "test",
+                description: "some text is coming here"
+            },
+            {
+                title: "test2",
+                start: "07/24//2018",
+                end: "07/25/2018",
+                departmentId: "Digital",
+                contact: "roy@gmail.com",
+                contentId: "test2",
+                description: "some text is coming here"
+            }
+        ];
         $scope.$state       = $state;
         $scope.ui           = ui;
         $scope.event        = null;
@@ -324,7 +343,6 @@
         }
 
         function getEventStyle(event, eventIndex, deptIndex) {
-
             var top,
                 left,
                 width,

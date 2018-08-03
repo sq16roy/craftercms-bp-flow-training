@@ -15,7 +15,7 @@
 	<#include "/templates/web/common/header.ftl" />
 
 
-   <section id="about" style="background-color:white !important;">
+   <section id="about" style="background-color:#F2F2F2 !important;">
 
         <div class="row about-intro">
 
@@ -24,49 +24,44 @@
             </div>
 
             <div class="col-eight">
-
                 <div id="searchbox">
                     <form id="searchForm"> 
-                        <input class="searchinput" type="input" name="keyword" id="keyword" value="${keyword}"> 
-                        <button class="button button-primary large">Search</button>
+                        <input class="searchinput" type="input" name="keyword" id="keyword" value="${keyword}" placeholder="Search..."> 
+                        <button class="glyphicon glyphicon-search button-search "></button>
                     </form>
-                </div>
-
-                <ul>
-                    <#if err??>
-                        Keyword is required
-                    <#else>
-
-                	<#if matches??>
-                      <#list matches as match>
-                        <li class="search-result">
-                        
-                            <h3>
-                            	<a href="${urlTransformationService.transform('storeUrlToRenderUrl', match.localId)}">${match.title}</a>
-                             </h3>
-                             <#if highlighting[match.id].bodyContent??>
-                                <p>${highlighting[match.id].bodyContent[0]}</p>
-                            <#else>
-                               <p>${match.bodyContent?substring(0, 100)}</p>
-                            </#if>
-                            
-                        </li>
-                      </#list>
-                    <#else>
-                     	<h1>No Results Found</h1>
-                    </#if>
-                    </#if>
-
-                </ul>                
+                </div>               
             </div>                       
             <div class="col-two">
-                                &nbsp;
-
+                &nbsp;
             </div>
             
         </div>
 
-    </section> <!-- end about -->  
+    </section> <!-- end about -->
+    <section class="results">
+        <h3>search results</h3>
+        <ul class="search-result">
+            <#if err??>
+                    <#--  Keyword is required  -->
+            <#else>
+            <#if matches??>
+                <#list matches as match>
+                <li>
+                    <a href="${urlTransformationService.transform('storeUrlToRenderUrl', match.localId)}">${match.title}</a>
+                    <#if highlighting[match.id].bodyContent??>
+                        <p>${highlighting[match.id].bodyContent[0]}</p>
+                    <#else>
+                        <p>${match.bodyContent?substring(0, 100)}</p>
+                    </#if>
+                    
+                </li>
+                </#list>
+            <#else>
+                <h1>No Results Found</h1>
+            </#if>
+            </#if>
+        </ul> 
+    </section>
 
 
 
@@ -74,6 +69,7 @@
     
 	<#include "/templates/web/common/common-scripts.ftl" />
 	<@studio.toolSupport />
+    <script src="/static-assets/js/search.js"></script>
 </body>
 
 </html>
