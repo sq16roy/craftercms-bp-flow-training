@@ -10,12 +10,12 @@
         var DEPARTMENTS_URL     = 'http://127.0.0.1:8080/api/1/services/departments/departments.json';
         var SEARCH_URL          = 'http://127.0.0.1:8080/api/1/services/search.json';
     } else {
-        var EVENTS_URL          = '/api/1/services/calendar/events.json';
-        var CREATE_EVENT_URL    = '/api/1/services/calendar/create-event.json';
-        var UPDATE_EVENT_URL    = '/api/1/services/calendar/update-event.json';
-        var DELETE_EVENT_URL    = '/api/1/services/calendar/delete-event.json';
-        var DEPARTMENTS_URL     = '/api/1/services/departments/departments.json';
-        var SEARCH_URL          = '/api/1/services/search.json';
+        var EVENTS_URL          = '/static-assets/api/data.json';
+        var CREATE_EVENT_URL    = '/static-assets/api/data.json';
+        var UPDATE_EVENT_URL    = '/static-assets/api/data.json';
+        var DELETE_EVENT_URL    = '/static-assets/api/data.json';
+        var DEPARTMENTS_URL     = '/static-assets/api/departments.json';
+        var SEARCH_URL          = '/static-assets/api/data.json';
     }
 
     function CalendarCtrl($scope, $state, $http, fullCalendarEventParserFilter, eventCleanerFilter) {
@@ -31,26 +31,6 @@
         /*
          * View models
          * */
-        $scope.events1 = [
-            {
-                title: "test",
-                start: "07/22//2018",
-                end: "07/25/2018",
-                departmentId: "Research",
-                contact: "roy@gmail.com",
-                contentId: "test",
-                description: "some text is coming here"
-            },
-            {
-                title: "test2",
-                start: "07/24//2018",
-                end: "07/25/2018",
-                departmentId: "Digital",
-                contact: "roy@gmail.com",
-                contentId: "test2",
-                description: "some text is coming here"
-            }
-        ];
         $scope.$state       = $state;
         $scope.ui           = ui;
         $scope.event        = null;
@@ -58,7 +38,7 @@
         $scope.weeks        = null;
         $scope.views        = VIEWS;
         $scope.view         = getCurrentView();
-        $scope.departments  = DEPARTMENTS;
+        $scope.departments  = fetchDepartments();
         $scope.eventSources = [eventFetcher, $scope.events];
         $scope.uiConfig     = {
             calendar: {
@@ -151,7 +131,6 @@
             var event = getNewEvent(date, allDay);
 
             event.departmentId = $elem.siblings('th:first').data('departmentId') || event.departmentId;
-
             setActiveEvent(event);
 
             eventForm('open', $elem);
@@ -163,8 +142,14 @@
             eventForm('close');
             $http.get(DELETE_EVENT_URL, { params: { id: event.id } })
                 .success(function () {
-                    fetchEvents();
-                });
+                    // fetchEvents();
+                    //-------temp fetchevents-------//
+                    $scope.events.forEach((e,i) => {
+                        if (e.id === event.id) {
+                            $scope.events.splice(i, 1);
+                        }
+                    })
+                 });
         }
 
         function eventRender(event, element) {
@@ -223,11 +208,6 @@
         function fetchEvents(start, end, fcCallback) {
             if (!isFetching) {
 
-                isFetching = true;
-                (!start) && (start = ui.fromDate);
-                (!end) && (end = ui.toDate);
-
-                setEvents([]);
                 return $http.get(EVENTS_URL, {
                     params: {start: start, end: end, contentId: $state.params.id}
                 }).success(function (data) {
@@ -253,7 +233,7 @@
 
         function fetchTitles() {
             return $http.get(SEARCH_URL).success(function (data) {
-                $scope.titles = data.items;
+                $scope.titles = data;
             });
         }
 
@@ -316,6 +296,7 @@
         }
 
         function getWeekStart(date) {
+            date = new Date(date);
             date = getDateObject(date);
             date.setHours(date.getDay() * 24 * -1, 0, 0, 0);
             return date.getTime();
@@ -350,8 +331,7 @@
                 eventHeight = $scope.multiMode ? 90 : 25;
 
             try {
-
-                var evtStartTime            = event.start,
+                var evtStartTime            = moment(event.start).format('MM/DD/YYYY'),
                     evtEndTime              = event.end,
                     firstWeekStartTime      = $scope.weeks[0].start,
                     lastWeekEndTime         = $scope.weeks[$scope.weeks.length-1].end,
@@ -360,8 +340,7 @@
                     evtStartsBefore         = (evtStartWeekStartTime < firstWeekStartTime),
                     evtEndsAfter            = (evtEndTime > lastWeekEndTime),
                     $departmentElem         = $('[data-department-id="'+event.departmentId+'"]');
-
-                top = $departmentElem.position().top + (eventIndex * eventHeight) + 5;
+                    top = $departmentElem.position().top + (eventIndex * eventHeight) + 5;
 
                 if (evtStartsBefore) {
                     evtStartWeekStartTime = firstWeekStartTime;
@@ -381,7 +360,7 @@
 
                 var $end = (evtStartWeekStartTime === evtEndWeekStartTime)
                     ? ($start)
-                    : $('[data-week-start="'+evtEndWeekStartTime+'"]');
+                    : $('[data-week-start="'+evtStartWeekStartTime+'"]');
                 var endWeekPosition = ($start === $end) ? startWeekPosition : $end.position();
                 var endWeekEndPercentage = getWeekPercentage(evtEndTime);
                 var endWeekCellWidth = startWeekCellWidth; // Width should be the same for all cells
@@ -392,7 +371,10 @@
 
                 style.top   = (top + 'px');
                 style.left  = (left + 'px');
-                style.width = width;
+                style.width = ($start.width() - 10);
+                style.marginLeft = "6px";
+                style.marginBottom = "5px";
+                style.display = !startWeekPosition.left ? "block" : "block";
 
                 if (event.background) {
                     style.background = event.background;
@@ -479,7 +461,13 @@
 
             }
         }
-
+        function returnMaxID(events) {
+            let maxId = 0;
+            events.forEach(event => {
+                maxId = maxId > event.id ? maxId : event.id;
+            });
+            return maxId + 1;
+        }
         function saveEvent(event) {
             (!event) && (event = getActiveEvent());
 
@@ -508,7 +496,7 @@
                             }
                         }
                     } else {
-                        event.id = response.id;
+                        event.id = returnMaxID($scope.events);
                         if (showFC()) {
                             var e = fullCalendarEventParserFilter([event]);
                             $scope.events.push(e[0]);
@@ -685,59 +673,12 @@
             "value": "month"
         },
         {
-            "label": "Week View",
-            "sref": "calendar.week",
-            "value": "agendaWeek"
-        },
-        {
             "label": "Day View",
             "sref": "calendar.daily",
             "value": "agendaDay"
         }
     ];
 
-    var DEPARTMENTS = [
-        {
-            "id": "strategy",
-            "name": "Strategy",
-            "active": true
-        },
-        {
-            "id": "media",
-            "name": "Media",
-            "active": true
-        },
-        {
-            "id": "synergy",
-            "name": "Synergy",
-            "active": false
-        },
-        {
-            "id": "publicity",
-            "name": "Publicity",
-            "active": true
-        },
-        {
-            "id": "digital",
-            "name": "Digital",
-            "active": true
-        },
-        {
-            "id": "promotions",
-            "name": "Promotions",
-            "active": true
-        },
-        {
-            "id": "research",
-            "name": "Research",
-            "active": true
-        },
-        {
-            "id": "theatre",
-            "name": "In-Theatre",
-            "active": true
-        }
-    ];
 
     var dependencies = ['ui.router','ui.calendar','ui.bootstrap'];
     if (!isLocal) dependencies.push('MACControllers');

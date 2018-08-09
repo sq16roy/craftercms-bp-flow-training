@@ -71,12 +71,10 @@
                 ng-repeat="event in events | filter:{ departmentId:department.id } | contained:weeks ">
                 <div class="img" ng-if="multiMode">
                     <img ng-src="/api/1/services/rendition.json?id={{event.content.id}}&resolution=300x150"/>
+                    <img src="https://dummyimage.com/300x60/000/fff" alt="">
                 </div>
                 <div class="in">
                     <span class="title" ng-class="{bold:multiMode}">{{event.title}}</span>
-                    <div ng-if="multiMode">
-                        ({{event.content.title}})
-                    </div>
                 </div>
             </a>
         </div>

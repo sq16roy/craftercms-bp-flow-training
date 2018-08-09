@@ -2678,8 +2678,8 @@ select[multiple].input-lg,
 
 .btn-primary {
   color: white;
-  background-color: #ed604a;
-  border-color: #eb4c33; }
+  background-color: #39b449;
+  border-color: #39b449; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: white;
     background-color: #e8371c;
@@ -2903,7 +2903,7 @@ tbody.collapse.in {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #ed604a; }
+  background-color: #39b449; }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #777777; }
@@ -5487,12 +5487,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .custom-calendar {
   position: relative; }
+  .fc-widget-header {
+    width: 10% !important;
+  }
+  .fc-event-time {
+    display: none;
+  }
+  .fc-event-inner {
+    margin-left: 20px;
+    background-color: #398439;
+    text-align: center;
+    color: #fff;
+    border-radius:5px  ;
+    -webkit-border-radius:5px  ;
+    -moz-border-radius:5px  ;
+    -ms-border-radius:5px  ;
+    -o-border-radius:5px  ;
+    margin-bottom: 10px;
+}
+.fc-event {
+  cursor: pointer;
+}
+.fc-event :first-child {
+  margin-top: 10px;
+}
   .custom-calendar .highlight {
     background-color: #fefbda; }
   .custom-calendar .event {
     display: block;
     border-radius: 5px;
-    background-color: #ef745f;
+    background-color: #39b54a;
     position: absolute;
     width: 290px;
     color: #fff; }
