@@ -689,6 +689,7 @@
   border: 1px solid #E7E7E7;
   margin: 0;
   overflow: scroll;
+  overflow-x: hidden;
   max-height: 173px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
