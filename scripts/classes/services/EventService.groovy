@@ -11,7 +11,7 @@ public class EventService {
 
     /**
      * Get Events for date range
-     * @return returns Hub Articles
+     * @return returns Events
      */
     public getEvents(startDate, endDate) {
 
