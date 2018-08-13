@@ -1,6 +1,6 @@
 def retEvents = null
-def startDateParam = params.startDate
-def endDateParam = params.endDate
+def startDateParam = params.start
+def endDateParam = params.end
 
 def eventService = applicationContext.get("eventService")
 
