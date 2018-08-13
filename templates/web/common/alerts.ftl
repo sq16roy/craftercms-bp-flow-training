@@ -1,3 +1,3 @@
 <div>
-  {alerts}
+  ${alerts}
 </div>
