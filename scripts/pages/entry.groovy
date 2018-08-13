@@ -20,5 +20,5 @@ def matches = [:]
 matches.found = executedQuery.response.numFound
 matches.alerts = executedQuery.response.documents
 matches.query = queryStatement
-
+println "Returning ${matches.alerts}"
 templateModel.alerts = matches.alerts
