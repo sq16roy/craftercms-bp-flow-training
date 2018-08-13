@@ -15,7 +15,9 @@
         <property name="siteItemService"  ref="crafter.siteItemService" />
         <property name="targetingHelper"  ref="targetingHelper" />
     </bean>
-
+    <bean id="eventService" class="services.EventService">
+        <property name="searchService"  ref="crafter.searchService" />
+    </bean>
     <bean id="targetingHelper" class="helpers.TargetingHelper">
     </bean>
 <!--
