@@ -1,1 +1,1 @@
-<div>ALERTS FROM TEMPLATE</div>
+<div class="alert-box">ALERTS FROM TEMPLATE!!!</div>
