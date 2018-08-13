@@ -16,7 +16,7 @@ public class EventService {
     public getEvents(startDate, endDate) {
 
         def results = null
-        def queryStatement = "content-type:\"/component/event\""
+        def queryStatement = "content-type:\"/page/events\""
 
         def query = searchService.createQuery()
         query.setQuery(queryStatement)
