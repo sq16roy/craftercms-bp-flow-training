@@ -18,7 +18,7 @@ def executedQuery = searchService.search(query)
 
 def matches = [:]
 matches.found = executedQuery.response.numFound
-matches.events = executedQuery.response.documents
+matches.alerts = executedQuery.response.documents
 matches.query = queryStatement
 
-results = matches.events
+templateModel.alerts = matches.alerts
