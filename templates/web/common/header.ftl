@@ -16,7 +16,7 @@
         <li><a href="/en/search" class="glyphicon glyphicon-search"></a></li>
       </ul>
   </nav>
-  
+  <#include "/templates/web/common/alerts.ftl" />
   <a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
 
 </header> <!-- /header -->

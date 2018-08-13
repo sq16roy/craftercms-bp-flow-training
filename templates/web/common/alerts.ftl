@@ -1,0 +1,1 @@
+<div>ALERTS FROM TEMPLATE</div>
