@@ -27,5 +27,5 @@ if(alerts.size() > 0){
 	alertTitle = alerts[0].title
 }
 
-println "Returning ${matches.alerts}"
-templateModel.alerts = matches.alerts
+println "Returning ${alertTitle}"
+templateModel.alerts = alertTitle
