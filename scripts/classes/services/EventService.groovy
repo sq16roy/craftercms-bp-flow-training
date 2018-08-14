@@ -47,6 +47,8 @@ public class EventService {
             }
 
             result.allDay = Boolean.getBoolean(result.allDay)
+
+            result.dirty = Boolean.getBoolean("true")
             modifiedResults.add(result)
         }
 
