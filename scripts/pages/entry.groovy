@@ -24,8 +24,9 @@ matches.query = queryStatement
 def alerts = matches.alerts
 def alertTitle = ""
 if(alerts.size() > 0){
+	println "Returning ${alerts.size()} alerts"
 	alertTitle = alerts[0].title
 }
 
-println "Returning ${alertTitle}"
+
 templateModel.alerts = alertTitle
