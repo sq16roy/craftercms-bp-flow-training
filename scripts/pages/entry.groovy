@@ -9,7 +9,7 @@ templateModel.homepageScenario = homepageScenarioItem
 def mySum = 10 + 100 + 50
 templateModel.mySum = mySum + 5
 
-def queryStatement = "content-type:\"/component/alerts\" sort:startDate ASC"
+def queryStatement = "content-type:\"/component/alerts\" sort=startDate DESC"
 def searchService = targetedContentService.getSearchService()
 def query = searchService.createQuery()
 query.setQuery(queryStatement)
