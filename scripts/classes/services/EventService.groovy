@@ -40,6 +40,7 @@ public class EventService {
             if(result.endDate != null) {
                 result.end = dateFormat.parse(result.endDate).getTime();
             }
+            result.allDay = false
             modifiedResults.add(result)
         }
 
