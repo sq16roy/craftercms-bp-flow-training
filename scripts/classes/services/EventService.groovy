@@ -1,4 +1,5 @@
 package services
+import java.text.SimpleDateFormat
 
 /**
  * Event service
@@ -13,10 +14,15 @@ public class EventService {
      * Get Events for date range
      * @return returns Events
      */
-    public getEvents(startDate, endDate) {
+    public getEvents(startDateStr, endDateStr) {
 
         def results = null
-        def queryStatement = "content-type:\"/page/events\""
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
+        //def startDate = formatDateAsIso(formatter.parse(startDateStr))
+
+        //def queryStatement = "content-type:\"/page/events\""
+        def queryStatement = "content-type:\"/page/events\" AND startDate:[${startDateStr} TO *] AND endDate:[${endDateStr} TO *]"
+        println queryStatement
 
         def query = searchService.createQuery()
         query.setQuery(queryStatement)
@@ -32,6 +38,5 @@ public class EventService {
 
         return results
     }
-
 
 }

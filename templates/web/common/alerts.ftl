@@ -1,3 +1,5 @@
 <div class="alert-box">
-    ${alerts}
+    <#if alerts??>
+        ${alerts}
+    </#if>
 </div>
