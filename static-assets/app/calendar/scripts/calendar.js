@@ -10,7 +10,7 @@
         var DEPARTMENTS_URL     = 'http://127.0.0.1:8080/api/1/services/departments/departments.json';
         var SEARCH_URL          = 'http://127.0.0.1:8080/api/1/services/search.json';
     } else {
-        var EVENTS_URL          = 'https://127.0.0.1:8080/api/1/services/event/events.json';
+        var EVENTS_URL          = '/api/1/services/event/events.json';
         var CREATE_EVENT_URL    = '/static-assets/api/data.json';
         var UPDATE_EVENT_URL    = '/static-assets/api/data.json';
         var DELETE_EVENT_URL    = '/static-assets/api/data.json';
