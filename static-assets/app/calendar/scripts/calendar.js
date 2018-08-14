@@ -3,7 +3,7 @@
     var isLocal = (window.location.host.indexOf('9000') !== -1);
 
     if (false) {
-        var EVENTS_URL          = 'http://127.0.0.1:8080/api/1/services/calendar/events.json';
+        var EVENTS_URL          = 'http://127.0.0.1:8080/api/1/services/event/events.json';
         var CREATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/create-event.json';
         var UPDATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/update-event.json';
         var DELETE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/delete-event.json';
