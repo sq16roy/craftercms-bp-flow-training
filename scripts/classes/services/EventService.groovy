@@ -49,6 +49,7 @@ public class EventService {
             result.allDay = Boolean.getBoolean(result.allDay)
 
             result.dirty = Boolean.valueOf(true).booleanValue()
+            result.contentId = "/site/components/titles/1af8bb45-c511-87ac-b362-5f356b5af8a5.xml"
             modifiedResults.add(result)
         }
 
