@@ -31,15 +31,21 @@ public class EventService {
 
         results = executedQuery.response.documents
         def modifiedResults = []
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.S'Z'");
+        SimpleDateFormat crafterDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.S'Z'");
+
+        //Format in which calender.js expects startDate and endDate
+        SimpleDateFormat calendarDateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm");
 
         for (result in results){
             if(result.startDate != null){
-                result.start = dateFormat.parse(result.startDate).getTime();
+                result.start = crafterDateFormat.parse(result.startDate).getTime();
+                result.startDate = calendarDateFormat.format(crafterDateFormat.parse(result.startDate))
             }
             if(result.endDate != null) {
-                result.end = dateFormat.parse(result.endDate).getTime();
+                result.end = crafterDateFormat.parse(result.endDate).getTime();
+                result.endDate = calendarDateFormat.format(crafterDateFormat.parse(result.endDate))
             }
+
             result.allDay = Boolean.getBoolean(result.allDay)
             modifiedResults.add(result)
         }
