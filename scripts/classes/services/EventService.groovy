@@ -20,7 +20,7 @@ public class EventService {
         //SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
         //def startDate = formatDateAsIso(formatter.parse(startDateStr))
 
-        def queryStatement = "content-type:\"/page/events\""
+        def queryStatement = "content-type:\"/component/event-component\""
         //def queryStatement = "content-type:\"/page/events\" AND startDate:[${startDateStr} TO *] AND endDate:[${endDateStr} TO *]"
         println queryStatement
 
