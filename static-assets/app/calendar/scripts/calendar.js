@@ -371,7 +371,7 @@
                     : (endWeekEndPosition - left) - (endWeekCellWidth * (1 - endWeekEndPercentage))) + 2;
 
                 style.top   = (top + 'px');
-                style.left  = (left + 'px');
+                style.left  = (startWeekPosition.left + 'px');
                 style.width = ($start.width() - 10);
                 style.marginLeft = "6px";
                 style.marginBottom = "5px";
