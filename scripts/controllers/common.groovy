@@ -1,4 +1,6 @@
 //Test
+def targetedContentService = applicationContext.get("targetedContentService")
+
 def queryStatement = "content-type:\"/component/alerts\" sort=startDate DESC"
 def searchService = targetedContentService.getSearchService()
 def query = searchService.createQuery()
