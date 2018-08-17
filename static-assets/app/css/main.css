@@ -1578,6 +1578,15 @@ input::-moz-focus-inner {
   -o-border-radius: 4px;
   padding: 1rem 4rem 1rem 3rem;
 }
+.close-box-alert {
+    color: #ff4500;
+    position: absolute;
+    right: 6px;
+    top: -4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
 
 .alert-box .close {
   position: absolute;
