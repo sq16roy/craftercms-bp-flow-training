@@ -1,3 +1,3 @@
-<div class="alert-box">
+<div class="alert-box" id="alertBoxContainer">
     ${alerts}
 </div>

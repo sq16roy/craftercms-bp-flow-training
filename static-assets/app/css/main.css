@@ -1627,7 +1627,9 @@ input::-moz-focus-inner {
   color: #151515;
 }
 
-
+#error1 pre{
+  overflow: auto;
+}
 /* line definition style 
  * ----------------------------------------------- */
 
