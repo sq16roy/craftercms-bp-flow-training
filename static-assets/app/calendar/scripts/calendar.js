@@ -3,14 +3,15 @@
     var isLocal = (window.location.host.indexOf('9000') !== -1);
 
     if (false) {
-        var EVENTS_URL          = 'http://127.0.0.1:8080/api/1/services/calendar/events.json';
+        var EVENTS_URL          = 'https://127.0.0.1:8080/api/1/services/event/events.json';
         var CREATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/create-event.json';
         var UPDATE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/update-event.json';
         var DELETE_EVENT_URL    = 'http://127.0.0.1:8080/api/1/services/calendar/delete-event.json';
         var DEPARTMENTS_URL     = 'http://127.0.0.1:8080/api/1/services/departments/departments.json';
         var SEARCH_URL          = 'http://127.0.0.1:8080/api/1/services/search.json';
     } else {
-        var EVENTS_URL          = '/static-assets/api/data.json';
+        var EVENTS_URL          = '/api/1/services/event/events.json';
+        //var EVENTS_URL          = '/static-assets/api/data.json';
         var CREATE_EVENT_URL    = '/static-assets/api/data.json';
         var UPDATE_EVENT_URL    = '/static-assets/api/data.json';
         var DELETE_EVENT_URL    = '/static-assets/api/data.json';
@@ -370,7 +371,7 @@
                     : (endWeekEndPosition - left) - (endWeekCellWidth * (1 - endWeekEndPercentage))) + 2;
 
                 style.top   = (top + 'px');
-                style.left  = (left + 'px');
+                style.left  = (startWeekPosition.left + 'px');
                 style.width = ($start.width() - 10);
                 style.marginLeft = "6px";
                 style.marginBottom = "5px";
