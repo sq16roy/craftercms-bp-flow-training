@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/events</content-type>	<display-template>/templates/web/page-events.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>becb</objectGroupId>
+	<objectId>becbb1a9-34b2-c06c-7f97-46677ecfb567</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>alerts</folder-name>
+	<internal-name>alerts</internal-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2018-08-17T18:32:05.269Z</createdDate>
+	<createdDate_dt>2018-08-17T18:32:05.269Z</createdDate_dt>
+	<lastModifiedDate>2018-08-17T18:32:05.269Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-08-17T18:32:05.269Z</lastModifiedDate_dt>
+</page>
